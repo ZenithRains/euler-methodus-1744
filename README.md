@@ -60,8 +60,6 @@ python3 -m venv .venv
 . .venv/bin/activate
 python -m pip install -r requirements.txt
 python scripts/check-complete.py
-./scripts/build-chapter1.sh
-sh scripts/build-chapters23.sh
 ```
 
 PDF输出至 `output/pdf/`，日志在 `tmp/build/`。本机验证使用 LuaHBTeX 1.24.0（TeX Live 2026）。正文和公式可搜索，全部49幅编号插图为TikZ矢量路径，扉页图饰以矢量PDF嵌入。字体版本与文件哈希见 `sources/font-manifest.json`；字体本身不打包。
@@ -74,6 +72,8 @@ OCR需要 Python 3、Poppler的pdftoppm、Tesseract及拉丁语数据：
 python3 scripts/ocr.py --workers 4
 python3 scripts/assemble_ocr.py
 ```
+
+可选的图饰重新描摹另需 Pillow、NumPy 与 Potrace；排版本身直接使用已保存的矢量 PDF，不依赖这些工具。
 
 OCR可断点续跑，已存在的TXT会被跳过。参数为300dpi灰度、Tesseract 5.5.3、lat、PSM3。复跑OCR时先将需要重识别的TXT和TSV移至单独备份目录，勿覆盖已校录TeX。
 
