@@ -1,0 +1,56 @@
+{
+  "verified_on": "2026-10-03",
+  "engine": "LuaHBTeX 1.24.0 (TeX Live 2026)",
+  "fonts_bundled": false,
+  "fonts": [
+    {
+      "filename": "EBGaramond-Regular.otf",
+      "sha256": "d3e1471a4a0f836716bad35326d3c0ab5caddb74ae5c1917f99f8225abf43a7d",
+      "version": "Version 1.001",
+      "copyright": "Copyright 2017 The EB Garamond Project Authors (https://github.com/octaviopardo/EBGaramond12)",
+      "family": "EB Garamond",
+      "license": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL",
+      "license_url": "http://scripts.sil.org/OFL"
+    },
+    {
+      "filename": "EBGaramond-Italic.otf",
+      "sha256": "31f03b4e31c5eecfce383c49f66c592e061ddda394f4bb62de42a784cb59d95a",
+      "version": "Version 1.001",
+      "copyright": "Copyright 2017 The EB Garamond Project Authors (https://github.com/octaviopardo/EBGaramond12)",
+      "family": "EB Garamond",
+      "license": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL",
+      "license_url": "http://scripts.sil.org/OFL"
+    },
+    {
+      "filename": "EBGaramond-Bold.otf",
+      "sha256": "2ff2454afe516643b51e68dc4738af04d27658a98943e5c91f261becbbf1773c",
+      "version": "Version 1.001",
+      "copyright": "Copyright 2017 The EB Garamond Project Authors (https://github.com/octaviopardo/EBGaramond12)",
+      "family": "EB Garamond",
+      "license": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL",
+      "license_url": "http://scripts.sil.org/OFL"
+    },
+    {
+      "filename": "EBGaramond-BoldItalic.otf",
+      "sha256": "8c4c419dd617d74a433dbc723f765920fa414c6d94eb9bff3a1f5a749c4fb756",
+      "version": "Version 1.001",
+      "copyright": "Copyright 2017 The EB Garamond Project Authors (https://github.com/octaviopardo/EBGaramond12)",
+      "family": "EB Garamond",
+      "license": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL",
+      "license_url": "http://scripts.sil.org/OFL"
+    },
+    {
+      "filename": "Garamond-Math.otf",
+      "sha256": "c6161377e97084152b948f62abe874cbe27405938956346b54a4c6488a5009f1",
+      "version": "Version 2022-01-03",
+      "copyright": "Copyleft (C) 2018-2022 Yuansheng Zhao and Xiangdong Zeng",
+      "family": "Garamond-Math",
+      "license": "This Font Software is licensed under the SIL Open Font License, Version 1.1.",
+      "license_url": "http://scripts.sil.org/OFL"
+    }
+  ],
+  "EB_Garamond_upstream": "https://github.com/octaviopardo/EBGaramond12",
+  "Garamond_Math_upstream": "https://github.com/YuanshengZhao/Garamond-Math",
+  "Garamond_Math_license_commit": "42b7c154422ae45e6f834654648da4ac467c656b",
+  "Garamond_Math_license_url": "https://raw.githubusercontent.com/YuanshengZhao/Garamond-Math/42b7c154422ae45e6f834654648da4ac467c656b/LICENSE"
+}

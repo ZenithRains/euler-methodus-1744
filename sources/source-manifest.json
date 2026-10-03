@@ -1,0 +1,19 @@
+{
+  "source": "Methodus inveniendi lineas curvas maximi minimive proprietate gau.pdf",
+  "source_sha256": "eeaa387cfcfa6056e6aebc592d12cd65675ebb8620ab955216421ffc1d1414c8",
+  "source_pdf_pages": 331,
+  "ocr_pages": 330,
+  "excluded_pdf_pages": {
+    "1": "Archive cover, born-digital text"
+  },
+  "engine": "tesseract 5.5.3",
+  "language": "lat",
+  "psm": 3,
+  "render_dpi": 300,
+  "render": "grayscale PNG using pdftoppm",
+  "warning": "Engine confidence does not certify transcription or mathematical accuracy.",
+  "source_catalog_url": "https://scholarlycommons.pacific.edu/euler-works/65/",
+  "source_bytes": 47861933,
+  "source_bundled_in_public_export": false,
+  "source_catalog_last_checked": "2026-10-03"
+}

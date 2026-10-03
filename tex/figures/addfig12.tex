@@ -1,0 +1,14 @@
+% Modern editorial, markup and figure/layout contributions: CC-BY-SA-4.0.
+% Historical text and illustrations: Leonhard Euler (1744), public domain.
+% Component scope and upstream attribution: see RIGHTS.md.
+% Manual vector redrawing after E65, Tabula IV. Schematic coordinates; original point relations retained.
+\begin{tikzpicture}[x=1cm,y=1cm,line width=.35pt,font=\small]
+\draw (0,-2)--(0,0)--(2.3,2.55);
+\draw (0,0)..controls (1.25,1.25) and (2.65,1.35)..(3.7,.35);
+\draw (0,-2.25) circle (.25);
+\node[left,inner sep=2pt] at (0,0) {$A$};
+\node[above,inner sep=2pt] at (2.3,2.55) {$T$};
+\node[right,inner sep=2pt] at (3.7,0.35) {$C$};
+\node[right,inner sep=2pt] at (0.25,-2.25) {$P$};
+\node[anchor=north] at ([yshift=-4mm]current bounding box.south) {\textit{Fig. 12.}};
+\end{tikzpicture}

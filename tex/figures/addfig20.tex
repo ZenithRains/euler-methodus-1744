@@ -1,0 +1,13 @@
+% Modern editorial, markup and figure/layout contributions: CC-BY-SA-4.0.
+% Historical text and illustrations: Leonhard Euler (1744), public domain.
+% Component scope and upstream attribution: see RIGHTS.md.
+% Vector redrawing after E65, Tabula V. Schematic coordinates.
+\begin{tikzpicture}[x=1cm,y=1cm,line width=.35pt,font=\small]
+\draw (0,0)--(0,5);\draw (0,0)--(2.4,0);
+\draw (0,5) .. controls (0,2.8) and (1.2,1.4) .. (2.4,0) coordinate[pos=.65] (M) coordinate[pos=.59] (m);
+\draw (M-|0,0)--(M-|2.35,0);\draw (m-|0,0)--(m);
+\node[left] at (0,0) {$A$};\node[left] at (0,5) {$B$};\node[right] at (2.4,0) {$a$};
+\node[left] at (M-|0,0) {$P$};\node[left] at (m-|0,0) {$p$};
+\node[below] at (M) {$M$};\node[above right] at (m) {$m$};\node[right] at (M-|2.35,0) {$\pi$};
+\node[anchor=north] at ([yshift=-4mm]current bounding box.south) {\textit{Fig. 20.}};
+\end{tikzpicture}

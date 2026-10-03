@@ -1,0 +1,314 @@
+% Modern editorial, markup and figure/layout contributions: CC-BY-SA-4.0.
+% Historical text and illustrations: Leonhard Euler (1744), public domain.
+% Component scope and upstream attribution: see RIGHTS.md.
+% SPDX-License-Identifier: CC-BY-SA-4.0
+% Adapted from Foadsf/vintage-latex, examples/01-early-modern-page.tex
+% Reference commit 559011918849a3da819912a7c26493071d542df5.
+% Changes: warm paper, book title, source-page markers, Euler text,
+% mathematical notation, geometry, running heads and vector figure.
+\documentclass[11pt,twoside]{article}
+\usepackage{fontspec}
+\usepackage{amsmath}
+\usepackage{unicode-math}
+\usepackage[latin,english]{babel}
+\usepackage{xurl}
+\setmainfont{EBGaramond}[Extension=.otf,UprightFont=*-Regular,ItalicFont=*-Italic,BoldFont=*-Bold,BoldItalicFont=*-BoldItalic,Numbers=Lining,Ligatures=Common]
+\setmathfont{Garamond-Math.otf}
+\usepackage[a4paper,top=27mm,bottom=29mm,inner=28mm,outer=34mm,marginparwidth=18mm,marginparsep=5mm]{geometry}
+\usepackage[tracking=true,protrusion=false,expansion=false]{microtype}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{marginnote}
+\usepackage{needspace}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\hypersetup{hidelinks,pdftitle={Euler E65: Methodus inveniendi: complete Latin working edition},pdfauthor={Leonhard Euler; prepared by Ruiyi Zhang}}
+\setlength{\parindent}{1.2em}
+\setlength{\parskip}{0pt}
+\linespread{1.08}
+\setlength{\emergencystretch}{2em}
+\widowpenalty=10000
+\clubpenalty=10000
+\displaywidowpenalty=10000
+\urlstyle{same}
+\raggedbottom
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{\small\thepage}
+\fancyhead[RE,LO]{\small\textsc{Euler · Methodus inveniendi}}
+\renewcommand{\headrulewidth}{0pt}
+\setlength{\headheight}{14pt}
+\titleformat{\subsection}[block]{\centering\normalsize\scshape}{}{0pt}{}
+\titlespacing*{\subsection}{0pt}{1.0\baselineskip}{0.45\baselineskip}
+\newcommand{\sourcepage}[1]{\marginnote{\footnotesize\itshape Orig. p.\,#1}}
+\newcommand{\originalsection}[1]{\par\noindent\hypertarget{\sectionnamespace:sec:#1}{}\textbf{#1.}\enspace}
+\newcommand{\printerrule}{\par\smallskip\begin{center}\rule{.19\linewidth}{.35pt}\hspace{.45em}\rule{.075\linewidth}{1.05pt}\hspace{.45em}\rule{.19\linewidth}{.35pt}\end{center}\smallskip}
+
+\definecolor{warmpaper}{HTML}{FAF6ED}
+\pagecolor{warmpaper}
+\allowdisplaybreaks[1]
+
+\usepackage{adjustbox}
+\newcommand{\sectionnamespace}{chi}
+\newcommand{\bookpart}[3]{\clearpage\def\sectionnamespace{#1}\phantomsection\addcontentsline{toc}{section}{#2}\fancyhead[RE,LO]{\small\textsc{Euler · Methodus inveniendi · #3}}}
+\renewcommand{\contentsname}{Conspectus huius editionis}
+\begin{document}
+\hypersetup{pageanchor=false}
+\begin{titlepage}
+\centering
+\vspace*{0mm}
+{\fontsize{34}{40}\selectfont\textls[100]{METHODUS}}\par\medskip
+{\Large\textls[170]{INVENIENDI}}\par\medskip
+{\huge\textls[70]{LINEAS CURVAS}}\par\bigskip
+{\Large Maximi Minimive proprietate gaudentes,}\par\bigskip
+{\large\textit{SIVE}}\par\bigskip
+{\huge\textls[130]{SOLUTIO}}\par\medskip
+{\Large\textsc{problematis isoperimetrici}}\par\medskip
+{\large\textls[60]{\textsc{latissimo sensu accepti.}}}\par
+\vspace{7mm}
+{\large\textit{AUCTORE}}\par\medskip
+{\LARGE\textsc{Leonhardo Eulero,}}\par\medskip
+{\large\textit{Professore Regio, \& Academiæ Imperialis Scientiarum\\ Petropolitanæ Socio.}}\par
+\par\medskip
+\includegraphics[width=90mm]{figures/title-ornament.pdf}\par\medskip
+{\large\textsc{Lausannæ \& Genevæ,}}\par\smallskip
+{Apud Marcum-Michaelem Bousquet \& Socios.}\par\medskip
+{\large MDCCXLIV.}\par
+\vfill
+{\large\textsc{Textus Latinus integer}}\par\smallskip
+{Capita I–VI · Additamenta I–II · Figuræ}\par\medskip
+{Prepared by Ruiyi Zhang · 20 September 2026}\par
+{\small Latin transcription and typesetting; editorial draft.}
+\end{titlepage}
+\setcounter{page}{2}
+\hypersetup{pageanchor=true}
+
+\pdfbookmark[0]{Editorial notice}{notice}
+\section*{Editorial notice}
+This volume brings together all six chapters and both additamenta of Leonhard Euler's 1744 \textit{Methodus inveniendi lineas curvas maximi minimive proprietate gaudentes}, E65. It includes the original index and binder's notice, and all 49 numbered figures. The Latin text and the successive mathematical expressions have been compared with the supplied Euler Archive scan in AI-assisted editorial collation. This is a working edition; independent scholarly collation remains desirable. No Chinese translation is included.
+
+The long s is normalized to s. Line-end divisions, catchwords and printer's signatures are omitted. Original section numbers and source-page markers are retained; page breaks are new. Abbreviated headings may be expanded. Historical notation, including $pp$, $ddy$, proportion-form exponents and successive-value marks, is retained. Suspected source errors are recorded in the accompanying editorial notes and are not silently corrected. Long expressions are broken across lines and grouping delimiters paired for legibility.
+
+The contents on the following page refer to this edition. The original index at the end retains the pagination of 1744. Figure numbers in the six chapters and in the additamenta form two separate sequences. The redrawn figures are grouped at the end for reference; coordinates are schematic and do not assert metric precision.
+
+\subsection*{Title ornament, figures and provenance}
+The title ornament is a vector tracing after ETH-Bibliothek Zürich, Rar 4999, \href{https://doi.org/10.3931/e-rara-1490}{doi:10.3931/e-rara-1490}, marked Public Domain. Local brightness separation and Potrace were used. Fine strokes, the motto and signatures were compared visually; faint strokes may still be lost. No missing motifs or lettering have been invented. The numbered figures are vector redrawings after the five plates in the supplied scan. Point names and geometric incidence are retained. The modern redrawings and tracing are not facsimiles of the engraved impressions.
+
+\subsection*{Credits and licensing}
+Leonhard Euler's 1744 text is in the public domain. Scan reference: \href{https://scholarlycommons.pacific.edu/euler-works/65/}{Euler Archive, University of the Pacific, E65}. No new rights in the scans are asserted.
+
+Layout adapted from Foadsf/vintage-latex and its contributors, commit \href{https://github.com/Foadsf/vintage-latex/tree/559011918849a3da819912a7c26493071d542df5}{559011918849}, under \href{https://creativecommons.org/licenses/by-sa/4.0/}{CC BY-SA 4.0}. Adaptations include geometry, the warm paper colour (\#FAF6ED), title, source markers, mathematics and vector figures. The adapted template remains under CC BY-SA 4.0.
+
+Text: EB Garamond. Mathematics: Garamond-Math. Both fonts use SIL OFL 1.1. Prepared by Ruiyi Zhang with GPT-6 and delegated assistance, including GPT-5.6 Luna in the earlier chapter work. OCR: Tesseract, Latin language data.
+\clearpage
+\renewcommand{\contentsname}{Conspectus huius editionis}
+\tableofcontents
+\clearpage
+\selectlanguage{latin}
+\bookpart{chi}{Caput I}{Caput I}
+\input{chapters/opening-p1.tex}
+\input{chapters/opening-p2-p4.tex}
+\input{chapters/opening-p5-p8.tex}
+\input{chapters/formula-specimen.tex}
+\input{chapters/ch1-p10-p16.tex}
+\input{chapters/ch1-p17-p23.tex}
+\input{chapters/ch1-p24-p31.tex}
+\bookpart{chii}{Caput II}{Caput II}
+\input{chapters/ch2-p31-p56.tex}
+\input{chapters/ch2-p57-p82.tex}
+\bookpart{chiii}{Caput III}{Caput III}
+\input{chapters/ch3-p83-p105.tex}
+\input{chapters/ch3-p106-p129.tex}
+\bookpart{chiv}{Caput IV}{Caput IV}
+\input{chapters/ch4-p129-p171.tex}
+\bookpart{chv}{Caput V}{Caput V}
+\input{chapters/ch5-p171-p227.tex}
+\bookpart{chvi}{Caput VI}{Caput VI}
+\input{chapters/ch6-p227-p244.tex}
+\bookpart{addi}{Additamentum I. De curvis elasticis}{Additamentum I}
+\input{chapters/add1-p245-p310.tex}
+\bookpart{addii}{Additamentum II. De motu projectorum}{Additamentum II}
+\input{chapters/add2-p311-p320.tex}
+
+\bookpart{index}{Index originalis et monitum ad Bibliopegam}{Index}
+\input{backmatter-original.tex}
+\bookpart{figures}{Figuræ ad capita I–VI}{Figuræ}
+\section*{Figuræ ad capita I–VI}
+\noindent\textit{Ex Tabulis I et II.}\par\bigskip
+\needspace{95mm}\hypertarget{fig:1}{}
+\begin{center}\adjustbox{max width=\linewidth,max height=75mm}{\input{figures/fig01.tex}}\end{center}
+\par\bigskip
+\needspace{95mm}\hypertarget{fig:2}{}
+\begin{center}\adjustbox{max width=\linewidth,max height=75mm}{\input{figures/fig02.tex}}\end{center}
+\par\bigskip
+\clearpage
+\needspace{95mm}\hypertarget{fig:3}{}
+\begin{center}\adjustbox{max width=\linewidth,max height=75mm}{\input{figures/fig03.tex}}\end{center}
+\par\bigskip
+\needspace{95mm}\hypertarget{fig:4}{}
+\begin{center}\adjustbox{max width=\linewidth,max height=75mm}{\input{figures/fig04.tex}}\end{center}
+\par\bigskip
+\clearpage
+\needspace{95mm}\hypertarget{fig:5}{}
+\begin{center}\adjustbox{max width=\linewidth,max height=75mm}{\input{figures/fig05.tex}}\end{center}
+\par\bigskip
+\needspace{95mm}\hypertarget{fig:6}{}
+\begin{center}\adjustbox{max width=\linewidth,max height=75mm}{\input{figures/fig06.tex}}\end{center}
+\par\bigskip
+\clearpage
+\needspace{95mm}\hypertarget{fig:7}{}
+\begin{center}\adjustbox{max width=\linewidth,max height=75mm}{\input{figures/fig07.tex}}\end{center}
+\par\bigskip
+\needspace{95mm}\hypertarget{fig:8}{}
+\begin{center}\adjustbox{max width=\linewidth,max height=75mm}{\input{figures/fig08.tex}}\end{center}
+\par\bigskip
+\clearpage
+\needspace{95mm}\hypertarget{fig:9}{}
+\begin{center}\adjustbox{max width=\linewidth,max height=75mm}{\input{figures/fig09.tex}}\end{center}
+\par\bigskip
+\needspace{95mm}\hypertarget{fig:10}{}
+\begin{center}\adjustbox{max width=\linewidth,max height=75mm}{\input{figures/fig10.tex}}\end{center}
+\par\bigskip
+\clearpage
+\needspace{95mm}\hypertarget{fig:11}{}
+\begin{center}\adjustbox{max width=\linewidth,max height=75mm}{\input{figures/fig11.tex}}\end{center}
+\par\bigskip
+\needspace{95mm}\hypertarget{fig:12}{}
+\begin{center}\adjustbox{max width=\linewidth,max height=75mm}{\input{figures/fig12.tex}}\end{center}
+\par\bigskip
+\clearpage
+\needspace{95mm}\hypertarget{fig:13}{}
+\begin{center}\adjustbox{max width=\linewidth,max height=75mm}{\input{figures/fig13.tex}}\end{center}
+\par\bigskip
+\needspace{95mm}\hypertarget{fig:14}{}
+\begin{center}\adjustbox{max width=\linewidth,max height=75mm}{\input{figures/fig14.tex}}\end{center}
+\par\bigskip
+\clearpage
+\needspace{95mm}\hypertarget{fig:15}{}
+\begin{center}\adjustbox{max width=\linewidth,max height=75mm}{\input{figures/fig15.tex}}\end{center}
+\par\bigskip
+\needspace{95mm}\hypertarget{fig:16}{}
+\begin{center}\adjustbox{max width=\linewidth,max height=75mm}{\input{figures/fig16.tex}}\end{center}
+\par\bigskip
+\clearpage
+\needspace{95mm}\hypertarget{fig:17}{}
+\begin{center}\adjustbox{max width=\linewidth,max height=75mm}{\input{figures/fig17.tex}}\end{center}
+\par\bigskip
+\needspace{95mm}\hypertarget{fig:18}{}
+\begin{center}\adjustbox{max width=\linewidth,max height=75mm}{\input{figures/fig18.tex}}\end{center}
+\par\bigskip
+\clearpage
+\needspace{95mm}\hypertarget{fig:19}{}
+\begin{center}\adjustbox{max width=\linewidth,max height=75mm}{\input{figures/fig19.tex}}\end{center}
+\par\bigskip
+\needspace{95mm}\hypertarget{fig:20}{}
+\begin{center}\adjustbox{max width=\linewidth,max height=75mm}{\input{figures/fig20.tex}}\end{center}
+\par\bigskip
+\clearpage
+\needspace{95mm}\hypertarget{fig:21}{}
+\begin{center}\adjustbox{max width=\linewidth,max height=75mm}{\input{figures/fig21.tex}}\end{center}
+\par\bigskip
+
+\bookpart{addfigures}{Figuræ ad additamenta I–II}{Figuræ additamentorum}
+\section*{Figuræ ad additamenta I–II}
+\noindent\textit{Ex Tabulis III, IV et V. Numeri proprii additamentorum.}\par\bigskip
+\needspace{95mm}\hypertarget{addfig:1}{}
+\begin{center}\adjustbox{max width=\linewidth,max height=75mm}{\input{figures/addfig01.tex}}\end{center}
+\par\bigskip
+\needspace{95mm}\hypertarget{addfig:2}{}
+\begin{center}\adjustbox{max width=\linewidth,max height=75mm}{\input{figures/addfig02.tex}}\end{center}
+\par\bigskip
+\clearpage
+\needspace{95mm}\hypertarget{addfig:3}{}
+\begin{center}\adjustbox{max width=\linewidth,max height=75mm}{\input{figures/addfig03.tex}}\end{center}
+\par\bigskip
+\needspace{95mm}\hypertarget{addfig:4}{}
+\begin{center}\adjustbox{max width=\linewidth,max height=75mm}{\input{figures/addfig04.tex}}\end{center}
+\par\bigskip
+\clearpage
+\needspace{95mm}\hypertarget{addfig:5}{}
+\begin{center}\adjustbox{max width=\linewidth,max height=75mm}{\input{figures/addfig05.tex}}\end{center}
+\par\bigskip
+\needspace{95mm}\hypertarget{addfig:6}{}
+\begin{center}\adjustbox{max width=\linewidth,max height=75mm}{\input{figures/addfig06.tex}}\end{center}
+\par\bigskip
+\clearpage
+\needspace{95mm}\hypertarget{addfig:7}{}
+\begin{center}\adjustbox{max width=\linewidth,max height=75mm}{\input{figures/addfig07.tex}}\end{center}
+\par\bigskip
+\needspace{95mm}\hypertarget{addfig:8}{}
+\begin{center}\adjustbox{max width=\linewidth,max height=75mm}{\input{figures/addfig08.tex}}\end{center}
+\par\bigskip
+\clearpage
+\needspace{95mm}\hypertarget{addfig:9}{}
+\begin{center}\adjustbox{max width=\linewidth,max height=75mm}{\input{figures/addfig09.tex}}\end{center}
+\par\bigskip
+\needspace{95mm}\hypertarget{addfig:10}{}
+\begin{center}\adjustbox{max width=\linewidth,max height=75mm}{\input{figures/addfig10.tex}}\end{center}
+\par\bigskip
+\clearpage
+\needspace{95mm}\hypertarget{addfig:11}{}
+\begin{center}\adjustbox{max width=\linewidth,max height=75mm}{\input{figures/addfig11.tex}}\end{center}
+\par\bigskip
+\needspace{95mm}\hypertarget{addfig:12}{}
+\begin{center}\adjustbox{max width=\linewidth,max height=75mm}{\input{figures/addfig12.tex}}\end{center}
+\par\bigskip
+\clearpage
+\needspace{95mm}\hypertarget{addfig:13}{}
+\begin{center}\adjustbox{max width=\linewidth,max height=75mm}{\input{figures/addfig13.tex}}\end{center}
+\par\bigskip
+\needspace{95mm}\hypertarget{addfig:14}{}
+\begin{center}\adjustbox{max width=\linewidth,max height=75mm}{\input{figures/addfig14.tex}}\end{center}
+\par\bigskip
+\clearpage
+\needspace{95mm}\hypertarget{addfig:15}{}
+\begin{center}\adjustbox{max width=\linewidth,max height=75mm}{\input{figures/addfig15.tex}}\end{center}
+\par\bigskip
+\needspace{95mm}\hypertarget{addfig:16}{}
+\begin{center}\adjustbox{max width=\linewidth,max height=75mm}{\input{figures/addfig16.tex}}\end{center}
+\par\bigskip
+\clearpage
+\needspace{95mm}\hypertarget{addfig:17}{}
+\begin{center}\adjustbox{max width=\linewidth,max height=75mm}{\input{figures/addfig17.tex}}\end{center}
+\par\bigskip
+\needspace{95mm}\hypertarget{addfig:18}{}
+\begin{center}\adjustbox{max width=\linewidth,max height=75mm}{\input{figures/addfig18.tex}}\end{center}
+\par\bigskip
+\clearpage
+\needspace{95mm}\hypertarget{addfig:19}{}
+\begin{center}\adjustbox{max width=\linewidth,max height=75mm}{\input{figures/addfig19.tex}}\end{center}
+\par\bigskip
+\needspace{95mm}\hypertarget{addfig:20}{}
+\begin{center}\adjustbox{max width=\linewidth,max height=75mm}{\input{figures/addfig20.tex}}\end{center}
+\par\bigskip
+\clearpage
+\needspace{95mm}\hypertarget{addfig:21}{}
+\begin{center}\adjustbox{max width=\linewidth,max height=75mm}{\input{figures/addfig21.tex}}\end{center}
+\par\bigskip
+\needspace{95mm}\hypertarget{addfig:22}{}
+\begin{center}\adjustbox{max width=\linewidth,max height=75mm}{\input{figures/addfig22.tex}}\end{center}
+\par\bigskip
+\clearpage
+\needspace{95mm}\hypertarget{addfig:23}{}
+\begin{center}\adjustbox{max width=\linewidth,max height=75mm}{\input{figures/addfig23.tex}}\end{center}
+\par\bigskip
+\needspace{95mm}\hypertarget{addfig:24}{}
+\begin{center}\adjustbox{max width=\linewidth,max height=75mm}{\input{figures/addfig24.tex}}\end{center}
+\par\bigskip
+\clearpage
+\needspace{95mm}\hypertarget{addfig:25}{}
+\begin{center}\adjustbox{max width=\linewidth,max height=75mm}{\input{figures/addfig25.tex}}\end{center}
+\par\bigskip
+\needspace{95mm}\hypertarget{addfig:26}{}
+\begin{center}\adjustbox{max width=\linewidth,max height=75mm}{\input{figures/addfig26.tex}}\end{center}
+\par\bigskip
+\clearpage
+\needspace{95mm}\hypertarget{addfig:27}{}
+\begin{center}\adjustbox{max width=\linewidth,max height=75mm}{\input{figures/addfig27.tex}}\end{center}
+\par\bigskip
+\needspace{95mm}\hypertarget{addfig:28}{}
+\begin{center}\adjustbox{max width=\linewidth,max height=75mm}{\input{figures/addfig28.tex}}\end{center}
+\par\bigskip
+\clearpage
+\end{document}

@@ -1,0 +1,273 @@
+% Modern editorial, markup and figure/layout contributions: CC-BY-SA-4.0.
+% Historical text and illustrations: Leonhard Euler (1744), public domain.
+% Component scope and upstream attribution: see RIGHTS.md.
+% 校录范围：原印刷页 31--56（PDF 页 34--59）。拉丁文工作稿。
+\subsection*{Caput II.}
+\textit{De Methodo maximorum ac minimorum ad lineas curvas inveniendas absoluta.}
+
+\subsection*{Propositio I. Problema.}
+\originalsection{1}\sourcepage{31}\textit{Si in curva quacunque $amz$ una applicata quævis $Nn$ augeatur particula infinite parva $nv$; invenire incrementa vel decrementa, quæ singulæ quantitates determinatæ ad curvam pertinentes hinc accipient.} \hyperlink{fig:4}{(Fig.~4.)}
+
+\subsection*{Solutio.}
+Quantitates determinatæ ad curvam propositam pertinentes sunt, præter abscissam $x$, quæ non afficitur, hæ $y,p,q,r,s,$ \&c. cum suis derivatis valoribus, quos in locis vel sequentibus vel antecedentibus sortiuntur. Quod si nunc ponamus $AM=x$, \& $Mm=y$, erit $Nn=y'$, hujusque valor per translationem puncti $n$ in $v$ augebitur particula $nv$, reliquæ autem applicatæ $y'',y''',y^{\mathrm{iv}},$ \&c. pariter ac præcedentes $y_{\prime},y_{\prime\prime},y_{\prime\prime\prime},y_{\mathrm{iv}},$ \&c. non afficientur. Cum igitur sola applicata $y'$ crescat particula $nv$, ex Cap. præc. §§51 \& seqq. colligetur quantum incrementum reliquæ quantitates omnes capiant ex incremento solius applicatæ $y'$. Omnes scilicet quantitates, quarum valor pendet ab $y'$, mutationem subibunt, reliquæ vero, quæ ab $y'$ non pendent, manebunt invariatæ. Ita cum sit $p=\dfrac{y'-y}{dx}$, hæc quantitas $p$ crescet particula $\dfrac{nv}{dx}$; at cum sit $p'=\dfrac{y''-y'}{dx}$, hæc quantitas \sourcepage{32}$p'$ decrescet particula $\dfrac{nv}{dx}$. Similique modo reliquarum quantitatum incrementa vel decrementa reperientur, delendo in earum valoribus supra exhibitis omnes valores ipsius $y$, præter hunc $y'$, hujusque loco scribendo $nv$. Hoc modo omnium quantitatum determinatarum, quæ quidem mutationem patiuntur, incrementa in sequenti Tabella congessimus.
+
+\begin{center}
+\begin{tabular}{c|c@{\qquad}c|c}
+\textit{Quant.}&\textit{Increm.}&\textit{Quant.}&\textit{Increm.}\\ \hline
+$y'$&$+nv$&$s_{\prime\prime\prime}$&$+\dfrac{nv}{dx^4}$\\[5pt]
+$p$&$+\dfrac{nv}{dx}$&$s_{\prime\prime}$&$-\dfrac{4nv}{dx^4}$\\[5pt]
+$p'$&$-\dfrac{nv}{dx}$&$s_{\prime}$&$+\dfrac{6nv}{dx^4}$\\[5pt]
+$q_{\prime}$&$+\dfrac{nv}{dx^2}$&$s$&$-\dfrac{4nv}{dx^4}$\\[5pt]
+$q$&$-\dfrac{2nv}{dx^2}$&$s'$&$+\dfrac{nv}{dx^4}$\\[5pt]
+$q'$&$+\dfrac{nv}{dx^2}$&$t_{\mathrm{iv}}$&$+\dfrac{nv}{dx^5}$\\[5pt]
+$r_{\prime\prime}$&$+\dfrac{nv}{dx^3}$&$t_{\prime\prime\prime}$&$-\dfrac{5nv}{dx^5}$\\[5pt]
+$r_{\prime}$&$-\dfrac{3nv}{dx^3}$&$t_{\prime\prime}$&$+\dfrac{10nv}{dx^5}$\\[5pt]
+$r$&$+\dfrac{3nv}{dx^3}$&$t_{\prime}$&$-\dfrac{10nv}{dx^5}$\\[5pt]
+$r'$&$-\dfrac{nv}{dx^3}$&$t$&$+\dfrac{5nv}{dx^5}$\\[5pt]
+&&$t'$&$-\dfrac{nv}{dx^5}$\\[5pt]
+\end{tabular}
+\end{center}
+Atque ex hac Tabella etiam ulteriorum quantitatum, si quæ occurrunt, incrementa vel decrementa facile cognosci poterunt. Q. E. I.
+
+\subsection*{Corollarium I.}
+\originalsection{2}\sourcepage{33}Cognitis igitur incrementis harum quantitatum primariarum ad curvam pertinentium, inde omnium quantitatum ex iis compositarum incrementa, quæ oriuntur ex aucta applicata $y'$, determinari poterunt, si ratio compositionis spectetur.
+
+\subsection*{Corollarium II.}
+\originalsection{3}Harum scilicet quantitatum incrementa exhibita, considerari poterunt tanquam earum differentialia. Atque si proposita fuerit quantitas quæcunque ex illis composita, ejus conveniens incrementum ex translatione puncti $n$ in $v$ ortum invenietur, differentiendo illam quantitatem, \& loco differentialium singularum quantitatum, scribendo ea incrementa, quæ his quantitatibus sunt adcripta.
+
+\subsection*{Corollarium III.}
+\originalsection{4}Si igitur habeatur hæc functio $y'\sqrt{(1+pp)}$, cujus incrementum, quod ex translatione puncti $n$ in $v$ oritur fit determinandum; ea functio primum differentietur; unde prodit $dy'\sqrt{(1+pp)}+\dfrac{y' p\,dp}{\sqrt{(1+pp)}}$; hicque loco $dy'$ \& $dp$ scribantur incrementa quantitatibus $y'$ \& $p$ convenientia, nempe $+nv$ \& $+\dfrac{nv}{dx}$; eritque functionis propositæ incrementum $=+nv\sqrt{(1+pp)}+\dfrac{y'p\,nv}{dx\sqrt{(1+pp)}}$.
+
+\subsection*{Corollarium IV.}
+\originalsection{5}Expedite igitur per differentiationem functionis cujuscunque incrementum, quod ex incremento $nv$ applicatæ $y'$ oritur, assignari potest; id quod ex inspectione figuræ difficulter \& minime generaliter fieri potest.
+
+\subsection*{Scholion.}
+\originalsection{6}\sourcepage{34}Probe notandum est hunc modum incrementa functionum seu quantitatum ex $x,y,p,q,$ \&c. harumque derivatis $y',y'',p',p'',$ \&c. datarum incrementa inveniendi, tantum ad functiones determinatas patere, minime vero ad indeterminatas extendi posse. Quod si enim functio proposita fuerit indeterminata, seu formula integralis indefinita, integrationem neque algebraice neque transcendenter admittens, tum differentiatione nihil consequimur ad ejus incrementum inveniendum. In sequentibus autem, ubi ejusmodi maximi minimive formulas $\int Z\,dx$ sumus contemplaturi, in quibus $Z$ sit functio talis indeterminata, in hujusmodi functionum incrementa sumus inquisituri. Sin autem $Z$ fuerit functio determinata, propositi Problematis solutio sufficere potest ad solutiones Problematum huc pertinentium absolvendas.
+
+\subsection*{Propositio II. Problema.}
+\originalsection{7}\textit{Si fuerit $Z$ functio determinata ipsarum $x$ \& $y$ tantum, invenire curvam $az$, in qua valor formulæ $\int Z\,dx$ sit maximus vel minimus.} \hyperlink{fig:4}{(Fig.~4.)}
+
+\subsection*{Solutio.}
+Concipiatur abscissa $AZ$, cui maximum minimumve formulæ $\int Zdx$ respondere debet, divisa in innumerabilia elementa æqualia, singula per $dx$ denotanda; positaque abscissa indefinita $AM=x$, \& applicata $Mm=y$, ex formula $\int Zdx$ elemento $MN$ respondebit $Zdx$; atque secundum receptum notandi modum, elemento sequenti $NO$ respondebit $Z'dx$, \& sequentibus elementis $OP,PQ$ \&c. respondebunt valores $Z''dx,Z'''dx,$ \&c. antecedentibus vero elementis $LM,KL,IK$ respondebunt $Z_{\prime}dx,\allowbreak Z_{\prime\prime}dx,\allowbreak Z_{\prime\prime\prime}dx,$ \&c. Quare si curva $az$ sit ea ipsa quæ quæritur, debebit esse $Zdx+Z'dx+Z''dx+\&c.$ una cum \sourcepage{35} $Z_{\prime}dx+Z_{\prime\prime}dx+Z_{\prime\prime\prime}dx+\&c.$ maximum vel minimum. Quod si igitur una applicata $Nn=y'$ augeatur particula $nv$, illa expressio eundem valorem retinere, atque adeo valor differentialis formulæ $\int Zdx$, seu summæ terminorum $Zdx+Z'dx+Z''dx+Z'''dx+\&c.$ una cum $Z_{\prime}dx+Z_{\prime\prime}dx+Z_{\prime\prime\prime}dx+\&c.$ evanescere debet. Singulorum igitur horum terminorum valores differentiales, qui oriuntur ex translatione puncti $n$ in $v$, investigari debebunt; eorumque aggregatum erit valor differentialis formulæ $\int Zdx$ respondens, qui positus $=0$ æquationem pro curva quæsita præbebit. Quoniam autem $Z$ ponitur functio determinata ipsarum $x$ \& $y$, habebit ipsius differentiale $dZ$ hujusmodi formam $Mdx+Ndy$, ita ut sit $dZ=Mdx+Ndy$. Valorum igitur derivatorum ipsius $Z$ differentialia ita se habebunt:
+\[
+\begin{aligned}
+dZ'&=M'dx+N'dy',&dZ_{\prime}&=M_{\prime}dx+N_{\prime}dy_{\prime},\\
+dZ''&=M''dx+N''dy'',&dZ_{\prime\prime}&=M_{\prime\prime}dx+N_{\prime\prime}dy_{\prime\prime},\\
+&\text{\&c.}&&\text{\&c.}
+\end{aligned}
+\]
+Cum nunc valores differentiales terminorum $Zdx,Z'dx,Z''dx,$ \&c. itemque ipsorum $Z_{\prime}dx,\allowbreak Z_{\prime\prime}dx,\allowbreak Z_{\prime\prime\prime}dx,$ \&c. inveniantur, si hi termini differentientur, atque loco $dy'$ in differentialibus scribatur $nv$; loco omnium reliquorum differentialium vero $0$; manifestum est solum terminum $Z'dx$ habiturum esse valorem differentialem, quoniam in ejus solius differentiali occurrit $dy'$. Scripto itaque $nv$ loco $dy'$, erit termini $Z'dx$ valor differentialis $=N'nv\,dx$, qui simul erit valor differentialis totius formulæ $\int Zdx$; quia reliqui termini præter $Z'dx$ nullam variationem patiuntur. Loco $N'$ autem ponere poterimus $N$, quia est $N'=N+dN$, \& $dN$ præ $N$ evanescit. Pro curva igitur quæsita, in qua sit $\int Zdx$ maximum vel minimum, ista habetur æquatio $Ndx\,nv=0$ seu $N=0$; existente $dZ=Mdx+Ndy$. Q. E. I.
+
+\subsection*{Corollarium I.}
+\originalsection{8}\sourcepage{36}Si igitur curva debeat definiri, in qua sit $\int Zdx$ maximum vel minimum, atque $Z$ sit functio determinata ipsarum $x$ \& $y$ tantum; tum quantitatem $Z$ differentiare oportet; quod cum habiturum sit hujusmodi formam $dZ=Mdx+Ndy$, hinc formabitur æquatio pro curva quæsita, quæ erit $N=0$.
+
+\subsection*{Corollarium II.}
+\originalsection{9}Cum ergo $N$ sit functio ipsarum $x$ \& $y$ determinata, in æquatione pro curva $N=0$ nulla inerit quantitas constans, quæ non fuit in formula maximi minimive $\int Zdx$; \& hanc ob rem curva inventa erit unica \& perfecte determinata.
+
+\subsection*{Corollarium III.}
+\originalsection{10}In quæstionibus igitur sub hoc Problemate comprehensis, curva satisfaciens ex sola maximi minimive formula determinatur; neque licebit insuper puncta aliqua præscribere, per quæ curva quæsita transeat.
+
+\subsection*{Corollarium IV.}
+\originalsection{11}Quod si $Z$ fuerit functio tantum ipsius $x$, ita ut $y$ non involvat; erit tum $\int Zdx$ functio determinata pariter ipsius $x$ tantum; eique adeo omnes curvæ eidem abscissæ respondentes æque satisfacient. Idem vero hoc modo demonstrat calculus; hoc enim casu, quo in $Z$ non inest $y$, fiet $N=0$; ideoque nulla prodit æquatio pro curva quæsita.
+
+\subsection*{Corollarium V.}
+\originalsection{12}Statim etiam intelligi potest, utrum detur linea curva, in qua hujusmodi formula $\int Zdx$ sit maximum vel minimum. Si enim ex differentiatione ipsius $Z$ ejusmodi valor pro $N$ reperiatur, \sourcepage{37}ut per æquationem $N=0$ nulla curva exprimatur; tum etiam nulla curva exstat in qua proposita formula $\int Zdx$ sit maximum vel minimum.
+
+\subsection*{Corollarium VI.}
+\originalsection{13}Denique etiam perspicitur, hanc maximi minimive proprietatem non uni alicui determinatæ abscissæ esse adstrictam; sed si curva pro una abscissa reddat formulam $\int Zdx$ maximum vel minimum, eandem pro quacunque alia abscissa pariter maximum minimumve valorem esse habituram.
+
+\subsection*{Scholion I.}
+\originalsection{14}Nacti ergo sumus methodum facilem, inter omnes curvas eidem abscissæ respondentes eam determinandi, in qua constituat formula $\int Zdx$ valorem maximum vel minimum, siquidem $Z$ est functio determinata ipsarum $x$ \& $y$ tantum. Simul vero etiam patet curvam satisfacientem semper fore algebraicam, siquidem $Z$ fuerit functio algebraica ipsarum $x$ \& $y$. Curvæ igitur hoc modo inventæ ista erit proprietas, ut si ad eandem abscissam alia quæcunque constituatur linea curva, tum pro ea valor formulæ $\int Zdx$ certo vel minor vel major sit proditurus quam pro inventa, prout in inventa formula $\int Zdx$ vel fuerit maxima vel minima. Cum autem adhuc dubium sit utrum in curva inventa valor formulæ $\int Zdx$ futurus sit maximus an minimus, de eo in quovis casu particulari facile fiet dijudicatio; in genere autem nihil omnino decidi potest. Interim hoc certum est, si unica prodit æquatio, tum tantum vel maximum vel minimum locum habere posse; hoc est, si curva inventa sit pro maximo, tum minimum non dari, sed valorem formulæ $\int Zdx$ in infinitum diminui posse. Pari modo, si unica inventa fuerit curva, in eaque formula $\int Zdx$ sit minima, tum valorem $\int Zdx$ in infinitum augeri posse. Quod si autem solutio nullam prorsus præbeat curvam satisfacientem, id indicio erit valorem formulæ \sourcepage{38}$\int Zdx$ pro quacunque abscissa tam in infinitum crescere quam decrescere posse.
+
+\subsection*{Scholion II.}
+\originalsection{15}Ex eadem etiam solutione reperiri poterunt illæ curvæ maximi minimive proprietate præditæ alterius generis supra memoratæ, ad quas non pervenitur per valores differentiales evanescentes, sed infinite magnos; quod maximorum \& minimorum genus ab illo maxime discrepat. Reperientur autem istæ curvæ, si valor differentialis $Ndx\,nv$ non nihilo, sed infinito æqualis ponatur. Quoties igitur hæc æquatio $N=\infty$ lineam aliquam curvam suggerit; tum in ea pariter formula $\int Zdx$ maximum vel minimum obtinebit valorem. Hoc scilicet eveniet, quando pro $N$ prodit fractio, cujus denominator nihilo æqualis positus præbet æquationem pro aliqua linea curva. Hoc itaque pacto plures curvæ reperiri possunt, quæ eidem quæstioni satisfaciant; quarum aliæ maxima continebunt, aliæ minima. Fieri etiam potest, ut plures quam duæ curvæ Problemati satisfacientes reperiantur, etiamsi binæ tantum oriri queant æquationes, scilicet $N=0$ \& $N=\infty$. Si enim $N$ fuerit quantitas ex factoribus composita; tum quilibet factor, vel nihilo vel infinito æqualis positus, dabit æquationem pro curva satisfaciente; constat enim sæpenumero plura maxima pluraque minima locum habere posse. Hæc autem omnia clarius enodabuntur in sequentibus Exemplis in hoc Problemate contentis.
+
+\subsection*{Exemplum I.}
+\originalsection{16}\textit{Invenire curvam, quæ, inter omnes omnino curvas eidem abscissæ respondentes, habeat $\int XYdx$ maximum vel minimum; denotante $X$ functionem ipsius $y$, \& $Y$ ipsius $y$ tantum.}
+In hoc igitur casu fiet $Z=XY$; ideoque $dZ=YdX+XdY=Mdx+Ndy$. Erit ergo $M=\dfrac{YdX}{dx}$ \& $N=\dfrac{XdY}{dy}$; \& \sourcepage{39}ob $X$ ipsius $x$ \& $Y$ ipsius $y$ functionem. Pro curva igitur quæsita erit $N=\dfrac{XdY}{dy}=0$: quoniam autem $Y$ est functio ipsius $y$, ponatur $dY=\Theta dy$; erit $\Theta$ pariter functio ipsius $y$; ideoque pro curva quæsita, si quæ satisfacit, habetur hæc æquatio $X\Theta=0$, ideoque vel $X=0$, vel $\Theta=0$; quarum cum neutra lineam curvam præbeat, apparet huic quæstioni nullam omnino curvam satisfacere, sed valorem propositum $\int XYdx$ in infinitum cum augeri tum diminui posse. Ex æquatione autem $\Theta=0$, quia $\Theta$ est functio ipsius $y$, sequitur $y=\mathrm{Const.}$ quæ æquatio præbet lineam rectam parallelam abscissæ $AZ$, cujus distantia tanta est, ut fiat functio $Y$ maxima vel minima. Patet enim, si quantitas $Y$ maximum minimumve valorem admittat, tum etiam formulam $\int XYdx$ fieri maximum vel minimum. Altera autem æquatio $X=0$, quia præbet $x=\mathrm{Const.}$ nequidem lineam rectam quæstioni satisfacientem exhibet; quia præbet lineam rectam normalem ad abscissam, quæ propterea non datæ abscissæ cuipiam, sed tantum ejus uni puncto respondebit.
+
+\subsection*{Exemplum II.}
+\originalsection{17}\textit{Invenire curvam, quæ, inter omnes eidem abscissæ respondentes curvas, habeat valorem formulæ $\int(ax-yy)y\,dx$ maximum vel minimum.}
+Si hæc formula cum generali $\int Zdx$ comparetur, fiet $Z=axy-y^3$, ideoque $dZ=aydx+(ax-3yy)dy$; ita ut fiat $M=ay$ \& $N=ax-3yy$; unde pro curva quæsita habebitur ista æquatio $ax-3yy=0$, seu $yy=\frac13ax$, quæ est pro Parabola verticem in $A$, axem $AZ$ \& parametrum $\frac13a$ habente. In hac igitur Parabola, erit valor formulæ $\int(ax-yy)y\,dx$ maximus vel minimus. Utrum autem sit maximus an minimus, reperietur, si aliam quamcunque lineam loco Parabolæ substituamus, atque inquiramus utrum pro ea valor formulæ propositæ major sit an minor quam pro Parabola. Sumamus \sourcepage{40}igitur lineam rectam cum ipso axe congruentem, pro qua erit $y=0$. Pro hac itaque valor formulæ fiet pariter $=0$, pro Parabola autem idem valor erit affirmativus, ideoque $>0$; ex quo sequitur in Parabola formulæ propositæ valorem non esse minimum, sed maximum. Poterimus autem algebraice indicare quantus futurus sit valor formulæ propositæ pro Parabola: cum enim sit $yy=\frac13ax$, abibit formula proposita in hanc $\int\frac23ax\,dx\sqrt{\frac13ax}=\frac4{15}ax^2\sqrt{\frac13ax}$. Quod si autem ponamus aliam æquationem, puta $y=nx$; abibit formula proposita in hanc $\int dx(naxx-n^3x^3)=\frac13nax^3-\frac14n^3x^4$, quæ semper est minor quam valor formulæ qui pro Parabola inventa prodiit; id quod quilibet facile, substituendis loco $x$ definitis valoribus, experietur.
+
+\subsection*{Exemplum III.}
+\originalsection{18}\textit{Invenire curvam, in qua sit, inter omnes omnino curvas ad eandem abscissam relatas, valor hujus formulæ $\int(15a^2x^2y-15a^3xy+5a^2y^3-3y^5)\,dx$ maximus vel minimus.}
+Erit igitur $Z=15a^2x^2y-15a^3xy+5a^2y^3-3y^5$, qui si differentietur, posito $x$ constante, prodit $Ndy=15a^2x^2dy-15a^3xdy+15a^2y^2dy-15y^4dy$; hincque $N=15(a^2x^2-a^3x+a^2y^2-y^4)$; qui valor, positus $=0$, dabit æquationem pro curva quæsita: erit itaque $a^2x^2-a^3x+a^2y^2-y^4=0=(ax-yy)(ax+yy-aa)$. Ob binos hos factores, prodeunt binæ curvæ satisfacientes, quarum altera exprimetur hac æquatione $yy=ax$, altera hac $yy=aa-ax$; utraque pro Parabola. Ut nunc appareat utra sit pro maximo vel minimo, ponamus abscissam esse minimam, ac prior æquatio $yy=ax$ in formula substituta dabit $\int -10a^3x\,dx\sqrt{ax}$. Altera vero formula $yy=aa-ax$, seu $y=a$, substituta dabit $\int 2a^5dx$. Quod si autem ipsi $y$ alius quicunque valor tribuatur, puta $y=0$, tum formula proposita abit in $\int0dx=0$. Ex quo patet curvarum inventarum alteram $yy=aa-ax$ esse pro maximo, alteram autem $yy=ax$ pro minimo, scilicet pro maximo negativo. \sourcepage{41}Facillime autem perpetuo hæc dijudicatio, utrum maximum an minimum in curva inventa locum habeat, instituetur, si abscissa $x$ ponatur infinite parva; tum enim integratione non erit opus, sed ipsa formula $Zdx$ monstrabit valorem formulæ $\int Zdx$ hoc casu.
+
+\subsection*{Exemplum IV.}
+\originalsection{19}\textit{Inter omnes curvas eidem abscissæ respondentes, definire eam in qua sit formulæ $\int(3ax-3xx-yy)(ax-xx-\frac43xy+yy)\,dx$ valor maximus vel minimus.}
+Ex hac igitur formula prodibit sequens ipsius $Z$ valor evolutus:
+\[
+\begin{aligned}
+Z={}&3a^2x^2-4ax^2y+2axyy+\tfrac43xy^3-y^4\\
+&-6ax^3+4x^3y-2xxyy+3x^4.
+\end{aligned}
+\]
+quæ differentiata, posito $x$ constante, ac divisa per $dy$, sequentem præbebit valorem pro $N$:
+\[
+N=-4ax^2+4axy+4xyy-4y^3+4x^3-4xxy.
+\]
+Quæ expressio, nihilo æqualis posita, dabit æquationem pro curva quæsita. Erit itaque $y^3-xyy+xxy+axx-axy-x^3=0$, quæ duos habet factores, qui totidem præbent æquationes, hasce: I. $y-x=0$, pro linea recta; II. $yy-ax+xx=0$, pro circulo. Ponatur $x$ infinite parva, eritque ex æquatione $y=x$, valor ipsius $Z=3a^2x^2$; at ex æquatione $yy=ax-xx$, seu $y=\sqrt{ax}$, erit $Z=4aaxx$. Quod si autem ponatur $y=a$, prodit $Z=-a^4$, unde apparet utramque lineam inventam esse pro maximo.
+
+\subsection*{Scholion.}
+\originalsection{20}\sourcepage{42}Problemata etiam resolvi possunt per Methodum maximorum \& minimorum vulgarem. Quando enim curva quæritur pro qua valor ipsius $\int Zdx$ sit maximus vel minimus, idque pro qualibet abscissa; manifestum est, siquidem $Z$ sit functio determinata ipsarum $x$ \& $y$, formulam $\int Zdx$ maximum minimumve esse non posse, nisi elementum ejus $Zdx$ ac proinde ipsum $Z$ tale sit. Quamobrem quæstioni satisfiet, si quantitas $Z$ differentietur posito $x$ constante, ejusque differentiale ponatur $=0$. Tum enim perpetuo $Z$ habebit valorem maximum vel minimum, ac proinde etiam $Zdx$ \& ipsa formula $\int Zdx$. Quod si autem functio $Z$ differentietur posito $x$ constante, prodit $Ndy$; quoniam generaliter differentiando posuimus $dZ=Mdx+Ndy$; satisfietque ponendo $N=0$: quæ est eadem solutio, quam per Methodum traditam invenimus. Quamvis autem hinc videantur istæ quæstiones simili modo resolvi posse, quo in Methodo maximorum \& minimorum vulgari; tamen hoc tantum evenit, si $Z$ fuerit functio ipsarum $x$ \& $y$ tantum; namque si in $Z$ præterea insint quantitates ex differentialibus ortæ $p,q,r,$ \&c. tum vulgaris Methodus nullius amplius usus esse potest. Etsi enim tum differentietur functio $Z$ posito $x$ constante, tamen in differentiale etiam ingrederentur differentialia $dp,dq,dr,$ \&c. quorum relatio ad $dy$ cum non constet, æquatio inde ad maximum minimumve determinandum apta deduci non poterit. His igitur casibus utilitas \& necessitas nostræ Methodi maxime cernetur.
+
+\subsection*{Propositio III. Problema.}
+\originalsection{21}\textit{Si $Z$ fuerit functio ipsarum $x,y,$ \& $p$ determinata, ita ut sit $dZ=Mdx+Ndy+Pdp$; invenire, inter omnes curvas eidem abscissæ respondentes, eam in qua sit $\int Zdx$ maximum vel minimum.} \hyperlink{fig:4}{(Fig.~4.)}
+
+\subsection*{Solutio.}
+\sourcepage{43}Sit $amz$ curva quæsito satisfaciens, atque concipiatur applicata quæcunque $Nn=y'$ augeri particula $nv$; debebit valor differentialis formulæ $\int Zdx$, seu quantitatis huic æquivalentis, puta $Zdx+Z'dx+Z''dx+Z'''dx+\&c.$ una cum $Z_{\prime}dx+Z_{\prime\prime}dx+Z_{\prime\prime\prime}dx+\&c.$ esse $=0$. Totius igitur quantitatis $\int Zdx$ valor differentialis ex translatione puncti $n$ in $v$ habebitur, si singulorum illorum terminorum, qui quidem hac translatione afficiuntur, valores differentiales quærantur \& in unam summam addantur. Ex translatione autem puncti $n$ in $v$, illi tantum termini mutationem subeunt, in quibus insunt quantitates $y',p$ \& $p'$; ideoque tantum termini $Zdx$ \& $Z'dx$; nam uti $Z$ est functio ipsarum $y$ \& $p$ præter $x$; ita $Z'$ similis est functio ipsarum $y'$ \& $p'$. Quamobrem hi termini debebunt differentiari, atque in eorum differentialibus loco $dy',dp,$ \& $dp'$ scribi oportet valores supra indicatos $+nv,+\dfrac{nv}{dx}$ \& $-\dfrac{nv}{dx}$. Sicut autem est $dZ=Mdx+Ndy+Pdp$, ita erit $dZ'=M'dx+N'dy'+P'dp'$. Hinc itaque valor differentialis ipsius $Z$ erit $P\dfrac{nv}{dx}$, \& ipsius $Z'$ erit $N'nv-P'\dfrac{nv}{dx}$; ex quo utriusque termini $Zdx+Z'dx$, ideoque integræ formulæ $\int Zdx$ valor differentialis erit $nv\left(P+N'dx-P'\right)$. At est $P'-P=dP$, \& loco $N'$ scribi potest $N$; unde valor differentialis erit $=nv(Ndx-dP)$. Quare cum formulæ $\int Zdx$ valor differentialis nihilo æqualis factus præbeat æquationem pro curva quæsita, hæc erit $0=Ndx-dP$, vel $N-\dfrac{dP}{dx}=0$, qua æquatione natura curvæ quæsitæ exprimitur. Q. E. I.
+
+\subsection*{Corollarium I.}
+\originalsection{22}Quod si ergo fuerit $Z$ functio quæcunque ipsarum $x,y$, itemque earum differentialium $dx$ \& $dy$, seu loco horum differentialium, \sourcepage{44}ipsius $p$; existente $dy=pdx$; differentiale ipsius $Z$ hujusmodi habebit formam, ut sit $dZ=Mdx+Ndy+Pdp$. Atque hinc reperietur curva, in qua sit $\int Zdx$ maximum vel minimum, formando hanc æquationem $N-\dfrac{dP}{dx}=0$ seu $Ndx=dP$.
+
+\subsection*{Corollarium II.}
+\originalsection{23}Æquatio hæc igitur semper erit differentialis secundi gradus, nisi in $P$ planè non insit $p$. Nam si $p$ contineretur in $P$, tum in $dP$ inerit $dp$; quod ob $p=\dfrac{dy}{dx}$ differentialia secundi gradus involvet.
+
+\subsection*{Corollarium III.}
+\originalsection{24}Quando ergo in differentiali ipsius $dZ=Mdx+Ndy+Pdp$ quantitas $P$ adhuc in se complectitur $p$; tum, ob æquationem pro curva quæsita differentialem secundi gradus, duæ novæ constantes arbitrariæ per integrationem ingredientur. Ex quo ad harum constantium determinationem, duo curvæ puncta præscribi poterunt; alias enim non una, sed innumerabiles curvæ reperirentur.
+
+\subsection*{Corollarium IV.}
+\originalsection{25}Ut itaque hujusmodi Problemata determinate proponantur, ita sunt enuncianda, ut per data duo puncta curva duci debeat, quæ, inter omnes alias curvas per eadem puncta ductas pro eadem abscissa $x$ valorem $\int Zdx$ maximum minimumve complectatur.
+
+\subsection*{Corollarium V.}
+\originalsection{26}In $P$ autem quantitas $p$ non inerit, si $Z$ fuerit functio ipsarum $x$ \& $y$ tantum, per $p$ vel per $n+p$, denotante $n$ numerum \sourcepage{45}constantem, multiplicata. Sit enim $V$ functio ipsarum $x$ \& $y$ tantum; ita ut sit $dV=Mdx+Ndy$; atque $Z=V(n+p)$, erit $dZ=(n+p)Mdx+(n+p)Ndy+Vdp$. Hincque æquatio pro curva quæsita erit $0=(n+p)N-\dfrac{dV}{dx}$, seu $(n+p)Ndx=dV=Mdx+Ndy$.
+
+\subsection*{Corollarium VI.}
+\originalsection{27}His igitur casibus, quibus est $Z=V(n+p)$, existente $V$ functione ipsarum $x$ \& $y$ tantum, non pervenitur ad æquationem differentialem secundi gradus: quia $dp$ in ea prorsus non inest. Verum nequidem ad differentialem æquationem primi gradus pervenitur; sed adeo ad algebraicam. Nam cum sit $pdx=dy$, erit $(n+p)Ndx=nNdx+Ndy$; quod ipsi $Mdx+Ndy$ æquale positum, dabit æquationem per $dx$ divisibilem, adeoque algebraicam, hanc $nN=M$, siquidem $V$ fuerit functio algebraica.
+
+\subsection*{Corollarium VII.}
+\originalsection{28}Quoties autem hoc evenit, maximi minimive formula, quæ est $\int Zdx$, erit talis formæ $\int(Vn\,dx+V\,dy)$, vel posito $n=0$, talis $\int Vdy$. Hujusmodi igitur maximi minimive formulæ pariter ad æquationem determinatam pro curva quæsita deducunt, ita ut non liceat unum plurave puncta præscribere, per quæ curva transire debeat.
+
+\subsection*{Corollarium VIII.}
+\originalsection{29}Posita igitur $V$ functione ipsarum $x$ \& $y$, ista maximi minimive formula $\int Vdy$ pari modo tractatur, quo $\int Vdx$. Nam, posito $dV=Mdx+Ndy$, formulæ $\int Vdx$ respondet æquatio pro curva hæc $N=0$, ita alteri formulæ $\int Vdy$ respondet æquatio $M=0$. Ex quo perspicuum est coordinatas $x$ \& $y$ inter se commutari posse.
+
+\subsection*{Scholion I.}
+\originalsection{30}\sourcepage{46}Apparet itaque in solutione hujusmodi Problematum, quibus quæritur curva valorem formulæ $\int Zdx$ maximum minimumve habens, existente $Z$ functione ipsarum $x,y,$ \& $p$, perveniri ad æquationem differentialem secundi gradus, nisi in $Z$ quantitas $p$ unicam tantum habeat dimensionem. Sæpe numero autem ista æquatio differentialis secundi gradus integrationem admittit, de quo in singulis casibus erit videndum. Interim hic annotasse juvabit, generaliter integrationem succedere, si in functione $Z$ omnino non insit $x$, hoc est, si in ejus differentiali $dZ=Mdx+Ndy+Pdp$ valor $M$ evanescat, ita ut sit tantum $dZ=Ndy+Pdp$. Cum enim pro curva inventa sit hæc æquatio $N-\dfrac{dP}{dx}=0$; multiplicetur ea per $dy$, \& quia est $dy=pdx$, ea abibit in hanc $Ndy-pdP=0$, cui æquivalet ista $Ndy+Pdp=Pdp+pdP=dZ$, cujus integrale est $Z+C=Pp$, quæ æquatio jam tantum est differentialis primi gradus. Quoties ergo inter omnes curvas eidem abscissæ respondentes ea quæritur, in qua sit valor formulæ $\int Zdx$ maximum vel minimum, atque $Z$ tantum sit functio ipsarum $y$ \& $p$, ita ut sit $dZ=Ndy+Pdp$; tum pro curva satisfaciente statim exhiberi poterit æquatio differentialis primi gradus ista $Z+C=Pp$. Deinde vero etiam, si $Z$ fuerit functio ipsarum $x$ \& $p$ tantum, atque $dZ=Mdx+Pdp$, evanescente termino $Ndy$, tum pro curva prodibit æquatio differentialis primi gradus. Nam, ob $dP=0$, erit $P=C$, quæ pro curva quæsita dabit æquationem differentialem primi gradus tantum. Quod si autem insuper $M$ evanescat, seu $Z$ functio sit ipsius $p$ tantum, \& $dZ=Pdp$, æquatio inventa $P=C$ transmutabitur in istam $Pdp=Cd p=dZ$, quæ denuo integrata dat $Z+D=Cp$. Hoc autem casu, quia $Z$ \& $P$ sunt functiones ipsius $p$ tantum, utraque æquatio $P=C$ \& $Z+D=Cp$ præbebit pro $p$ valorem constantem; ideoque æquationem hujus formæ $dy=ndx$, quæ indicat hujusmodi Problematis satisfacere \sourcepage{47}lineas rectas, \& quidem quascunque utlibet ductas. Nam in æquatione $P=C$, cum $C$ sit constans arbitraria, valor ipsius $p$ non solum constans, sed etiam arbitrarius evadet; ex quo linea recta quæcunque resultabit. Quamobrem si per data duo puncta curva duci debeat, in qua sit $\int Zdx$ maximum vel minimum, ac $Z$ sit functio ipsius $p$ tantum, tum satisfaciet linea recta per illa data duo puncta ducta.
+
+\subsection*{Scholion II.}
+\originalsection{31}Quoniam supra jam vidimus in hujusmodi Problematis coordinatas $x$ \& $y$ inter se commutari, atque, si commodum videatur, applicatam $y$ tanquam abscissam tractari posse, idem hoc quoque casu confirmari juvabit. Sit igitur curva investiganda in qua sit $\int Zdy$ maximum vel minimum, existente $Z$ functione ipsarum $x,y$ \& $p$, \& $dZ=Mdx+Ndy+Pdp$. Hæc autem formula $\int Zdy$ ad nostram formam reducta abit in $\int Zpdx$: in qua erit $d(Zp)=Mpdx+Npdy+(Z+pP)dp$; ex qua formulæ propositæ valor differentialis respondens erit $(Npdx-dZ-Pdp-pdP)nv=(-Mdx-2Pdp-pdP)nv$; \& æquatio pro curva quæsita erit $0=-Mdx-2Pdp-pdP$ seu $0=-Mdy-d(Pp^2)$. Quod si nunc ad similitudinem ostendendam, quia hic $y$ tanquam abscissam consideramus, ponamus $dx=\pi dy$, erit $p=\frac1\pi$ \& $dp=-\dfrac{d\pi}{\pi\pi}=-pp\,d\pi$; erit $dZ=Mdx+Ndy-Ppp\,d\pi=Mdx+Ndy+\Pi d\pi$, ponendo $\Pi=-Ppp$; ut similitudo terminorum conservetur. Quapropter æquatio pro curva erit $0=-Mdy+d\Pi$; quæ eadem æquatio prodiisset, si in formula $\int Zdy$, applicata $y$ in abscissam \& vicissim abscissa in applicatam transmutentur. Proposita igitur quacunque formula indeterminata ex $x$ \& $y$ horumque differentialibus composita, quæ debeat esse maxima vel minima, coordinatarum $x$ \& $y$ utramlibet licebit tanquam abscissam tractare, ad eamque maximum minimumve accommodare.
+
+\subsection*{Exemplum I.}
+\originalsection{32}\sourcepage{48}\textit{Inter omnes curvas ad eandem abscissam relatas, eam determinare, in qua sit $\int(Zdx+[Z]dy)$ maximum vel minimum; existentibus $Z$ \& $[Z]$ functionibus quibuscunque ipsarum $x$ \& $y$, ita ut sit $dZ=Mdx+Ndy$ \& $d[Z]=[M]dx+[N]dy$.}
+Ut formula hæc $\int(Zdx+[Z]dy)$ ad formam receptam reducatur, ponatur $pdx$ loco $dy$; habebiturque hæc formula $\int(Z+[Z]p)dx$ maxima minimave efficienda. Differentietur ergo valor $Z+[Z]p$; eritque ejus differentiale $=Mdx+Ndy+[M]pdx+[N]pdy+[Z]dp$. Jam per regulam inventam, hinc pro curva quæsita ista prodit æquatio $0=(N+[N]p)dx-d[Z]=(N+[N]p)dx-[M]dx-[N]dy$; quæ, ob $[N]pdx=[N]dy$, per $dx$ divisa dabit hanc æquationem pro curva quæsita algebraicam seu finitam $N-[M]=0$, seu $N=[M]$. Hinc intelligitur si formula proposita $\int(Zdx+[Z]dy)$ fuerit determinata, seu differentiale $Zdx+[Z]dy$ ita comparatum, ut integrationem admittat; tum nullam lineam quæsito esse satisfacturam, seu potius omnes lineas æque satisfacere. Nam si $Zdx+[Z]dy$ integrationem admittit, per se erit $N=[M]$; uti alibi de formulis differentialibus duarum variabilium determinatis demonstravimus; ideoque his casibus prodit æquatio identica $0=0$. Hincque luculenter intelligitur, quod jam ante notavimus, maximi minimive formulam oportere esse formulam indeterminatam; alioquin enim omnes lineæ curvæ æque satisfacerent.
+
+\subsection*{Exemplum II.}
+\originalsection{33}\textit{Inter omnes lineas ad eandem abscissam relatas, determinare eam, cujus longitudo sit minima; seu in qua sit $\int dx\sqrt{(1+pp)}$ minimum.}
+Primum quidem apparet in hac quæstione maximum non dari, \sourcepage{49}cum linearum longitudo in infinitum augeri queat, manente abscissa eadem. Ita minimum tantum habebit locum, id quod ex ipsa Geometria elementari constat, in qua demonstratur lineam rectam inter omnes alias lineas intra eosdem terminos sitas esse brevissimam. Hoc igitur Exemplum ideo attulisse visum est, cum ut consensus nostræ Methodi cum veritate aliunde jam cognita intelligatur, tum etiam ut circumstantia de duobus punctis arbitrariis, quæ ad hujus generis quæstiones addi debet, melius percipiatur. Erit igitur, formula $\int dx\sqrt{(1+pp)}$ cum generali $\int Zdx$ comparata, $Z=\sqrt{(1+pp)}$, \& $dZ=\dfrac{p\,dp}{\sqrt{(1+pp)}}$; unde fit $M=0,N=0,\&P=\dfrac{p}{\sqrt{(1+pp)}}$. Quare, cum in genere æquatio pro linea quæsita sit $N-\dfrac{dP}{dx}=0$, habebimus hoc casu $dP=0$; ideoque $P=\dfrac{p}{\sqrt{(1+pp)}}=\mathrm{Const.}$ ex qua æquatione oritur $p=\mathrm{Const.}=n$, seu $dy=ndx$, quæ denuo integrata dat $y=a+nx$. Non solum ergo patet lineam quæsitam esse rectam, sed etiam, ob duas arbitrarias constantes $a$ \& $n$, rectam utcunque ductam. Quare si per data duo puncta linea duci jubeatur brevissima, erit illa recta. Similiter autem intelligitur, si linea debeat inveniri, in qua sit $\int Zdx$, ubi $Z$ est functio ipsius $p$ tantum, maximum vel minimum, tum lineam rectam tantum satisfacere; uti ante jam notavimus.
+
+\subsection*{Exemplum III.}
+\originalsection{34}\textit{Inter omnes curvas ad eandem abscissam relatas, determinare eam, in qua sit $\int\dfrac{dx\sqrt{(1+pp)}}{\sqrt{x}}$ maximum vel minimum.}
+Hæc formula oritur, si quæratur linea celerrimi descensus, in hypothesi gravitatis uniformis, ponendo axem in quo abscissæ capiuntur verticalem. Erit igitur $Z=\dfrac{\sqrt{(1+pp)}}{\sqrt{x}}$ \&
+\sourcepage{50}
+\[
+dZ=-\frac{dx\sqrt{(1+pp)}}{2x\sqrt{x}}+\frac{p\,dp}{\sqrt{x}\sqrt{(1+pp)}};
+\]
+unde fit $M=-\dfrac{\sqrt{(1+pp)}}{2x\sqrt{x}},\ N=0,\ P=\dfrac{p}{\sqrt{x}\sqrt{(1+pp)}}$. Cum jam curva quæsita exprimatur æquatione $N-\dfrac{dP}{dx}=0$; erit $dP=0$, \& $P\left(=\dfrac{p}{\sqrt{x(1+pp)}}\right)=\mathrm{Const.}=\dfrac1{\sqrt a}$; quæ reducta præbet $ap^2=x+p^2x$, \& $p=\dfrac{dy}{dx}=\sqrt{\dfrac{x}{a-x}}$, seu $y=\int dx\sqrt{\dfrac{x}{a-x}}$, quæ æquatio indicat curvam quæsitam esse Cycloidem super basi horizontali natam, \& cuspidem in suprema axis regione habentem: quæ adeo per data duo quæcunque puncta duci poterit.
+
+\subsection*{Exemplum IV.}
+\originalsection{35}\textit{Inter omnes curvas eidem abscissæ respondentes, eam determinare in qua sit $\int y^n dx\sqrt{(1+pp)}$ maximum vel minimum.}
+Pro hac ergo formula proposita erit $Z=y^n\sqrt{(1+pp)}$ \&\[dZ=ny^{n-1}dy\sqrt{(1+pp)}+\dfrac{y^n p\,dp}{\sqrt{(1+pp)}};\] ita ut fiat $M=0$, \& $N=ny^{n-1}\sqrt{(1+pp)}$ atque $P=\dfrac{y^np}{\sqrt{(1+pp)}}$. Quoniam igitur est $M=0$; statim pro curva quæsita habebitur ista æquatio semel jam integrata $Z+C=Pp$ (30), quæ nostro casu fit $y^n\sqrt{(1+pp)}+ma^n=\dfrac{y^npp}{\sqrt{(1+pp)}}$. Quod si ponatur constans $a=0$, prodit $1+pp=pp$, seu $p=\infty$, satisfacietque linea recta normalis ad axem. Generatim vero lineæ satisfacientes reperientur ex æquatione, quæ abit in $y^n+ma^n\sqrt{(1+pp)}=0$, seu $y^{2n}=m^2a^{2n}+m^2a^{2n}p^2$; quæ dat $p=\dfrac{dy}{dx}=\dfrac{\sqrt{(y^{2n}-m^2a^{2n})}}{ma^n}$, \& $x=\int\dfrac{ma^n\,dy}{\sqrt{(y^{2n}-m^2a^{2n})}}$; \sourcepage{51}quæ linea per data duo puncta duci potest. Si fuerit $n=-\frac12$, ita ut $\int\dfrac{dx\sqrt{(1+pp)}}{\sqrt y}$ debeat esse maximum vel minimum; pariter prodire debet linea brachystochrona ad axem horizontalem relata; eritque pro ea $x=\int dy\sqrt{\dfrac y{a-y}}$, quæ cum præcedente omnino congruit, dummodo coordinatæ $x$ \& $y$ inter se commutentur. Erit scilicet, ut ante, curva satisfaciens Cyclois super basi horizontali rotando generata, qualem per data duo quæcunque puncta ducere licet.
+
+\subsection*{Exemplum V.}
+\originalsection{36} \textit{Inter omnes curvas eidem abscissæ respondentes eam determinare, in qua sit $\int\dfrac{y\,dy^3}{dx^2+dy^2}$ maximum vel minimum.}
+Formula hæc ad formam consuetam, ope substitutionis $dy=pdx$, reducta, abit in hanc $\int\dfrac{yp^3dx}{1+pp}$; eaque reperiri solet, si quæratur solidum rotundum rotatione curvæ circa axem ortum, quod secundum axis directionem in fluido motum minimam patiatur resistentiam: resistentia namque hoc casu proportionalis censetur formulæ $\int\dfrac{y\,dy^3}{dx^2+dy^2}$ seu $\int\dfrac{yp^3dx}{1+pp}$. Erit ergo
+\[
+Z=\frac{yp^3}{1+pp}\quad\&\quad dZ=\frac{p^3dy}{1+pp}+\frac{y\,dp(3pp+p^4)}{(1+pp)^2};
+\]
+ita ut fiat $M=0,N=\dfrac{p^3}{1+pp},P=\dfrac{p^2y(3+pp)}{(1+pp)^2}$. Cum igitur sit $M=0$, una integratio generaliter succedit, eritque æquatio pro curva quæsita $Z+C=Pp$, seu $\dfrac{yp^3}{1+pp}+a=\dfrac{p^3y(3+pp)}{(1+pp)^2}$, quæ abit in hanc $a(1+pp)^2=2p^3y$. Hujus æquationis autem evolutio non ita potest institui ut eliminetur $p$; quare conveniet utramque coordinatam $y$ \& $x$ per eandem variabilem $p$ definiri. Ac primo quidem est $y=\dfrac{a(1+pp)^2}{2p^3}$. Deinde, ob $dy=pdx$, \sourcepage{52}erit $dx=\dfrac{dy}{p}$ \& $x=\int\dfrac{dy}{p}=\dfrac{y}{p}+\int y\dfrac{dp}{p^2}$. Quod si ergo loco $y$ valor inventus substituatur, prodit $x=\dfrac{a(1+pp)^2}{2p^4}+a\int\dfrac{dp(1+pp)^2}{2p^5}=\dfrac a2\left(\dfrac3{4p^4}+\dfrac1{pp}+1+lp\right)$; ex quibus curvæ constructio poterit confici, logarithmis in subsidium vocandis.
+
+\subsection*{Exemplum VI.}
+\originalsection{37}\textit{Invenire curvam, in qua ista formula $\int yx\,dx\sqrt{(1+pp)}$ sit maximum minimumve.}
+Erit ergo $Z=yx\sqrt{(1+pp)}$, atque $dZ=y\,dx\sqrt{(1+pp)}+x\,dy\sqrt{(1+pp)}+\dfrac{yx p\,dp}{\sqrt{(1+pp)}}$. Hanc ob rem habebitur $M=y\sqrt{(1+pp)},N=x\sqrt{(1+pp)}$ \& $P=\dfrac{yxp}{\sqrt{(1+pp)}}$; unde æquatio pro curva formabitur hæc $Ndx=dP$, quæ suggerit
+\[
+xdx\sqrt{1+pp}=\frac{p^2x\,dx+yp\,dx}{\sqrt{1+pp}}+\frac{yx\,dp}{(1+pp)^{3:2}},
+\]
+seu $xdx-ydy=\dfrac{yx\,dp}{1+pp}$, ob $dy=pdx$. Hæc est æquatio differentialis secundi gradus, \& quanquam ope idonearum substitutionum ea ad formam simpliciter differentialem reduci potest, eo quod variabiles $x$ \& $y$ ubique eundem dimensionum numerum constituunt; tamen æquatio ista differentialis ita est comparata ut neque integrari neque separari possit; deduci scilicet potest ad æquationem hujus formæ $\dfrac{du}{u^3}+\dfrac{dv}{v^3}=\dfrac{v\,dv(1+u^2)}{u^3}$. Quod cum ita sit, neque æquatio inventa $xdx-ydy=\dfrac{yxdp}{1+pp}$ ad formam vel simpliciorem vel commodiorem revocari potest; hincque nihil admodum de natura curvæ inventæ judicare licet. Interim tamen illa æquatio potentiâ duas arbitrarias constantes involvit, ex quo curva satisfaciens per bina puncta data duci potest.
+
+\subsection*{Exemplum VII.}
+\originalsection{38}\sourcepage{53}\textit{Invenire curvam, in qua sit $\int(xx+yy)^n dx\sqrt{(1+pp)}$ maximum vel minimum.}
+Cum hic sit $Z=(xx+yy)^n\sqrt{(1+pp)}$, erit
+\[
+dZ=2n(xx+yy)^{n-1}(x\,dx+y\,dy)\sqrt{(1+pp)}+\frac{(xx+yy)^n p\,dp}{\sqrt{(1+pp)}};
+\]
+ergo $N=2ny(xx+yy)^{n-1}\sqrt{(1+pp)}$ \& $P=\dfrac{(xx+yy)^np}{\sqrt{(1+pp)}}$; ex quo pro curva quæsita ista habebitur æquatio
+\[
+\begin{aligned}
+2n(xx+yy)^{n-1}y\,dx\sqrt{(1+pp)}&=d\frac{(xx+yy)^np}{\sqrt{(1+pp)}}\\
+&=\frac{2n(xx+yy)^{n-1}p(xdx+ydy)}{\sqrt{(1+pp)}}+\frac{dp(xx+yy)^n}{(1+pp)^{3:2}},
+\end{aligned}
+\]
+Quæ per $(xx+yy)^{n-1}$ divisa, ac per $\sqrt{(1+pp)}$ multiplicata, abit in $2ny\,dx=2nx\,dy+\dfrac{(xx+yy)dp}{1+pp}$ seu $\dfrac{2n(y\,dx-x\,dy)}{xx+yy}=\dfrac{dp}{1+pp}$. Hujus æquationis utrumque membrum integrabile est per quadraturam circuli, sitque integrale
+\[
+2n\,A\operatorname{tang\textnormal{.}}\frac{x}{y}=A\operatorname{tang\textnormal{.}}p+A\operatorname{tang\textnormal{.}}k=A\operatorname{tang\textnormal{.}}\frac{p+k}{1-pk};
+\]
+ unde fiet $\dfrac{x}{y}=\operatorname{tang\textnormal{.}}\dfrac1{2n}A\operatorname{tang\textnormal{.}}\dfrac{k+p}{1-kp}=T$; eritque $T$ functio algebraica ipsius $p$, dummodo sit $2n$ numerus rationalis. Cum ergo sit $x=Ty$, seu $y=\dfrac{x}{T}$, erit $dy=pdx=\dfrac{dx}{T}-\dfrac{x\,dT}{TT}$, sive $x\,dT=Tdx-pTTdx$; ideoque
+\[
+\frac{dx}{x}=\frac{dT}{T-pTT}+\frac{Tdp}{1-pT}-\frac{Tdp}{1-pT};
+\]
+unde prodit $lx=l\dfrac{T}{1-pT}-\int\dfrac{Tdp}{1-pT}$, quæ quidem ad construendam curvam abunde satisfaciunt. Verum ut harum curvarum, quæ pro definitis exponenti $n$ valoribus prodeunt, natura melius cognoscatur, Casus nonnullos contemplabimur.
+
+I. Sit $n=\frac12$, \& $2n=1$; erit $A\operatorname{tang\textnormal{.}}\dfrac{x}{y}=A\operatorname{tang\textnormal{.}}\dfrac{k+p}{1-kp}$, \sourcepage{54}ideoque $\dfrac{x}{y}=\dfrac{k+p}{1-kp}=\dfrac{kdx+dy}{dx-kdy}$, seu $xdx-kxdy=kydx+ydy$; quæ integrata præbet $x^2-y^2=2kxy+C$; quæ est æquatio pro Hyperbola æquilatera.
+
+II. Sit $n=1$, \& $2n=2$; erit $2A\operatorname{tang\textnormal{.}}\dfrac{x}{y}=A\operatorname{tang\textnormal{.}}\dfrac{k+p}{1-kp}$, seu $A\operatorname{tang\textnormal{.}}\dfrac{2xy}{yy-xx}=A\operatorname{tang\textnormal{.}}\dfrac{k+p}{1-kp}$; unde fit $\dfrac{2xy}{yy-xx}=\dfrac{kdx+dy}{dx-kdy}$, seu $2xydx-2kxydy=kyydx-kxxdx+yydy-xxdy$; quæ integrata dat $yx^2=ky^2x-\frac13kx^3+\frac13y^3+C$, sive $y^3+3ky^2x-3yx^2-kx^3=C$.
+
+III. Sit $n=\frac32$, seu $2n=3$; erit $3A\operatorname{tang\textnormal{.}}\dfrac{x}{y}=A\operatorname{tang\textnormal{.}}\dfrac{3y^2x-x^3}{y^3-3yx^2}=A\operatorname{tang\textnormal{.}}\dfrac{kdx+dy}{dx-kdy}$; hincque $3y^2x\,dx-3ky^2x\,dy-x^3dx+kx^3dy=ky^3dx+y^3dy-3kyx^2dx-3yx^2dy$; quæ integrata dat $\frac32y^2x^2-ky^3x-\frac14x^4+kyx^3-\frac14y^4=C$, seu $y^4+4ky^3x-6y^2x^2-4kyx^3+x^4=C$.
+
+Ex his jam casibus colligi poterit æquatio integralis pro valore quocunque ipsius $n$. Cum enim sit
+\[
+\begin{aligned}
+2n\,A\operatorname{tang\textnormal{.}}\frac{x}{y}
+&=A\operatorname{tang\textnormal{.}}\frac{2ny^{2n-1}x-\dfrac{2n(2n-1)(2n-2)}{1\cdot2\cdot3}y^{2n-3}x^3+\&c.}{y^{2n}-\dfrac{2n(2n-1)}{1\cdot2}y^{2n-2}x^2+\dfrac{2n(2n-1)(2n-2)(2n-3)}{1\cdot2\cdot3\cdot4}y^{2n-4}x^4-\&c.}\\
+&=\frac{(y+x\sqrt{-1})^{2n}-(y-x\sqrt{-1})^{2n}}{(y+x\sqrt{-1})^{2n}\sqrt{-1}+(y-x\sqrt{-1})^{2n}\sqrt{-1}};
+\end{aligned}
+\]
+fiet
+\[
+\frac{kdx+dy}{dx-kdy}=\frac{(y+x\sqrt{-1})^{2n}-(y-x\sqrt{-1})^{2n}}{(y+x\sqrt{-1})^{2n}\sqrt{-1}+(y-x\sqrt{-1})^{2n}\sqrt{-1}};
+\]
+quæ reducta præbet
+\[
+\begin{aligned}
+&kdx(y+x\sqrt{-1})^{2n}\sqrt{-1}+kdx(y-x\sqrt{-1})^{2n}\sqrt{-1}\\
+&\quad+kdy(y+x\sqrt{-1})^{2n}-kdy(y-x\sqrt{-1})^{2n}\\
+&=dy(y+x\sqrt{-1})^{2n}\sqrt{-1}+dy(y-x\sqrt{-1})^{2n}\sqrt{-1}\\
+&\quad-dx(y+x\sqrt{-1})^{2n}+dx(y-x\sqrt{-1})^{2n}
+\end{aligned}
+\]
+cujus integrale \sourcepage{55}est
+\[
+\begin{aligned}
+k(y+x\sqrt{-1})^{2n+1}-k(y-x\sqrt{-1})^{2n+1}
+={}&-\frac1{\sqrt{-1}}(y+x\sqrt{-1})^{2n+1}\\
+&-\frac1{\sqrt{-1}}(y-x\sqrt{-1})^{2n+1}+C,
+\end{aligned}
+\]
+seu
+\[
+C=(y+x\sqrt{-1})^{2n+1}(k\sqrt{-1}+1)+(y-x\sqrt{-1})^{2n+1}(1-k\sqrt{-1}).
+\]
+At est generaliter
+\[
+(y+x\sqrt{-1})^{2n+1}+(y-x\sqrt{-1})^{2n+1}=2(yy+xx)^{(2n+1):2}\cos.\,2n\,A\operatorname{tang\textnormal{.}}\frac{x}{y},
+\]
+atque
+\[
+\frac{(y+x\sqrt{-1})^{2n+1}-(y-x\sqrt{-1})^{2n+1}}{\sqrt{-1}}=2(yy+xx)^{(2n+1):2}\sin.\,2n\,A\operatorname{tang\textnormal{.}}\frac{x}{y}.
+\]
+Quibus valoribus substitutis, prodibit æquatio integralis ab imaginariis libera hæc
+\[
+2k(yy+xx)^{(2n+1):2}\sin.\,2n\,A\operatorname{tang\textnormal{.}}\frac{x}{y}=2(yy+xx)^{(2n+1):2}\cos.\,2n\,A\operatorname{tang\textnormal{.}}\frac{x}{y}+C:
+\]
+vel, ob constantes arbitrarias $k$ \& $C$, ista
+\[
+C=(yy+xx)^{(2n+1):2}\left(k\sin.\,2n\,A\operatorname{tang\textnormal{.}}\frac{x}{y}+h\cos.\,2n\,A\operatorname{tang\textnormal{.}}\frac{x}{y}\right),
+\]
+quæ æquatio semper est algebraica, dummodo fuerit $n$ numerus rationalis. Vel si arcus quidam circularis arbitrarius ponatur $=g$, curva quæsita hujusmodi æquatione
+\[
+C=(yy+xx)^{(2n+1):2}\sin\left(g+2n\,A\operatorname{tang\textnormal{.}}\frac{x}{y}\right)
+\]
+exprimi potest; posito radio circuli, quem hic contemplamur, $=1$.
+
+\subsection*{Scholion III.}
+\originalsection{39}Si ergo, inter omnes curvas eidem abscissæ respondentes, ea debeat inveniri, in qua sit $\int Zdx$ maximum vel minimum, existente $Z$ functione ipsarum $x,y$ \& $p$, ita ut sit $dZ=Mdx+Ndy+Pdp$; pro curva quæsita ista habebitur æquatio \sourcepage{56}$N-\dfrac{dP}{dx}=0$. Quoniam autem in Problemate præcedente annotavimus, si $Z$ tantum fuerit functio ipsarum $x$ \& $y$, tum Methodo vulgari solutionem absolvi posse: nam ut $\int Zdx$ sit maximum minimumve, etiam $Zdx$, ac proinde $Z$ tale esse oportet, respectu ad $x$ habito; \& hanc ob rem differentiale ipsius $dZ$, sumto $x$ constante, nihilo æquale positum dabit æquationem pro curva quæsita. Similis Methodus succederet in præsente Problemate, si modo in differentiali ipsius $Z$, quod oritur posito $x$ constante, atque est $Ndy+Pdp$, relatio inter differentialia $dy$ \& $dp$ pateret, ut per $dy$ divisio institui, atque valor finitus nihilo æquandus erui posset. Cum autem istam relationem inter $dy$ \& $dp$, sine qua Methodus maximorum \& minimorum vulgaris adhiberi nequit, a priori definire etiamnum non liceat, poterimus eam a posteriori assignare: Quia enim inventa est æquatio pro curva quæsita hæc $N-\dfrac{dP}{dx}=0$; intelligitur, hanc ex illa $Ndy+Pdp$, seu $N+\dfrac{Pdp}{dy}$ oriri potuisse, si constitisset esse $-\dfrac{dP}{dx}=\dfrac{Pdp}{dy}$, seu $0=dP+\dfrac{Pdp}{p}$, ob $dy=pdx$. Quocirca relatio illa inter differentialia $dy$ \& $dp$ ita erit comparata, ut contineatur æquatione $p\,dP+P\,dp=0$; quæ proprietas ad hanc redit ut considerari debeat $Pp$ tanquam constans. Hinc ad Problemata resolvenda, in quibus curva quæritur habens valorem formulæ $\int Zdx$ maximum vel minimum, existente $dZ=Mdx+Ndy+Pdp$; valor ipsius $Z$ debet differentiari, atque in differentiali $Mdx+Ndy+Pdp$, loco $Mdx$ poni debeat $0$, $Ndy$ immutatum relinqui, tum vero loco $Pdp$ scribi $-p\,dP$; \& id quod emergit nihilo æquale poni. Hoc enim pacto obtinebitur $Ndy-pdP=0$; quæ æquatio, ob $dy=pdx$, transit in hanc $N-\dfrac{dP}{dx}=0$, quæ est ea ipsa quam invenimus. Desideratur itaque Methodus a resolutione geometrica \& lineari libera, qua pateat in tali investigatione maximi minimive loco $Pdp$ scribi debere $-p\,dP$.

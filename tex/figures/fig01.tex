@@ -1,0 +1,27 @@
+% Modern editorial, markup and figure/layout contributions: CC-BY-SA-4.0.
+% Historical text and illustrations: Leonhard Euler (1744), public domain.
+% Component scope and upstream attribution: see RIGHTS.md.
+% Original vector redraw after E65, Tabula I, Fig. 1 (scan PDF p.327).
+% Geometric relations and lettering retained; coordinates are illustrative.
+\begin{tikzpicture}[x=1.25cm,y=1.25cm,line width=.45pt]
+\coordinate (A) at (0,0);
+\coordinate (Z) at (4,0);
+\coordinate (a) at (0,1.35);
+\coordinate (m) at (1.5,2.64);
+\coordinate (n) at (1.95,2.91);
+\coordinate (z) at (4,3.7);
+\draw (a)--(A)--(Z)--(z);
+\draw (a) .. controls (.5,1.9) and (1,2.31) .. (m)
+          .. controls (1.66,2.74) and (1.8,2.83) .. (n)
+          .. controls (2.6,3.26) and (3.35,3.51) .. (z);
+\draw (1.5,0)--(m) (1.95,0)--(n);
+\node[below] at (A) {$A$};
+\node[below] at (Z) {$Z$};
+\node[below] at (1.5,0) {$M$};
+\node[below] at (1.95,0) {$N$};
+\node[above left] at (a) {$a$};
+\node[above left] at (m) {$m$};
+\node[above] at (n) {$n$};
+\node[above right] at (z) {$z$};
+\node[anchor=west] at (.1,3.8) {\large\textit{Fig. 1.}};
+\end{tikzpicture}

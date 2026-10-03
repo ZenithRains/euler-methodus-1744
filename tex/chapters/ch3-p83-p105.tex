@@ -1,0 +1,282 @@
+% Modern editorial, markup and figure/layout contributions: CC-BY-SA-4.0.
+% Historical text and illustrations: Leonhard Euler (1744), public domain.
+% Component scope and upstream attribution: see RIGHTS.md.
+% Source original pp. 83--105, PDF pp. 86--108. Image-collated working transcription.
+\sourcepage{83}
+\subsection*{CAPUT III.}
+\subsection*{De inventione curvarum maximi minimive proprietate præditarum, si in ipsa maximi minimive formula insunt quantitates indeterminatæ.}
+\subsection*{Propositio I. Problema.}
+\originalsection{1}
+\textit{Invenire incrementa, quæ quantitas integralis indeterminata, in quovis abscissæ puncto, ab aucta alicubi una applicata $Nn$ particula $nv$, capit.} \hyperlink{fig:4}{(Fig.~4.)}
+\subsection*{Solutio.}
+Sit abscissa $AH=x$, applicata respondens $Hh=y$, \& proposita sit quantitas quæcunque indeterminata $\Pi$, abscissæ $AH$ respondens, quæ sit formula integralis indefinite integrationem non admittens. Quantitas hæc $\Pi$ ita sit comparata, ut ipsa, quatenus abscissæ $AH$ seu puncto $H$ respondet, ab aucta applicata $Nn$ non mutetur: quod eveniet, si in $\Pi$ differentialia non ultra quintum gradum assurgant; quem in finem quintam demum applicatam $Nn$ ab $Hh$ computando mutari ponimus. Si enim in $\Pi$ differentialia altiorum graduum continerentur, tum deberet ulterior demum applicata post $Nn$ particula infinite parva augeri. Sufficiet autem solutionem ad quinque tantum differentialium in $\Pi$ contentorum gradus extendere; cum inde, si etiam altiora affuerint differentialia, solutionem ad ea accommodare liceat. Quemadmodum igitur puncto abscissæ $H$ respondet valor $\Pi$, ita secundum nostram notandi methodum, puncto sequenti $I$ respondebit valor $\Pi'$, puncto $K$ vero $\Pi''$, puncto $L$ valor $\Pi'''$, \& ita porro. Id ergo erit investigandum, quanta incrementa ex translatione puncti $n$ in $v$ singuli hi valores derivativi $\Pi'$, $\Pi''$, $\Pi'''$, $\Pi^{\mathrm{iv}}$, \&c. accipiant, seu definiri \sourcepage{84}debent eorum differentialia, si sola applicata $Nn$, quæ est $=y^{\mathrm{v}}$ variari \& particula $nv$ augeri ponatur: erit autem hoc sensu $d.\Pi=0$, quia valorem $\Pi$ puncto $H$ respondentem inde non affici ponimus. Quoniam jam $\Pi$ est formula integralis indefinita, sit ea $=\int[Z]dx$, \& $[Z]$ sit functio ipsarum $x,y,p,q,r,s$ \& $t$, ita ut sit
+\[d[Z]=[M]dx+[N]dy+[P]dp+[Q]dq+[R]dr+[S]ds+[T]dt;\]
+unde simul valores derivativi ipsius $d[Z]$, nempe $d[Z']$, $d[Z'']$, $d[Z''']$, \&c. per notandi modum receptum formari poterunt. His positis, erit ut sequitur
+\[\begin{aligned}
+\Pi&=\int[Z]dx\\
+\Pi'&=\int[Z]dx+[Z]dx\\
+\Pi''&=\int[Z]dx+[Z]dx+[Z']dx\\
+\Pi'''&=\int[Z]dx+[Z]dx+[Z']dx+[Z'']dx\\
+\Pi^{\mathrm{iv}}&=\int[Z]dx+[Z]dx+[Z']dx+[Z'']dx+[Z''']dx\\&\text{\&c.}
+\end{aligned}\]
+Jam videamus quanta incrementa singula hæc membra $[Z]dx$, $[Z']dx$, $[Z'']dx$, $[Z''']dx$, \&c. ex adjecta particula $nv$ ad applicatam $Nn$ capiant; quæ obtinebuntur ex ipsorum differentialibus, ponendo loco differentialium valores §. 56 Capitis præcedentis expositos: erit itaque
+\[\begin{aligned}
+d.[Z]dx&=nv.dx.\frac{[T]}{dx^5}\\
+d.[Z']dx&=nv.dx\left(\frac{[S']}{dx^4}-\frac{5[T']}{dx^5}\right)\\
+d.[Z'']dx&=nv.dx\left(\frac{[R'']}{dx^3}-\frac{4[S'']}{dx^4}+\frac{10[T'']}{dx^5}\right)\\
+d.[Z''']dx&=nv.dx\left(\frac{[Q''']}{dx^2}-\frac{3[R''']}{dx^3}+\frac{6[S''']}{dx^4}-\frac{10[T''']}{dx^5}\right)\\
+d.[Z^{\mathrm{iv}}]dx&=nv.dx\left(\frac{[P^{\mathrm{iv}}]}{dx}-\frac{2[Q^{\mathrm{iv}}]}{dx^2}+\frac{3[R^{\mathrm{iv}}]}{dx^3}-\frac{4[S^{\mathrm{iv}}]}{dx^4}+\frac{5[Z^{\mathrm{iv}}]}{dx^5}\right)\\
+d.[Z^{\mathrm{v}}]dx&=nv.dx\left([N^{\mathrm{v}}]-\frac{[P^{\mathrm{v}}]}{dx}+\frac{[Q^{\mathrm{v}}]}{dx^2}-\frac{[R^{\mathrm{v}}]}{dx^3}+\frac{[S^{\mathrm{v}}]}{dx^4}-\frac{[T^{\mathrm{v}}]}{dx^5}\right)\\
+d.[Z^{\mathrm{vi}}]dx&=0,\\
+d.[Z^{\mathrm{vii}}]dx&=0.
+\end{aligned}\]
+\& reliqua sequentia omnia evanescent.
+\sourcepage{85}
+Ex his nunc colligentur incrementa valorum $\Pi$, $\Pi'$, $\Pi''$, $\Pi'''$, \&c. quæ recipiunt ex translatione puncti $n$ in $v$; erit scilicet
+\[\begin{aligned}
+d.\Pi&=0\\
+d.\Pi'&=nv.dx.\frac{[T]}{dx^5}\\
+d.\Pi''&=nv.dx\left(\frac{[S']}{dx^4}-\frac{4[T']+d[T]}{dx^5}\right)\\
+d.\Pi'''&=nv.dx\left(\frac{[R'']}{dx^3}-\frac{3[S'']+d[S']}{dx^4}+\frac{6[T'']+4d[T']-d[T]}{dx^5}\right)\\
+d.\Pi^{\mathrm{iv}}&=nv.dx\left(\frac{[Q''']}{dx^2}-\frac{2[R''']+d[R'']}{dx^3}\right.\\&\qquad\left.+\frac{3[S''']+3d[S'']-d[S']}{dx^4}-\frac{4[T''']+6d[T'']-4d[T']+d[T]}{dx^5}\right)\\
+d.\Pi^{\mathrm{v}}&=nv.dx\left(\frac{[P^{\mathrm{iv}}]}{dx}-\frac{[Q^{\mathrm{iv}}]+d[Q''']}{dx^2}+\frac{[R^{\mathrm{iv}}]+2d[R''']-d[R'']}{dx^3}\right.\\&\qquad-\frac{[S^{\mathrm{iv}}]+3d[S''']-3d[S'']+d[S']}{dx^4}\\&\qquad\left.+\frac{[T^{\mathrm{iv}}]+4d[T''']-6d[T'']+4d[T']-d[T]}{dx^5}\right)\\
+d.\Pi^{\mathrm{vi}}&=nv.dx\left([N^{\mathrm{v}}]-\frac{d[P^{\mathrm{iv}}]}{dx}+\frac{d[Q^{\mathrm{iv}}]-d[Q''']}{dx^2}\right.\\&\qquad-\frac{d[R^{\mathrm{iv}}]-2d[R''']+d[R'']}{dx^3}+\frac{d[S^{\mathrm{iv}}]-3d[S''']+3d[S'']-d[S']}{dx^4}\\&\qquad\left.-\frac{d[T^{\mathrm{iv}}]-4d[T''']+6d[T'']-4d[T']+d[T]}{dx^5}\right).
+\end{aligned}\]
+Huic autem incremento æqualia sunt incrementa omnium sequentium valorum, nempe ipsorum $\Pi^{\mathrm{vii}}$, $\Pi^{\mathrm{viii}}$, $\Pi^{\mathrm{ix}}$, \&c. Atqui valoris $\Pi^{\mathrm{vi}}$ \& omnium sequentium incrementum idem erit
+\[=nv.dx\left([N^{\mathrm{v}}]-\frac{d[P^{\mathrm{iv}}]}{dx}+\frac{dd[Q''']}{dx^2}-\frac{d^3[R'']}{dx^3}+\frac{d^4[S']}{dx^4}-\frac{d^5[T]}{dx^5}\right).\]
+Poterunt autem hæc incrementa ad eadem signa reduci, respectu litterarum $[P]$, $[Q]$, $[R]$, $[S]$, \& $[T]$; sicque prodibit
+\sourcepage{86}
+\[\begin{aligned}
+d.\Pi&=0\\
+d.\Pi'&=nv.dx.\frac{[T]}{dx^5}\\
+d.\Pi''&=nv.dx\left(\frac{[S']}{dx^4}-\frac{4[T]+5d[T]}{dx^5}\right)\\
+d.\Pi'''&=nv.dx\left(\frac{[R'']}{dx^3}-\frac{3[S']+4d[S']}{dx^4}+\frac{6[T]+15d[T]+10dd[T]}{dx^5}\right)\\
+d.\Pi^{\mathrm{iv}}&=nv.dx\left(\frac{[Q''']}{dx^2}-\frac{2[R'']+3d[R'']}{dx^3}+\frac{3[S']+8d[S']+6dd[S']}{dx^4}\right.\\&\qquad\left.-\frac{4[T]+15d[T]+20dd[T]+10d^3[T]}{dx^5}\right)\\
+d.\Pi^{\mathrm{v}}&=nv.dx\left(\frac{[P^{\mathrm{iv}}]}{dx}-\frac{[Q''']+2d[Q''']}{dx^2}+\frac{[R'']+3d[R'']+3dd[R'']}{dx^3}\right.\\&\qquad-\frac{[S']+4d[S']+6dd[S']+4d^3[S']}{dx^4}\\&\qquad\left.+\frac{[T]+5d[T]+10dd[T]+10d^3[T]+5d^4[T]}{dx^5}\right)\\
+d.\Pi^{\mathrm{vi}}&=nv.dx\left([N^{\mathrm{v}}]-\frac{d[P^{\mathrm{iv}}]}{dx}+\frac{dd[Q''']}{dx^2}-\frac{d^3[R'']}{dx^3}+\frac{d^4[S']}{dx^4}-\frac{d^5[T]}{dx^5}\right)
+\end{aligned}\]
+cui sequentium valorum omnium incrementa sunt æqualia. Q. E. I.
+\subsection*{Corollarium I.}
+\originalsection{2}
+Si ergo $\Pi$ fuerit hujusmodi quantitas indeterminata, seu formula integralis indefinite integrationem non admittens, tum ejus omnes valores post locum abscissæ, ubi una applicata augeri concipitur, mutationem patientur, \& aliquot ejus etiam valores ante illum locum, quorum numerus pendet a gradu differentialium, quæ in ea formula $\Pi$ insunt.
+\subsection*{Corollarium II.}
+\originalsection{3}
+Quod si ergo istiusmodi quantitas insit in maximi minimive formula $\int Zdx$, tum ejus valor differentialis non solum ab aliquot abscissæ elementis, verum a tota abscissa, cui maximum minimumve respondere debet, pendebit.
+\sourcepage{87}
+\subsection*{Corollarium III.}
+\originalsection{4}
+His igitur casibus abscissam illam, pro qua maximum minimumve quæritur, determinatam esse oportet, atque curva quæ, pro hac abscissa, maximi minimive proprietate gaudere reperta fuerit, eadem pro aliis abscissis hac proprietate non erit prædita.
+\subsection*{Scholion.}
+\originalsection{5}
+Mox clarius discrimen, quod intercedit inter quæstiones, in quibus $Z$ est quantitas vel determinata vel indeterminata, perspicietur; quando Problemata hujus generis sumus tractaturi. Pluribus modis autem tales quæstiones possunt variari, prout in maximi minimive formula $\int Zdx$, quantitas $Z$ vel tantum est functio ejusmodi formulæ indeterminatæ $\Pi$, qualem contemplati sumus, vel insuper quantitates determinatas, $x,y,p,q,r,s$, \&c. comprehendit. Deinde in $Z$ etiam inesse poterunt plures ejusmodi formulæ integrales indefinitæ a se invicem diversæ. Ad hos autem diversos casus una regula, superioribus jam traditis addita, sufficere poterit. Præcipuum autem momentum positum est in ipsa formula indeterminata $\Pi=\int[Z]dx$, pro qua hic posuimus esse $[Z]$ functionem determinatam; quod si autem hæc ipsa quantitas $[Z]$ denuo ejusmodi formulas integrales indefinitas complectatur, iterum peculiari solutione erit opus. Quin etiam ista complicatio formularum indeterminatarum in infinitum potest extendi; id quod eveniet si quantitas $[Z]$ denuo in se complectatur ipsam quantitatem $\Pi$, ita ut sit $d[Z]=[L]d\Pi+[M]dx+[N]dy+[P]dp+[Q]dq+[R]dr+\text{\&c.}$ tum enim ob $d\Pi=[Z]dx$, iterum considerari oportebit valorem $d[Z]=[L]d\Pi+[M]dx+\text{\&c.}$ hicque progressus in infinitum continuabitur. Hinc autem methodus nascetur ea resolvendi Problemata, in quibus curva quæritur maximum minimumve habens valorem formulæ $\int Zdx$, quando quantitas $Z$ non datur,
+\sourcepage{88}
+ut hactenus, sive determinate sive indeterminate, sed tantum per æquationem differentialem, cujus integratio omnino non potest absolvi: cujusmodi quæstio est, si quæratur curva, in qua minimum sit expressio $\int\frac{dx\sqrt{(1+pp)}}{\sqrt v}$, existente $dv=gdx-hv^n dx\sqrt{(1+pp)}$: atque ejusmodi quæstionum resolutionem in hoc Capite quoque trademus.
+\subsection*{Propositio II. Problema.}
+\originalsection{6}
+\textit{Si $Z$ fuerit functio quantitatis indeterminatæ $\Pi$, ita ut sit $dZ=Ld\Pi$, sitque $\Pi=\int[Z]dx$, existente $d[Z]=[M]dx+[N]dy+[P]dp+[Q]dq+[R]dr+\text{\&c.}$ invenire curvam $az$ quæ pro data abscissa $AZ$ habeat valorem formulæ $\int Zdx$ maximum vel minimum.}
+\subsection*{Solutio.}
+Posita abscissa $AH=x$, applicata $Hh=y$, sit tota abscissa $AZ$, cui maximum minimumve respondere debet, $=a$, diviso igitur spatio $HZ$ in elementa innumera infinite parva $HI$, $IK$, $KL$, $LM$, \&c. debebit esse $\int Zdx+Zdx+Z'dx+Z''dx+Z'''dx+\text{\&c.}$ donec ad extremum punctum $Z$ perveniatur, maximum minimumve. Ad hoc efficiendum, quærendi sunt valores differentiales quos singuli hi termini a translatione puncti $n$ in $v$ accipiunt, quorum summa, nihilo æqualis posita, dabit æquationem pro curva quæsita. Quoniam autem mutationem ab $nv$ oriundam non ultra $H$ versus $A$ porrigi ponimus, erit termini $\int Zdx$ valor differentialis nullus. Reliquorum terminorum valores differentiales reperientur, si ii differentientur, atque in differentialibus scribantur ea incrementa, quæ in Propositione præcedente invenimus, ex translatione puncti $n$ in $v$ oriri. Erit autem
+\sourcepage{89}
+\[\begin{aligned}
+d.Zdx&=Ldx.d\Pi\\
+d.Z'dx&=L'dx.d\Pi'\\
+d.Z''dx&=L''dx.d\Pi''\\
+d.Z'''dx&=L'''dx.d\Pi'''\\
+d.Z^{\mathrm{iv}}dx&=L^{\mathrm{iv}}dx.d\Pi^{\mathrm{iv}}.
+\end{aligned}\]
+Quod si jam loco differentialium $d\Pi$, $d\Pi'$, $d\Pi''$, $d\Pi'''$, \&c. valores supra inventos ex translatione puncti $n$ in $v$ ortos substituamus obtinebimus.
+\[\begin{aligned}
+d.Zdx&=0.\\
+d.Z'dx&=nv.L'dx^2.\frac{[T]}{dx^5}\\
+d.Z''dx&=nv.L''dx^2\left(\frac{[S']}{dx^4}-\frac{4[T]+5d[T]}{dx^5}\right)\\
+d.Z'''dx&=nv.L'''dx^2\left(\frac{[R'']}{dx^3}-\frac{3[S']+4d[S']}{dx^4}+\frac{6[T]+15d[T]+10dd[T]}{dx^5}\right)\\
+d.Z^{\mathrm{iv}}dx&=nv.L^{\mathrm{iv}}dx^2\left(\frac{[Q''']}{dx^2}-\frac{2[R'']+3d[R'']}{dx^3}+\frac{3[S']+8d[S']+6dd[S']}{dx^4}\right.\\&\qquad\left.-\frac{4[T]+15d[T]+20dd[T]+10d^3[T]}{dx^5}\right)\\
+d.Z^{\mathrm{v}}dx&=nv.L^{\mathrm{v}}dx^2\left(\frac{[P^{\mathrm{iv}}]}{dx}-\frac{[Q''']+2d[Q''']}{dx^2}+\frac{[R'']+3d[R'']+3dd[R'']}{dx^3}\right.\\&\qquad-\frac{[S']+4d[S']+6dd[S']+4d^3[S']}{dx^4}\\&\qquad\left.+\frac{[T]+5d[T]+10dd[T]+10d^3[T]+5d^4[T]}{dx^5}\right)\\
+d.Z^{\mathrm{vi}}dx&=nv.L^{\mathrm{vi}}dx^2\left([N^{\mathrm{v}}]-\frac{d[P^{\mathrm{iv}}]}{dx}+\frac{dd[Q''']}{dx^2}-\frac{d^3[R'']}{dx^3}+\frac{d^4[S']}{dx^4}-\frac{d^5[T]}{dx^5}\right)\\
+d.Z^{\mathrm{vii}}dx&=nv.L^{\mathrm{vii}}dx^2\left([N^{\mathrm{v}}]-\frac{d[P^{\mathrm{iv}}]}{dx}+\frac{dd[Q''']}{dx^2}-\frac{d^3[R'']}{dx^3}+\frac{d^4[S']}{dx^4}-\frac{d^5[T]}{dx^5}\right)\\&\text{\&c.}
+\end{aligned}\]
+Sequentium scilicet terminorum incrementa eadem hac lege progrediuntur. Addantur jam senorum priorum terminorum incrementa, prodibit terminorum $Zdx+Z'dx+Z''dx+Z'''dx+Z^{\mathrm{iv}}dx+Z^{\mathrm{v}}dx$ incrementum totale $=$
+\[\begin{aligned}
+nv.dx^2\bigg(&\frac{L^{\mathrm{v}}[P^{\mathrm{iv}}]}{dx}-\frac{[Q''']dL^{\mathrm{iv}}+2L^{\mathrm{v}}d[Q''']}{dx^2}\\&+\frac{[R'']ddL'''+3d[R'']dL'''+3L'''dd[R'']}{dx^3}\\&-\frac{[S']d^3L''+4d[S']ddL''+6dL''dd[S']+4L''d^3[S']}{dx^4}
+\end{aligned}\]
+\sourcepage{90}
+\[\qquad+\frac{[T]d^4L'+5d[T]d^3L'+10dd[T]ddL'+10dL'd^3[T]+5L'd^4[T]}{dx^5}\bigg)\]
+in qua expressione, quia omnes termini inter se sunt homogenei, jam indices numerici negligi poterunt. Sequentium autem terminorum $L^{\mathrm{vi}}dx+L^{\mathrm{vii}}dx+\text{\&c.}$ omnium incrementum erit $=$
+\[\begin{aligned}
+&nv.dx\left([N^{\mathrm{v}}]-\frac{d[P^{\mathrm{iv}}]}{dx}+\frac{dd[Q''']}{dx^2}-\frac{d^3[R'']}{dx^3}+\frac{d^4[S']}{dx^4}-\frac{d^5[T]}{dx^5}\right)\\
+&\qquad(L^{\mathrm{vi}}dx+L^{\mathrm{vii}}dx+L^{\mathrm{viii}}dx+L^{\mathrm{ix}}dx+\text{\&c. usque in }Z).
+\end{aligned}\]
+Hic autem posterior factor definietur per integrationem formulæ $\int Ldx$, quæ respondet abscissæ indefinitæ $AH=x$; ponatur in hac formula post integrationem $x=a$, abeatque ea in $H$, erit $H$ valor formulæ $\int Ldx$ abscissæ toti propositæ $AZ$ respondens; a qua ergo si auferatur $\int Ldx$, remanebit $H-\int Ldx$ valor portioni $HZ$ vel $NZ$ respondens, qui ergo loco $L^{\mathrm{vi}}dx+L^{\mathrm{vii}}dx+L^{\mathrm{viii}}dx+\text{\&c.}$ substitui potest. Quamobrem tandem formulæ $\int Zdx$ valor differentialis toti abscissæ $AZ$ respondens erit $=$
+\[\begin{aligned}
+&nv.dx(H-\int Ldx)\left([N]-\frac{d[P]}{dx}+\frac{dd[Q]}{dx^2}-\frac{d^3[R]}{dx^3}+\frac{d^4[S]}{dx^4}-\frac{d^5[T]}{dx^5}\right)\\
+&+nv.dx\bigg(L[P]-\frac{[Q]dL+2Ld[Q]}{dx}+\frac{[R]ddL+3d[R]dL+3Ldd[R]}{dx^2}\\
+&\qquad-\frac{[S]d^3L+4d[S]ddL+6dLdd[S]+4Ld^3[S]}{dx^3}\\
+&\qquad+\frac{[T]d^4L+5d[T]d^3L+10dd[T]ddL+10dLd^3[T]+5Ld^4[T]}{dx^4}\bigg)
+\end{aligned}\]
+qui ad hanc formam commodiorem reduci potest, ut sit $=$
+\[\begin{aligned}
+nv.dx\bigg(&[N](H-\int Ldx)-\frac{d.[P](H-\int Ldx)}{dx}+\frac{dd.[Q](H-\int Ldx)}{dx^2}\\
+&-\frac{d^3.[R](H-\int Ldx)}{dx^3}+\frac{d^4.[S](H-\int Ldx)}{dx^4}-\frac{d^5.[T](H-\int Ldx)}{dx^5}\bigg);
+\end{aligned}\]
+qui valor differentialis, quousque occasio postulabit, ulterius continuari poterit: is autem, nihilo æqualis positus, dabit æquationem pro curva quæsita. Q. E. I.
+\sourcepage{91}
+\subsection*{Corollarium I.}
+\originalsection{7}
+Quoniam $H-\int Ldx$ est valor formulæ $\int Ldx$ respondens abscissæ portioni $AZ=a-x$, si ponatur $AZ=a-x=u$, erit $\int Ldu$ ille ipse valor $H-\int Ldx$, quo opus est; siquidem $\int Ldu$ ita integretur, ut evanescat posito $u=0$.
+\subsection*{Corollarium II.}
+\originalsection{8}
+Quod si igitur abscissarum initium capiatur in puncto $Z$, ita ut abscissa $ZH$ ponatur $=u$, utque ubique ponatur $x=a-u$, prodibit æquatio pro curva inter coordinatas $u$ \& $y$; hujusque curvæ ea portio quæsito satisfaciet, quæ respondet abscissæ $AZ=a$. Interim notandum est cum in ipsa maximi minimive formula $\int Zdx$, tum in $\int[Z]dx$, abscissarum initium in puncto $A$ capi debere.
+\subsection*{Corollarium III.}
+\originalsection{9}
+Si ergo quæratur curva ad datam abscissam $AZ$ relata, in qua maximum minimumve debeat esse $\int Zdx$; sitque $Z$ functio quæcunque ipsius $\Pi=\int[Z]dx$, existente $dZ=Ld\Pi$ \& $d[Z]=[M]dx+[N]dy+[P]dp+[Q]dq+[R]dr+\text{\&c.}$ habebitur pro curva quæsita ista æquatio:
+\[0=[N]\int Ldu-\frac{d.[P]\int Ldu}{dx}+\frac{dd.[Q]\int Ldu}{dx^2}-\frac{d^3.[R]\int Ldu}{dx^3}+\text{\&c.}\]
+ubi est $u=a-x$, \& $\int Ldu$ denotat valorem formulæ $\int Ldx$ portioni abscissæ $HZ=u$ respondentem.
+\subsection*{Corollarium IV.}
+\originalsection{10}
+Possunt ergo vel bina abscissarum initia $A$ \& $Z$, binæque abscissæ $AH=x$, \& $ZH=u$ considerari, quarum illa in integrali $\int[Z]dx$ seu $\Pi$, hæc vero in integrali $\int Ldx$ spectari debet, vel unica tantum abscissa $AH=x$; quo casu, loco
+\sourcepage{92}
+$\int Ldu$ scribi debet $H-\int Ldx$; denotante $H$ valorem, quem præbet formula $\int Ldx$, posito $x=AH=a$.
+\subsection*{Corollarium V.}
+\originalsection{11}
+Quia $Z$ est functio ipsius $\Pi$ tantum, ita ut nullas alias quantitates variabiles in se complectatur, ob $dZ=Ld\Pi$, erit etiam $L$ functio ipsius $\Pi$ tantum.
+\subsection*{Corollarium VI.}
+\originalsection{12}
+Si $[Z]$ esset functio ipsius $x$ tantum; tum foret $\Pi=\int[Z]dx$ quantitas determinata, atque functio ipsius $x$, hincque etiam $Z$; ex quo maximum minimumve non inveniet locum. Idem ostendit solutio; fiet enim $[N]=0$, $[R]=0$ \&c. atque æquatio abit in identicam $0=0$.
+\subsection*{Scholion I.}
+\originalsection{13}
+Occurrunt hic nonnulli primarii casus considerandi, quorum primus est, si fuerit $[Z]$ functio ipsarum $x$ \& $y$ tantum; ita ut sit $d[Z]=[M]dx+[N]dy$. Quod si nunc quæratur curva in qua maximum minimumve sit formula $\int Zdx$ pro data abscissa $AZ=a$, existente $Z$ functione quacunque ipsius $\int[Z]dx=\Pi$, ita ut sit $dZ=Ld\Pi$; habebitur pro curva quæsita ista æquatio $0=[N](H-\int Ldx)$; erit ergo vel $[N]=0$ vel $H=\int Ldx$, seu $L=0$; quarum æquationum si vel altera vel utraque præbeat lineam curvam, ea non solum satisfaciet Problemati pro abscissa $AZ=a$, sed etiam pro alia quacunque abscissa indefinita $x$: id quod inde colligitur, quod ex æquatione, quantitas $H$, quæ pendet ab abscissa determinata $a$, ex calculo excesserit. Quod autem speciatim ad æquationem $L=0$ attinet: quia $L$ est functio ipsius $\Pi$ seu $\int[Z]dx$, fiet $\int[Z]dx=\text{const. determinatæ}$, quod nisi sit $[Z]=0$, fieri nequit: binæ igitur æquationes hoc casu satisfacientes, erunt $[N]=0$, atque $[Z]=0$.
+\sourcepage{93}
+\subsection*{Scholion II.}
+\originalsection{14}
+Deinde vero considerari meretur casus quo $[N]$ evanescit; id quod evenit, si $[Z]$ fuerit functio ipsarum $x,p,q,r$, \&c. non involvens $y$. Ponamus esse $[Z]$ functionem ipsarum $x$ \& $p$, atque $d[Z]=[M]dx+[P]dp$. Si igitur ponatur $\int[Z]dx=\Pi$, atque curva quæratur, in qua, pro abscissa definita $AZ=a$, maximum minimumve sit formula $\int Zdx$, existente $Z$ functione ipsius $\Pi$, ita ut sit $dZ=Ld\Pi$; orietur pro curva quæsita ista æquatio $0=-\frac{d.[P](H-\int Ldx)}{dx}$; ideoque $\mathit{Const.}=[P](H-\int Ldx)$. Hæc vero constans, per integrationem ingressa, non est arbitraria; nam eam ita comparatam esse oportet, ut posito $x=a$, quo casu fit $\int Ldx=H$, fiat $\frac{\mathit{Const.}}{[P]}=0$. Hoc autem evenire non potest, nisi vel hæc constans ponatur $=0$, vel quantitas $[P]$ ita comparata sit ut fiat $=\infty$, posito $x=a$. Priori casu habetur vel $[P]=0$, vel $\int Ldx=H$, hoc est $L=0$, seu $\int[Z]dx=\mathit{Const.}$ seu potius $[Z]=0$; posteriori casu autem, constans tamen pro arbitrio non accipi potest, nam determinabitur, ponendo $x=a-dx$, eo modo, quo expressiones quæ certis casibus indeterminatæ videntur definiri solent. Atque hinc perspicitur in hujusmodi Problematis numerum constantium arbitrariarum in solutionem ingredientium, cui æqualis sumi debet numerus punctorum, per quæ curvæ satisfacienti transeundum est, non ex gradu differentialium judicari posse. Pervenietur enim sæpe, tollendo per differentiationem omnes formulas integrales, ad æquationem differentialem altioris gradus, a quo nequaquam Problematis determinatio per aliquot puncta pendebit.
+\subsection*{Exemplum I.}
+\originalsection{15}
+\textit{Si denotet $\Pi$ aream curvæ $\int ydx$, atque $Z$ sit functio quæcunque ipsius $\Pi$, invenire curvam quæ, pro data abscissa $=a$, habeat valorem formulæ $\int Zdx$ maximum vel minimum.}
+\sourcepage{94}
+Quia est $Z$ functio ipsius $\Pi$; sit $dZ=Ld\Pi$, erit $L$ functio ipsius $\Pi=\int ydx$. Deinde cum sit $d\Pi=ydx$; erit $[Z]=y$, \& ob $d[Z]=[M]dx+[N]dy+[P]dp+\text{\&c.}$ fiet $[M]=0$, $[N]=1$, $[P]=0$, $[Q]=0$, \&c. unde pro curva quæsita hæc habebitur æquatio $0=H-\int Ldx$; ideoque $L=0$. Hinc erit $\Pi=\int ydx=\text{constanti cuidam}$, porroque $y=0$. Satisfacit ergo sola linea recta in ipsum axem incidens; idque pro quacunque abscissa æque ac pro definita $=a$.
+\subsection*{Exemplum II.}
+\originalsection{16}
+\textit{Si $\Pi$ denotet arcum curvæ $=\int dx\sqrt{(1+pp)}$, ejusque functio quæcunque fuerit $Z$; invenire curvam, quæ, pro data abscissa $AZ=a$, habeat valorem formulæ $\int Zdx$ maximum vel minimum.}
+
+Ob $dZ=Ld\Pi$, erit $L$ functio ipsius arcus $\Pi$; \& ob $d\Pi=dx\sqrt{(1+pp)}$, erit $[Z]=\sqrt{(1+pp)}$ \& $[M]=0$, $[N]=0$, $[P]=\frac p{\sqrt{(1+pp)}}$, $[Q]=0$, \&c. unde pro curva quæsita ista habebitur æquatio: $0=-d.\frac p{dx\sqrt{(1+pp)}}(H-\int Ldx)$; hincque $C=\frac p{\sqrt{(1+pp)}}(H-\int Ldx)$: ubi constans $C$ ita determinari debet, ut, posito $x=a$, fiat $C=\frac p{\sqrt{(1+pp)}}\times0$; quare quia $\frac p{\sqrt{(1+pp)}}$ infinitum fieri nequit, necesse est ut sit $C=0$; ideoque vel $\frac p{\sqrt{(1+pp)}}=0$; vel $\int Ldx=H$. Fiet ergo, ex posteriore æquatione, $L=0$, \& $\Pi=\text{constanti cuidam}$: ex quo porro deducitur $d\Pi=dx\sqrt{(1+pp)}=0$, cui conditioni nullo modo satisfieri potest. Ex priore æquatione autem deducitur $p=0$, seu $dy=0$, quæ est æquatio pro linea recta axi $AZ$ parallela, quæ quæstioni pro abscissa quacunque satisfacit.
+\sourcepage{95}
+\subsection*{Exemplum III.}
+\originalsection{17}
+\textit{Denotet $\Pi$ superficiem solidi rotundi ex conversione curvæ $ah$ circa axem $AZ$ orti, quæ est ut $\int ydx\sqrt{(1+pp)}$, hujusque superficiei functio sit quæcunque $Z$, invenire curvam, in qua pro data abscissa $AZ=a$, maximum minimumve sit $\int Zdx$.}
+
+Ob $dZ=Ld\Pi$, erit $L$ functio ipsius $\Pi=\int ydx\sqrt{(1+pp)}$; \& ob $d\Pi=ydx\sqrt{(1+pp)}$ fiet $[Z]=y\sqrt{(1+pp)}$, \& $d[Z]=dy\sqrt{(1+pp)}+\frac{ypdp}{\sqrt{(1+pp)}}$: unde erit $[M]=0$, $[N]=\sqrt{(1+pp)}$; $[P]=\frac{yp}{\sqrt{(1+pp)}}$, reliqui valores $[Q]$, $[R]$, $[S]$, \&c. omnes erunt $=0$. Quocirca pro curva quæsita ista habebitur æquatio: $0=(H-\int Ldx)\sqrt{(1+pp)}-\frac1{dx}d.\frac{yp}{\sqrt{(1+pp)}}(H-\int Ldx)$. Ponatur, brevitatis gratia, $H-\int Ldx=V$; erit
+\[Vdx\sqrt{(1+pp)}=d.\frac{ypV}{\sqrt{(1+pp)}}=\frac{Vppdx}{\sqrt{(1+pp)}}+\frac{Vydp}{(1+pp)^{3:2}}+\frac{ypdV}{\sqrt{(1+pp)}};\]
+seu $Vdx=\frac{Vydp}{1+pp}+ypdV=\frac{Vydp}{1+pp}-ypLdx$, ob $dV=-Ldx$. Ponamus esse $Z=\Pi$, ita ut maximum esse debeat $\int dx\int ydx\sqrt{(1+pp)}$, erit $L=1$ \& $\int Ldx=x$, atque $V=a-x$, ob $H=a$. Erit $(a-x)dx=\frac{(a-x)ydp}{1+pp}-ypdx$. Sit $a-x=u$; erit $dx=-du$, \& $dy=-pdu$, atque habebitur ista æquatio,
+\[0=udu-ydy+\frac{uydp}{1+pp},\quad\text{seu }udu-ydy-\frac{uydu\,ddy}{du^2+dy^2}=0.\]
+Ponatur $u=e^t$ \& $y=e^tz$: erit $du=e^tdt$, \& $ddu=0=e^t(ddt+dt^2)$, seu $ddt=-dt^2$; porro $dy=e^t(dz+zdt)$ \& $ddy=e^t(ddz+2dtdz)$; quibus substitutis, oritur
+\sourcepage{96}
+\[dt-zdz-zzdt=\frac{zdt(ddz+2dtdz)}{dt^2+(dz+zdt)^2}.\]
+Sit porro $dt=sdz$, erit $ddt=-s^2dz^2=sddz+dsdz$, hincque $ddz=-sdz^2-\frac{dsdz}{s}$. Habebitur ergo hæc æquatio;
+\[sdz-zdz-szzdz=\frac{zs^2dz-zds}{ss+(1+sz)^2};\]
+quæ quidem est differentialis primi gradus inter duas variabiles $s$ \& $z$ tantum; verumtamen ultra integrationem non admittit. Multo minus igitur quicquam effici poterit, si in genere quæstionem consideremus.
+\subsection*{Scholion III.}
+\originalsection{18}
+Hujus exempli casus, quo curvam investigavimus, in qua maximum minimumve sit
+\[\int dx\int dx\sqrt{(1+pp)},\]
+etsi inest duplex signum integrale, tamen etiam per methodum præcedentis Capitis potest resolvi; id quod ideo operæ pretium est ostendere, ut consensus utriusque methodi declaretur. Præcipue autem hoc opere nova via patefiet resolvendi plurima alia Problemata circa maxima \& minima, quæ adhuc, quantum constat, non est tacta. Quæstio scilicet est, ut pro data abscissa $AZ=a$, fiat maximum minimumve hæc expressio $\int dx\int ydx\sqrt{(1+pp)}$, quæ transmutatur in hanc $x\int ydx\sqrt{(1+pp)}-\int xydx\sqrt{(1+pp)}$. Ut hæc forma reddatur maximum minimumve, oportet ut ejus valor, pro abscissa $AZ=a$, idem sit pro ipsa curva quæsita $az$ \& pro eadem puncto $n$ in $v$ translato. Ponamus ergo fieri $\int ydx\sqrt{(1+pp)}=A$, si ponatur $x=a$, atque eodem casu $\int xydx\sqrt{(1+pp)}=B$. Jam, elementis $mno$ in $mv o$ transmutatis, valor $A$ augebitur suo valore differentiali, qui, per Caput præcedens, est $=nv.dx\left(\sqrt{(1+pp)}-\frac1{dx}d.\frac{yp}{\sqrt{(1+pp)}}\right)$; per eadem præcepta autem quantitatis $B$ valor differentialis prodit $=nv.dx\left(x\sqrt{(1+pp)}-\frac1{dx}d.\frac{xyp}{\sqrt{(1+pp)}}\right)$. Quamobrem formulæ propositæ $\int dx\int ydx\sqrt{(1+pp)}$, translato puncto $n$ in $v$, pro abscissa $AZ$
+\sourcepage{97}
+$=a$, valor erit
+\[=a\left(A+nv dx\left(\sqrt{(1+pp)}-d.\frac{yp}{\sqrt{(1+pp)}}\right)\right)-B-nv\left(xdx\sqrt{(1+pp)}-d.\frac{xyp}{\sqrt{(1+pp)}}\right),\]
+qui æqualis esse debet ejusdem formulæ valori naturali pro abscissa $=a$, non mutato puncto $n$, qui est $aA-B$. Hinc proveniet ista æquatio $(a-x)dx\sqrt{(1+pp)}-d.\frac{(a-x)yp}{\sqrt{(1+pp)}}=0$; quæ omnino congruit cum æquatione in solutione Exempli inventa.
+\subsection*{Propositio III. Problema.}
+\originalsection{19}
+\textit{Existente $\Pi$ functione integrali indeterminata $\int[Z]dx$, ita ut sit $d[Z]=[M]dx+[N]dy+[P]dp+[Q]dq+[R]dr+\text{\&c.}$ sit $Z$ functio quæcunque cum hujus quantitatis $\Pi$, tum quantitatum determinatarum $x,y,p,q,r,s$, \&c. ita ut sit $dZ=Ld\Pi+Mdx+Ndy+Pdp+Qdq+Rdr+\text{\&c.}$ invenire curvam $az$, quæ, pro data abscissa $AZ=a$, habeat maximum minimumve valorem formulæ $\int Zdx$.}
+\subsection*{Solutio.}
+Augmentum $nv$, quod uni applicatæ $Nn$ accedere concipitur, ita remotum a prima applicata $Hh$ capiatur, ut nullam mutationem inferat in valorem formulæ $\int Zdx$ abscissæ $AH$ respondentem, atque tantum hujus formulæ valores sequentibus post $H$ abscissæ elementis respondentes mutationes patiantur, qui sunt $Zdx$, $Z'dx$, $Z''dx$, $Z'''dx$, \&c. usque ad ultimum abscissæ elementum in $Z$. Horum igitur valorum incrementa a translatione puncti $n$ in $v$ orta, si in unam summam conjiciuntur, \& nihilo æquales ponantur, dabunt æquationem pro curva quæsita. Incrementa autem horum valorum obtinebuntur eos differentiando, \& loco differentialium eos valores scribendo, quos supra, tam in ultima Propositione præcedentis Capitis quam prima hujus, ex translatione $n$ in $v$ oriri invenimus; ita erit
+\sourcepage{98}
+\[\begin{aligned}
+d.Zdx&=dx(Ld\Pi+Mdx+Ndy+Pdp+\text{\&c.})\\
+d.Z'dx&=dx(L'd\Pi'+M'dx+N'dy'+P'dp'+\text{\&c.})\\
+d.Z''dx&=dx(L''d\Pi''+M''dx+N''dy''+P''dp''+\text{\&c.})\\&\text{\&c.}
+\end{aligned}\]
+Quod si nunc loco differentialium $d\Pi$, $d\Pi'$, $d\Pi''$ \&c. $dy$, $dy'$, $dy''$, \&c. $dp$, $dp'$, $dp''$, \&c. $dq$, $dq'$, $dq''$, \&c. valores supra inventi substituantur, \& eodem modo, quo ante usi sumus, in unam summam conferantur, prodibit formulæ $\int Zdx$ pro abscissa $AZ=a$ valor differentialis $=$
+\[\begin{aligned}
+&nv.dx\bigg([N](H-\int Ldx)-\frac{d.[P](H-\int Ldx)}{dx}+\frac{dd.[Q](H-\int Ldx)}{dx^2}\\
+&\qquad-\frac{d^3.[R](H-\int Ldx)}{dx^3}+\frac{d^4.[S](H-\int Ldx)}{dx^4}-\text{\&c.}\bigg)\\
+&+nv.dx\left(N-\frac{dP}{dx}+\frac{ddQ}{dx^2}-\frac{d^3R}{dx^3}+\frac{d^4S}{dx^4}-\text{\&c.}\right).
+\end{aligned}\]
+Atque ex hoc resultabit æquatio pro curva quæsita hæc:
+\[\begin{aligned}
+0={}&[N](H-\int Ldx)-\frac{d.[P](H-\int Ldx)}{dx}+\frac{dd.[Q](H-\int Ldx)}{dx^2}\\&-\frac{d^3.[R](H-\int Ldx)}{dx^3}+\text{\&c.}\\&+N-\frac{dP}{dx}+\frac{ddQ}{dx^2}-\frac{d^3R}{dx^3}+\frac{d^4S}{dx^4}-\text{\&c.}
+\end{aligned}\]
+ubi notandum esse $H$ valorem formulæ $\int Ldx$, qui oritur posito $x=a$. Q. E. I.
+\subsection*{Corollarium I.}
+\originalsection{20}
+Regula igitur Capite præcedente inventa amplior est reddita; nunc enim curvam definire possumus, maximum minimumve habentem valorem formulæ $\int Zdx$, si $Z$ non solum est functio quantitatum determinatarum $x,y,p,q,r$, \&c. sed etiam unam quantitatem integralem indefinitam $\int[Z]dx$ in se complectitur: dummodo $[Z]$ sit functio determinata.
+\sourcepage{99}
+\subsection*{Corollarium II.}
+\originalsection{21}
+Quin etiam si plures hujusmodi quantitates integrales indefinitæ fuerint in $Z$; solutio usurpari poterit. Nam qualis expressio ex una ejusmodi formula indefinita in valorem differentialem est ingressa, tales ex singulis, si plures affuerint, nascentur \& ad valorem differentialem accedent.
+\subsection*{Corollarium III.}
+\originalsection{22}
+Quoniam $Z$ hic ponitur functio non solum quantitatum definitarum $x,y,p,q,r$ \&c. sed etiam quantitatis indefinitæ $\Pi=\int[Z]dx$, ob $dZ=Ld\Pi+Mdx+Ndy+Pdp+Qdq+\text{\&c.}$ etiam quantitates $M,N,P,Q$ \&c. hanc formulam integralem $\Pi=\int[Z]dx$ involvent; atque etiam ipsa quantitas $L$, nisi forte $\Pi$ in $Z$ unicam habeat dimensionem.
+\subsection*{Corollarium IV.}
+\originalsection{23}
+Hanc ob rem, in æquatione pro curva inventa, inerunt quantitates integrales duplicis generis, scilicet $\int Ldx$, atque $\int[Z]dx$: ex quo, si æquatio inventa per differentiationem ab his formulis liberari debeat, ad multo altiorem differentialium gradum assurget, quam quidem ipsa forma ostendit.
+\subsection*{Corollarium V.}
+\originalsection{24}
+Pervenietur autem, eliminando has formulas integrales, ad æquationem differentialem duobus gradibus altiorem. Quod si enim æquatio resultans, si evolvatur, sit differentialis $n$ gradus; tum primo ex ea definiatur valor formulæ $\int Ldx$, \& differentiatione instituta, devenietur ad æquationem differentialem $n+1$ graduum, in qua adhuc inerit formula $\int[Z]dx$, quæ ulterius reducta, \& a formula $\int[Z]dx$ per differentiationem liberata, fiet differentialis gradus $n+2$.
+\sourcepage{100}
+\subsection*{Scholion I.}
+\originalsection{25}
+Etsi autem numerus punctorum, per quæ curva quæsita transire debet, a gradu \textit{differentialitatis} pendet, tamen hoc casu non per numerum $n+2$ definiri potest. Æquatio enim hæc differentialis $n+2$ graduum, potestate quidem involvit $n+2$ constantes, verum eæ non omnes sunt arbitrariæ. Una namque constans ex eo determinatur, quod integrale $\int[Z]dx$ obtinere debeat valorem, non vagum, sed talem qualem in quantitate $Z$ obtinet, hoc est, qui evanescat posito $x=0$, siquidem hæc conditio fuerit in formula $\int Zdx$ assumta. Deinde pari modo una constans definitur formula $\int Ldx$, quæ, uti posuimus, evanescere debet posito $x=0$. Quocirca tantum $n$ supererunt constantes mere arbitrariæ, quæ totidem præbebunt puncta, quibus Problema determinabitur. Similiter igitur, uti in præcedente Capite, Problema, ut sit determinatum, ita erit proponendum, ut inter omnes curvas per data $n$ puncta transeuntes ea determinetur, quæ pro data abscissa $x=a$ contineat valorem formulæ $\int Zdx$ maximum minimumve. Ad hanc igitur dijudicationem instituendam, æquatio inventa debet evolvi; hoc est, omnes differentiationes indicatæ actu perfici debebunt; quo facto, patebit quanti gradus differentialia insint, ex hocque gradu habebitur numerus $n$. Quantum autem insuper circa hunc numerum $n$ observare liceat, in Exemplis sequentibus videbimus.
+\subsection*{Exemplum I.}
+\originalsection{26}
+\textit{Invenire curvam, quæ, pro data abscissa $AZ=a$, habeat valorem formulæ $\int yxdx\int ydx$ maximum vel minimum, integrali $\int ydx$ ita accipiendo, ut evanescat posito $x=0$.}
+
+Erit igitur $\Pi=\int ydx$, \& $[Z]=y$; unde fiet $[N]=1$, reliquis litteris $[M]$, $[P]$, $[Q]$, \&c. existentibus $=0$. Porro erit $Z=yx\Pi$ \& $dZ=yxd\Pi+y\Pi dx+x\Pi dy$; ex quo habebitur $L=yx$; $M=y\Pi$ \& $N=x\Pi$, $P=Q=R$, \&c.
+\sourcepage{101}
+$=0$. Ex his formabitur pro curva quæsita ista æquatio; $0=(H-\int yxdx)+x\Pi$ seu $\int yxdx=H+x\int ydx$, ubi $H$ est valor formulæ $\int yxdx$, qui prodit posito $x=a$. Perspicuum autem est hinc nullam pro aliqua linea curva æquationem oriri: differentiatione enim instituta, fit $dx\int ydx=0$, porroque $y=0$, quæ est æquatio pro linea recta in axem $AZ$ incidente.
+\subsection*{Exemplum II.}
+\originalsection{27}
+\textit{Invenire curvam, quæ, pro data abscissa $AZ=a$, habeat valorem formulæ $\int ydx\int dx\sqrt{(1+pp)}$ maximum vel minimum.}
+
+Quoniam igitur est $\Pi=\int dx\sqrt{(1+pp)}$, erit $[Z]=\sqrt{(1+pp)}$ \& $[P]=\frac p{\sqrt{(1+pp)}}$: Porro erit $Z=y\Pi$ \& $L=y$; \& $N=\Pi$; reliquæ litteræ omnes evanescunt. Hinc ergo resultabit ista æquatio pro curva quæsita:
+\[0=\frac1{dx}\times d.\frac{p(H-\int ydx)}{\sqrt{(1+pp)}}+\Pi\]
+seu
+\[\Pi dx=d.\frac{(H-\int ydx)p}{\sqrt{(1+pp)}}=\frac{(H-\int ydx)dp}{(1+pp)^{3:2}}-\frac{ypdx}{\sqrt{(1+pp)}};\]
+ergo
+\[dx\int dx\sqrt{(1+pp)}=\frac{(H-\int ydx)dp}{(1+pp)^{3:2}}-\frac{ypdx}{\sqrt{(1+pp)}}.\]
+Quia igitur fit $\int ydx=H$, posito $x=a$, eodem casu fiet
+\[\int dx\sqrt{(1+pp)}=\frac{-yp}{\sqrt{(1+pp)}}=\text{arcui curvæ abscissæ }a\text{ respondenti}.\] Quæ conditio adimpleri debet per determinationem unius constantis, quæ per integrationem ingredietur. Est autem actu hæc æquatio differentialis secundi gradus, quæ vero bis debet differentiari, antequam a formulis integralibus $\int ydx$ \& $\int dx\sqrt{(1+pp)}$ liberetur: hocque modo ad gradum sextum assurget, \& potestate sex constantes involvet; quarum duæ inde determinabuntur quod facto $x=0$ evanescere debent formulæ $\int ydx$ \& $\int dx\sqrt{(1+pp)}$. Ipsa autem æquatio ita fiet intricata, ut ejus tractatio suscipi non mereatur.
+\sourcepage{102}
+\subsection*{Exemplum III.}
+\originalsection{28}
+\textit{Invenire curvam, in qua pro data abscissa sit $\int\frac{dx}{p}\int ydx$ maximum vel minimum.}
+
+Hic erit $\Pi=\int ydx$, \& $[Z]=y$ \& $[N]=1$; deinde cum sit $Z=\frac{\Pi}{p}$, erit $L=\frac1p$ \& $P=-\frac{\Pi}{pp}$; reliquæ litteræ omnes evanescunt. Hinc ergo prodit ista æquatio.
+\[0=H-\int\frac{dx}p+\frac1{dx}d.\frac{\Pi}{pp};\quad\text{seu }0=H-\int\frac{dx}p+\frac y{pp}-\frac{2\Pi dp}{p^3dx}.\]
+Posito ergo $x=a$, quo casu fit $\int\frac{dx}p=H$; erit $ydx=\frac{2\Pi dp}p$. Differentietur ea æquatio, eritque
+\[0=-\frac{dx}p+\frac{dx}p-\frac{2ydp}{p^3}-\frac{2ydp}{p^3}+\frac{6\Pi dp^2}{p^4dx}-\frac{2\Pi ddp}{p^3dx}.\]
+Seu $0=3\Pi dp^2-2ypdxdp-\Pi pddp$; quæ æquatio commode fit integrabilis, si dividatur per $\Pi pdp$, prodit enim $0=\frac{3dp}p-\frac{2ydx}{\Pi}-\frac{ddp}{dp}$, cujus integrale est $C=3lp-2l\Pi-l\frac{dp}{dx}$. Seu $C\Pi^2dp=p^3dx$; posito ergo $x=a$, cum esse debeat $ydx=\frac{2\Pi dp}p$; erit ex hac æquatione $C\Pi y=2p^2$, qua una constans definietur. Erit ergo
+\[\Pi=\sqrt{\frac{p^3dx}{Cdp}}=\frac{2ypdxdp}{3dp^2-pddp},\quad\text{seu }3dp^2-pddp=\frac{2ydp\sqrt{dxdp}}{b\sqrt{bp}},\]
+quæ æquatio est differentialis tertii gradus, \& propterea præter constantem $b$ (posuimus autem $\frac1{b^3}$ loco $C$), tres novas constantes involvit. Harum una determinabitur, eo quod, posito $x=a$, fieri debeat $\frac{\Pi y}{b^3}=2pp$; alia vero inde quod, posito $x=0$, esse debeat $\Pi=0$, seu $\frac{p^3dx}{dp}=0$. Reliquæ
+\sourcepage{103}
+binæ constantes manent arbitrariæ, ac propterea curva quæsita per duo data puncta per quæ transeat, debet determinari.
+\subsection*{Exemplum IV.}
+\originalsection{29}
+\textit{Invenire curvam $az$ ad abscissam $AZ=a$ relatam, in qua sit $\int dx\frac{\int yxdx}{\int ydx}$ maximum vel minimum.}
+
+Hoc exemplum ideo afferre visum est, ut appareat quomodo quæstiones ejusmodi sint resolvendæ, si duæ pluresve formulæ integrales indefinitæ adsint. Sit igitur $\int yxdx=\Pi$ \& $\int ydx=\pi$: \& posito $d\Pi=[Z]dx$, \& $d\pi=[z]dx$, erit $[Z]=yx$, \& $[z]=y$. Quod si nunc littera minuscula $[z]$ simili modo tractetur quo majuscula $[Z]$, ita ut sit $d[z]=[m]dx+[n]dy+[p]dp+\text{\&c.}$ erit $[M]=y$ \& $[N]=x$, itemque $[n]=1$. Deinde cum sit $Z=\frac{\Pi}{\pi}$, erit $dZ=\frac{d\Pi}{\pi}-\frac{\Pi d\pi}{\pi^2}$. Ponatur $\frac1\pi=L$ \& $\frac{\Pi}{\pi^2}=l$; atque habebitur ob $N$ \& $P,Q,R$, \&c. $=0$, ista pro curva quæsita æquatio,
+\[0=x\left(H-\int\frac{dx}{\pi}\right)-1\left(h-\int\frac{\Pi dx}{\pi^2}\right),\]
+ubi fit $\int\frac{dx}{\pi}=H$ \& $\int\frac{\Pi dx}{\pi^2}=h$, si ponatur $x=a$. Cum igitur sit $Hx-x\int\frac{dx}{\pi}=h-\int\frac{\Pi dx}{\pi^2}$ erit differentiando $H-\int\frac{dx}{\pi}-\frac x\pi=-\frac{\Pi}{\pi^2}$. Posito ergo $x=a$, fieri debet $\Pi=\pi x$. Differentietur denuo, prodibitque $-\frac2\pi+\frac{xy}{\pi^2}=-\frac{yx}{\pi^2}+\frac{2\Pi y}{\pi^3}$, seu $xy-\pi=\frac{\Pi y}{x}$; hincque $\Pi=\pi x-\frac{\pi\pi}y$. Si porro differentiatio instituatur, habebitur $yxdx=\pi dx+yxdx-2\pi dx+\frac{\pi\pi dy}{yy}$, seu $yydx=\pi dy$, vel $\frac{ydx}{\pi}=\frac{dy}y$. Quoniam vero,
+\sourcepage{104}
+posito $x=0$, fit $\pi=0$, fiet hoc casu $\frac{yydx}{dy}=0$. Æquatio autem $\frac{ydx}{\pi}=\frac{dy}y$, ob $ydx=d\pi$, integrata dat $\pi=by$; ideoque facto $x=0$ evanescere debet $y$. Ex æquatione $\pi=by$ autem sequitur $ydx=bdy$; hincque $x=bly-bl0$, siquidem $\pi=by$ evanescere debeat, posito $x=0$; quo casu fieret $y=0$, \& curva abiret in rectam in axem $AZ$ incidentem. Sin autem ponamus, posito $x=0$ valorem $\pi=\int ydx$ non evanescere oportere, sed fieri $=bc$, erit $x=bl\frac yc$, quæ est æquatio pro Curva logarithmica. Ad hanc penitus determinandam, quæratur valor $\Pi=\int yxdx$; quia est $ydx=bdy$, erit $yxdx=bxdy$, \& $\Pi=bxy-b\pi+\mathit{Const.}$ seu $\Pi=bbyl\frac yc-bby+C$. Oporteat autem $\Pi$ esse $=0$, posito $x=0$, seu $y=c$, erit $\Pi=bbyl\frac yc+bb(c-y)$. Jam ponatur $x=a$, erit $l\frac yc=\frac ab$, \& $y=ce^{a:b}$: hoc vero casu, necesse est ut sit $\Pi=\pi x$, seu $abce^{a:b}+bbc-bbce^{a:b}=abce^{a:b}$, hincque $e^{a:b}=1$, unde erit, vel $a=0$, vel $b=\infty$. Incommodum hoc inde oritur, quod posuimus fieri $\Pi=0$, facto $x=0$. Ponamus igitur, posito $y=g$, tum eo casu $\Pi$ evanescere, erit $\Pi=bbyl\frac yc-bby+bbg-bbgl\frac gc$. Jam posito $x=a$, quo casu fieri debet $\Pi=\pi x=a\pi$; erit $abce^{a:b}-bbce^{a:b}+bbg-bbgl\frac gc=abce^{a:b}$, hincque $e^{a:b}=\frac gc(1-l\frac gc)$, seu $b=\frac{a}{l\frac gc(1-l\frac gc)}$; ideoque
+\[x=\frac{a(ly-lc)}{lg(1-l\frac gc)-lc}.\]
+Quæ est æquatio curvam
+\sourcepage{105}
+penitus determinans, ita ut nullum curvæ punctum pro arbitrio accipi liceat.
+\subsection*{Scholion II.}
+\originalsection{30}
+Per hoc igitur Problema, non solum illæ quæstiones curvam pro data abscissa maximum minimumve habentem formulam $\int Zdx$ desiderantes resolvi possunt, in quibus $Z$ præter quantitates determinatas $x,y,p,q,r,s$, \&c. unam formulam integralem $\Pi=\int[Z]dx$ complectitur; sed etiamsi plures ejusmodi formulæ affuerint. Interim tamen notandum est has formulas integrales $\Pi=\int[Z]dx$ in functione $Z$ contentas, ita comparatas esse debere, ut $[Z]$ sit functio determinata, hoc est functio quantitatum $x,y,p,q,r$, \&c. nullas ultra formulas integrales involvens. Hanc ob rem, nunc investigemus methodum resolvendi ejusmodi Problemata, quando ista functio $[Z]$ non est determinata, sed præter $x,y,p,q$, \&c. formulam integralem novam $\pi=\int[z]dx$ involvit. Ne autem solutio nimium fiat prolixa, non ultra differentialia secundi gradus considerabimus. Jam enim intelligitur si solutio fuerit adornata usque ad differentialia secundi gradus, tum per inductionem, solutionem ad quosque ulteriores gradus extendi posse. Hunc in finem nobis erit $Ll$ prima applicata designanda per $y$, a qua tertia quæ sequitur $Nn=y''$ particula $nv$ augeri concipiatur: Ex hoc augmento nascentur sequentia quantitatum $y,p$ \& $q$, cum suis derivativis incrementa
+\[\begin{array}{lll|lll|lll}
+d.y&=&0&d.p&=&0&d.q&=&+\dfrac{nv}{dx^2}\\[4pt]
+d.y'&=&0&d.p'&=&+\dfrac{nv}{dx}&d.q'&=&+\dfrac{2nv}{dx^2}\\[4pt]
+d.y''&=&+nv&d.p''&=&-\dfrac{nv}{dx}&d.q''&=&+\dfrac{nv}{dx^2}
+\end{array}\]
+quæ Tabella sufficiet ad Problemata quæcunque resolvenda, uti ex sequente Propositione intelligetur.

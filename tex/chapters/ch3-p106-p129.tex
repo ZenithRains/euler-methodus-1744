@@ -1,0 +1,516 @@
+% Modern editorial, markup and figure/layout contributions: CC-BY-SA-4.0.
+% Historical text and illustrations: Leonhard Euler (1744), public domain.
+% Component scope and upstream attribution: see RIGHTS.md.
+% Scan-collated Latin, original pp.106-129 (Chapter III only).
+\subsection*{Propositio IV. Problema.}
+\originalsection{31}\sourcepage{106} \textit{Sit $\pi=\int[z]dx$ \& $d[z]=[m]dx+[n]dy+[p]dp+[q]dq$, atque quantitas $[Z]$ ita involvat formulam integralem $\pi$, ut sit $d[Z]=Z d\pi+[M]dx+[N]dy+[P]dp+[Q]dq$. Jam posito $\Pi=\int[Z]dx$, sit $Z$ functio ipsarum $x,y,p,q$, itemque ipsius $\Pi$, ita ut sit $dZ=Ld\Pi+Mdx+Ndy+Pdp+Qdq$. His positis, oporteat definiri curvam $az$, quæ, pro data abscissa $AZ=a$, habeat valorem formulæ $\int Zdx$ maximum vel minimum.}
+\subsection*{Solutio.}
+Ut in Scholio præcedente monuimus, est nobis abscissa $AL=x$, \& applicata $Ll=y$; abscissæ autem $AL=x$ respondeat valor $\int Zdx$ qui a particula $nv$ non afficietur. Ex quo valor differentialis ex sequentibus abscissæ elementis determinari debebit, quibus respondebunt valores $Zdx$, $Z'dx$, $Z''dx$, $Z'''dx$, $Z^{\mathrm{iv}}dx$, \&c. usque ad ultimum abscissæ totius propositæ $AZ$ elementum in $Z$. Invenientur autem singulorum horum terminorum valores differentiales per differentiationem; substituendo loco differentialium $dy,dp,dq$, valores paragrapho præcedenti indicatos. Erit igitur
+\[
+\begin{aligned}
+d.Zdx&=dx\left(Ld\Pi+\frac{Q.nv}{dx^2}\right)\\
+d.Z'dx&=dx\left(L'd\Pi'+\frac{P'nv}{dx}-\frac{2Q'.nv}{dx^2}\right)\\
+d.Z''dx&=dx\left(L''d\Pi''+N''.nv-\frac{P''.nv}{dx}+\frac{Q''.nv}{dx^2}\right)\\
+d.Z'''dx&=dx.L'''d\Pi'''\\
+d.Z^{\mathrm{iv}}dx&=dx.L^{\mathrm{iv}}d\Pi^{\mathrm{iv}}.\qquad\text{\&c.}
+\end{aligned}
+\]
+Superest igitur ut per $nv$ definiamus differentialia $d\Pi,d\Pi',d\Pi'',d\Pi'''$ \&c. hoc est valores differentiales quantitatum $\Pi,\Pi',\Pi'',\Pi'''$ \&c. Et vero
+\sourcepage{107}
+\[
+\begin{aligned}
+\Pi&=\int[Z]dx\\
+\Pi'&=\int[Z]dx+[Z]dx\\
+\Pi''&=\int[Z]dx+[Z]dx+[Z']dx\\
+\Pi'''&=\int[Z]dx+[Z]dx+[Z']dx+[Z'']dx\\
+\Pi^{\mathrm{iv}}&=\int[Z]dx+[Z]dx+[Z']dx+[Z'']dx+[Z''']dx.\quad\text{\&c.}
+\end{aligned}
+\]
+Ubi notandum est quantitatis $\int[Z]dx$ valorem differentialem esse $=0$, eo quod particula $nv$ nullam mutationem infert in abscissam $AL$ ad quam $\int[Z]dx$ refertur. Tantum igitur terminorum differentialium $[Z]dx$, $[Z']dx$, $[Z'']dx$ \&c. valores differentiales investigari oportebit. Erit autem.
+\[
+\begin{aligned}
+d.[Z]dx&=dx\left([L]d\pi+\frac{[Q]nv}{dx^2}\right)\\
+d.[Z']dx&=dx\left([L']d\pi'+\frac{[P']nv}{dx}-\frac{2[Q']nv}{dx^2}\right)\\
+d.[Z'']dx&=dx\left([L'']d\pi''+[N'']nv-\frac{[P'']nv}{dx}+\frac{[Q'']nv}{dx^2}\right)\\
+d.[Z''']dx&=dx[L''']d\pi'''\\
+d.[Z^{\mathrm{iv}}]dx&=dx.[L^{\mathrm{iv}}]d\pi^{\mathrm{iv}}.\qquad\text{\&c.}
+\end{aligned}
+\]
+Nunc porro definiendi sunt valores differentiales quantitatum $\pi$, $\pi'$, $\pi''$, $\pi'''$, \&c. per $nv$, quos loco $d\pi$, $d\pi'$, $d\pi''$, \&c. substitui oportet. Cum autem sit $\pi=\int[z]dx$, \& in $[z]$ differentialia secundum gradum superantia non inesse ponantur, fiet valor differentialis ipsius $\pi$, seu $d\pi=0$, ad sequentium autem quantitatum $\pi'$, $\pi''$, $\pi'''$ \&c. valores differentiales inveniendos, notasse conveniet esse
+\[
+\begin{aligned}
+\pi&=\int[z]dx\\
+\pi'&=\int[z]dx+[z]dx\\
+\pi''&=\int[z]dx+[z]dx+[z']dx\\
+\pi'''&=\int[z]dx+[z]dx+[z']dx+[z'']dx\\
+\pi^{\mathrm{iv}}&=\int[z]dx+[z]dx+[z']dx+[z'']dx+[z''']dx.\quad\text{\&c.}
+\end{aligned}
+\]
+\sourcepage{108}Erit autem
+\[
+\begin{aligned}
+d.[z]dx&=nv.dx\frac{[q]}{dx^2}\\
+d.[z']dx&=nv.dx\left(\frac{[p']}{dx}-\frac{2[q']}{dx^2}\right)\\
+d.[z'']dx&=nv.dx\left([n'']-\frac{[p'']}{dx}+\frac{[q'']}{dx^2}\right)\\
+d.[z''']dx&=0\\
+d.[z^{\mathrm{iv}}]dx&=0.\qquad\text{\&c.}
+\end{aligned}
+\]
+Ex his itaque obtinebitur
+\[
+\begin{aligned}
+d.\pi&=0\\
+d.\pi'&=nv.dx.\frac{[q]}{dx^2}\\
+d.\pi''&=nv.dx\left(\frac{[p']}{dx}-\frac{[q]}{dx^2}-\frac{2d[q]}{dx^2}\right)\\
+d.\pi'''&=nv.dx\left([n'']-\frac{d[p']}{dx}+\frac{dd[q]}{dx^2}\right)\\
+d.\pi^{\mathrm{iv}}&=nv.dx\left([n'']-\frac{d[p']}{dx}+\frac{dd[q]}{dx^2}\right)\\
+d.\pi^{\mathrm{v}}&=nv.dx\left([n'']-\frac{d[p']}{dx}+\frac{dd[q]}{dx^2}\right)
+\end{aligned}
+\]
+omnesque sequentes valores inter se erunt æquales. Quod si jam hi valores inventi substituantur, erit
+\[
+\begin{aligned}
+d.[Z]dx&=nv.dx.\frac{[Q]}{dx^2}\\
+d.[Z']dx&=nv.dx\left(\frac{[L'][q]}{dx}+\frac{[P']}{dx}-\frac{2[Q']}{dx^2}\right)\\
+d.[Z'']dx&=nv.dx\left([L'']dx\left(\frac{[p']}{dx}-\frac{[q]-2d[q]}{dx^2}\right)\right.\\
+&\hspace{30mm}\left.+[N'']-\frac{[P'']}{dx}+\frac{[Q'']}{dx^2}\right).
+\end{aligned}
+\]
+\sourcepage{109}
+\[
+\begin{aligned}
+d.[Z''']dx&=nv.dx.[L''']dx\left([n'']-\frac{d[p']}{dx}+\frac{dd[q]}{dx^2}\right)\\
+d.[Z^{\mathrm{iv}}]dx&=nv.dx.[L^{\mathrm{iv}}]dx\left([n'']-\frac{d[p']}{dx}+\frac{dd[q]}{dx^2}\right)\\
+d.[Z^{\mathrm{v}}]dx&=nv.dx.[L^{\mathrm{v}}]dx\left([n'']-\frac{d[p']}{dx}+\frac{dd[q]}{dx^2}\right).\quad\text{\&c.}
+\end{aligned}
+\]
+Hinc porro deducitur:
+\[
+\begin{aligned}
+d\Pi&=0\\
+d.\Pi'&=nv.dx.\frac{[Q]}{dx^2}\\
+d.\Pi''&=nv.dx\left([L']dx.\frac{[q]}{dx^2}+\frac{[P']}{dx}-\frac{[Q]+2d[Q]}{dx^2}\right)\\
+d.\Pi'''&=nv.dx\left([L''][p']-\frac{[q]d[L']+2[L'']d[q]}{dx}\right.\\
+&\hspace{30mm}\left.+[N'']-\frac{d[P']}{dx}+\frac{dd[Q]}{dx^2}\right)\\
+d.\Pi^{\mathrm{iv}}&=nv.dx\left([L''']dx\left([n'']-\frac{d[p']}{dx}+\frac{dd[q]}{dx^2}\right)\right.\\
+&\quad\left.+[L''][p]-\frac{[q]d[L']+2[L'']d[q]}{dx}+[N'']-\frac{d[P']}{dx}+\frac{dd[Q]}{dx^2}\right)\\
+d.\Pi^{\mathrm{v}}&=nv.dx\left(([L''']dx+[L^{\mathrm{iv}}]dx)\left([n'']-\frac{d[p']}{dx}+\frac{dd[q]}{dx^2}\right)\right.\\
+&\quad\left.+[L''][p]-\frac{[q]d[L']+2[L'']d[q]}{dx}+[N'']-\frac{d[P']}{dx}+\frac{dd[Q]}{dx^2}\right).\quad\text{\&c.}
+\end{aligned}
+\]
+Ex his jam orientur sequentes determinationes:
+\[
+\begin{aligned}
+d.Zdx&=nv.dx.\frac{Q}{dx^2}\\
+d.Z'dx&=nv.dx\left(L'dx.\frac{[Q]}{dx^2}+\frac{P'}{dx}-\frac{2Q'}{dx^2}\right)\\
+d.Z''dx&=nv.dx\left(L''dx\left([L']dx.\frac{[q]}{dx^2}+\frac{[P']}{dx}-\frac{[Q]+2d[Q]}{dx^2}\right)\right.\\
+&\hspace{40mm}\left.+N''-\frac{P''}{dx}+\frac{Q''}{dx^2}\right).
+\end{aligned}
+\]
+\sourcepage{110}
+\[
+\begin{aligned}
+d.Z'''dx&=nv.dx.L'''dx\left([L''][p']-\frac{[q]d[L']+2[L'']d[q]}{dx}\right.\\
+&\hspace{35mm}\left.+[N'']-\frac{d[P']}{dx}+\frac{dd[Q]}{dx^2}\right)\\
+d.Z^{\mathrm{iv}}dx&=nv.dx.L^{\mathrm{iv}}dx\left([L''']dx\left([n'']-\frac{d[p']}{dx}+\frac{dd[q]}{dx^2}\right)\right.\\
+&\quad\left.+[L''][p']-\frac{[q]d[L]+2[L]d[q]}{dx}+[N'']-\frac{d[P']}{dx}+\frac{dd[Q]}{dx^2}\right)\\
+d.Z^{\mathrm{v}}dx&=nv.dx.L^{\mathrm{v}}dx\left(([L''']dx+[L^{\mathrm{iv}}]dx)\left([n'']-\frac{d[p']}{dx}+\frac{dd[q]}{dx^2}\right)\right.\\
+&\quad\left.+[L''][p']-\frac{[q]d[L']+2[L']d[q]}{dx}+[N'']-\frac{d[P']}{dx}+\frac{dd[Q]}{dx^2}\right)\\
+d.Z^{\mathrm{vi}}dx&=nv.dx.L^{\mathrm{vi}}dx\left(([L''']dx+[L^{\mathrm{iv}}]dx+[L^{\mathrm{v}}]dx)\right.\\
+&\quad\left.\cdot\left([n'']-\frac{d[p']}{dx}+\frac{dd[q]}{dx^2}\right)+[L''][p']\right.\\
+&\quad\left.-\frac{[q]d[L']+2[L']d[q]}{dx}+[N'']-\frac{d[P']}{dx}+\frac{dd[Q]}{dx^2}\right).\quad\text{\&c.}
+\end{aligned}
+\]
+Ut hi valores omnes eo commodius ad se invicem addi queant, ponamus brevitatis gratia
+\[
+[h]=[n'']-\frac{d[p']}{dx}+\frac{dd[q]}{dx^2}=[n]-\frac{d[p]}{dx}+\frac{dd[q]}{dx^2};
+\]
+\&
+\[
+[H]=[L][p]-\frac{[q]d[L]+2[L]d[q]}{dx}+[N]-\frac{d[P]}{dx}+\frac{dd[Q]}{dx^2}:
+\]
+eritque summa omnium, hoc est valor differentialis formulæ propositæ $\int Zdx$, ut sequitur.
+\[
+\begin{aligned}
+&nv.dx\left(N-\frac{dP}{dx}+\frac{ddQ}{dx^2}\right)
++nv.dx\left(L[P]-\frac{[Q]dL-2Ld[Q]}{dx}\right)\\
+&+nv.dx.L[L][q]+nv.dx.[H](L'''dx+L^{\mathrm{iv}}dx+L^{\mathrm{v}}dx+\text{\&c. in }Z)\\
+&+nv.dx.[h]\bigl(L^{\mathrm{iv}}dx.[L''']dx+L^{\mathrm{v}}dx([L''']dx+[L^{\mathrm{iv}}]dx)\\
+&\quad+L^{\mathrm{vi}}dx([L''']dx+[L^{\mathrm{iv}}]dx+[L^{\mathrm{v}}]dx)\\
+&\quad+L^{\mathrm{vii}}dx([L''']dx+[L^{\mathrm{iv}}]dx+[L^{\mathrm{v}}]dx+[L^{\mathrm{vi}}]dx)+\text{\&c.}\bigr).
+\end{aligned}
+\]
+Binæ igitur hic habentur series infinitæ, a termino $Ll$ usque ad $Zz$ progredientes, quarum illius $L'''dx+L^{\mathrm{iv}}dx+L^{\mathrm{v}}dx+\text{\&c.}$ summa exprimi potest per $H-\int Ldx$, denotante $H$ valorem ipsius $\int Ldx$, posito $x=a$. Quo autem valorem alterius seriei investigemus, ponatur ejus summa $=S$, ita ut sit
+\[
+S=L^{\mathrm{iv}}dx.[L''']dx+L^{\mathrm{v}}dx([L''']dx+[L^{\mathrm{iv}}]dx)+\text{\&c.}
+\]
+\sourcepage{111}Sumatur valor sequens $S'=S+dS$, erit
+\[
+S+dS=L^{\mathrm{v}}dx.[L^{\mathrm{iv}}]dx+L^{\mathrm{vi}}dx([L^{\mathrm{iv}}]dx+[L^{\mathrm{v}}]dx)+\text{\&c.}
+\]
+qui ab illo subtractus relinquet,
+\[
+-dS=L^{\mathrm{iv}}[L''']dx^2+L^{\mathrm{v}}[L''']dx^2+L^{\mathrm{vi}}[L''']dx^2+\text{\&c.}
+\]
+seu $-dS=[L''']dx(L^{\mathrm{iv}}dx+L^{\mathrm{v}}dx+L^{\mathrm{vi}}dx+\text{\&c.})$ ideoque $-dS=[L''']dx(H-\int Ldx)$, \& integrando $S=G-\int[L]dx(H-\int Ldx)$, constante $G$ ita assumta, ut fiat $S=0$ si ponatur $x=a$. His inventis fiet valor differentialis formulæ propositæ
+\[
+\begin{aligned}
+\int Zdx=nv.dx\Biggl(&N-\frac{dP}{dx}+\frac{ddQ}{dx^2}+L[P]-\frac{[Q]dL+2Ld[Q]}{dx}+L[L][q]\\
+&+\left(H-\int Ldx\right)\left([L][p]-\frac{[q]d[L]+2[L]d[q]}{dx}\right.\\
+&\hspace{36mm}\left.+[N]-\frac{d[P]}{dx}+\frac{dd[Q]}{dx^2}\right)\\
+&+\left(G-\int[L]dx\left(H-\int Ldx\right)\right)\left([n]-\frac{d[p]}{dx}+\frac{dd[q]}{dx^2}\right)\Biggr).
+\end{aligned}
+\]
+Hæc expressio autem in sequentem formam transmutari potest, ex qua facilius valor differentialis formari poterit, si differentialia altiorum graduum quam secundi, tam in $Z$ quam in $[Z]$ \& $[z]$ insint. Erit scilicet formulæ $\int Zdx$ valor differentialis abscissæ $AZ=a$ respondens
+\[
+\begin{aligned}
+={}&nv.dx\left(N-\frac{dP}{dx}+\frac{ddQ}{dx^2}-\frac{d^3R}{dx^3}+\frac{d^4S}{dx^4}-\text{\&c.}\right)\\
+&+nv.dx\Biggl([N]\left(H-\int Ldx\right)-\frac{d.[P](H-\int Ldx)}{dx}\\
+&\quad+\frac{dd.[Q](H-\int Ldx)}{dx^2}-\frac{d^3.[R](H-\int Ldx)}{dx^3}\\
+&\quad+\frac{d^4.[S](H-\int Ldx)}{dx^4}-\text{\&c.}\Biggr)\\
+&+nv.dx\Biggl([n]\left(G-\int[L]dx\left(H-\int Ldx\right)\right)\\
+&\quad-\frac{d.[p](G-\int[L]dx(H-\int Ldx))}{dx}\\
+&\quad+\frac{dd.[q](G-\int[L]dx(H-\int Ldx))}{dx^2}\\
+&\quad-\frac{d^3.[r](G-\int[L]dx(H-\int Ldx))}{dx^3}+\text{\&c.}\Biggr).
+\end{aligned}
+\]
+Invento autem valore differentiali, si is ponatur $=0$; habebitur æquatio pro curva quæsita. \textit{Q.E.I.}
+\subsection*{Corollarium I.}
+\originalsection{32}\sourcepage{112} Inventus igitur est valor differentialis pro formula $\int Zdx$ latius patente, quam quidem in Propositione est assumta: scilicet si fuerit $dZ=Ld\Pi+Mdx+Ndy+Pdp+Qdq+RdR+\text{\&c.}$ atque existente $d\Pi=[Z]dx$, si sit $d[Z]=[L]d\pi+[M]dx+[N]dy+[P]dp+[Q]dq+[R]dr+\text{\&c.}$ itemque si posito $d\pi=[z]dx$ fuerit $d[z]=[m]dx+[n]dy+[p]dp+[q]dq+[r]dr+\text{\&c.}$ Quoticunque nimirum gradus differentialia insint in quantitatibus $Z$, $[Z]$, \& $[z]$ solutio data inserviet.
+\subsection*{Corollarium II.}
+\originalsection{33} Quod si ponatur $H-\int Ldx=T$, \& $G-\int[L]dx(H-\int Ldx)=V$, erit valor differentialis
+\[
+\begin{aligned}
+={}&nv.dx\left(N-\frac{dP}{dx}+\frac{ddQ}{dx^2}-\frac{d^3R}{dx^3}+\text{\&c.}\right)\\
+&+nv.dx\left([N]T-\frac{d.[P]T}{dx}+\frac{dd.[Q]T}{dx^2}-\frac{d^3.[R]T}{dx^3}+\text{\&c.}\right)\\
+&+nv.dx\left([n]V-\frac{d.[p]V}{dx}+\frac{dd.[q]V}{dx^2}-\frac{d^3[r]V}{dx^3}+\text{\&c.}\right).
+\end{aligned}
+\]
+\subsection*{Corollarium III.}
+\originalsection{34} Hinc igitur æquatio pro curva quæsita erit hæc,
+\[
+\begin{aligned}
+0={}&N+[N]T+[n]V-\frac{d(P+[P]T+[p]V)}{dx}\\
+&+\frac{dd(Q+[Q]T+[q]V)}{dx^2}-\frac{d^3(R+[R]T+[r]V)}{dx^3}+\text{\&c.}
+\end{aligned}
+\]
+cujus progressionis lex, si forte opus sit pluribus terminis, sponte patet.
+\subsection*{Corollarium IV.}
+\originalsection{35} Quin etiam hinc resolvi poterunt ejusmodi Problemata, in quibus $Z$ non unam, sed plures istiusmodi formulas integrales\sourcepage{113} indefinitas $\Pi$ in se complectitur; vel etiam si $[Z]$ plures ejusmodi formulas $\pi=\int[z]dx$ in se contineat.
+\subsection*{Corollarium V.}
+\originalsection{36} Denique, etsi posuimus esse $[z]$ functionem determinatam, tamen per inductionem hinc modus patet valorem differentialem formandi, si ulterius $[z]$ in se contineat formulam integralem indefinitam.
+\subsection*{Scholion.}
+\originalsection{37} Latissime igitur solutio hujus Problematis patet, quia non solum præcedentia Problemata omnia in se complectitur, atque ipsi casui proposito satisfacit, verum etiam per inductionem ad casus qualescunque magis intricatos accommodari potest. Quod ut facilius percipiatur, ponamus in $[z]$ insuper inesse formulam integralem $\pi=\int\zeta dx$, ita ut sit $\zeta=[l]d\pi+[m]dx+[n]dy+[p]dp+[q]dq+\text{\&c.}$ existente $d\zeta=\mu dx+\nu dy+\Phi dp+\chi dq+\text{\&c.}$ Jam ad valorem differentialem determinandum, præter quantitates integrales binas $T$ \& $V$, tertia debet definiri $W$, ita comparata ut sit $W=F-\int[l]dx(G-\int[L]dx(H-\int Ldx))$ quæ evanescat posito $x=a$. Hocque facto, erit valor differentialis
+\[
+\begin{aligned}
+=nv.dx\Biggl(&N+[N]T+[n]V+\nu W-\frac{d.(P+[P]T+[p]V+\Phi W)}{dx}\\
+&+\frac{dd.(Q+[Q]T+[q]V+\chi W)}{dx^2}-\text{\&c.}\Biggr).
+\end{aligned}
+\]
+Quamobrem nequidem maximi minimive formula excogitari poterit, quæ non in solutione esset contenta, aut ex talibus formulis composita, ad quas ista solutio patet. Quinetiam liceret hanc expressionem in infinitum extendere, si quælibet formula indeterminata aliam novam formulam integralem indefinitam in se complectatur; neque difficultas ulla adesset, nisi in characterum sufficienti numero suppeditando. Quæ cum ulterius prosequi non sit necesse, unicum casum principalem evolvere conveniet, quo
+\sourcepage{114}in formula $\int[Z]dx$, quæ valorem ipsius $\Pi$ præbet, ipsa quantitas $[Z]$ denuo $\Pi$ involvit. Hoc enim casu complexio istiusmodi formularum integralium actu in infinitum progreditur; namque si sit $d[Z]=[L]d\Pi+[M]dx+[N]dy+[P]dp+[Q]dq+\text{\&c.}$ erit hic iterum $d\Pi$, quod ante fuerat $d\pi$, \& quoniam est $d\Pi=[Z]dx$, denuo eadem æquatio $d[Z]=[L]d\Pi+[M]dx+[N]dy+\text{\&c.}$ recurrit, atque ita tractatio formularum integralium nusquam abrumpetur. Casum igitur hunc, cum quia insignem nobis afferet usum, tum quia concinnam admittit solutionem, pertractabimus.
+\subsection*{Propositio V. Problema.}
+\originalsection{38} \marginnote{\footnotesize\hyperlink{fig:4}{Fig. 4.}}\textit{Si $\Pi$ aliter non detur nisi per æquationem differentialem $d\Pi=[Z]dx$, in qua $[Z]$, præter quantitates ad curvam pertinentes $x,y,p,q,r$, \&c. ipsam quantitatem $\Pi$ complectatur, ita ut sit $d[Z]=[L]d\Pi+[M]dx+[N]dy+[P]dp+[Q]dq+\text{\&c.}$ Sit $Z$ functio quæcunque ipsius $\Pi$ \& ipsarum $x,y,p,q$, \&c. ita ut sit $dZ=Ld\Pi+Mdx+Ndy+Pdp+Qdq+\text{\&c.}$ invenire curvam, in qua, pro data abscissa $AZ=a$, maximum minimumve sit formula $\int Zdx$.}
+\subsection*{Solutio.}
+Ponamus differentialia, quæ tam in $Z$ quam in $[Z]$ insunt, secundum gradum non excedere, ita ut particula $nv$ ultra abscissæ punctum $L$ versus initium nullam mutationem inferat. Solutio enim nihilominus hinc poterit maxime generalis confici. Sit igitur abscissa $AZ=x$, \& applicata $Ll=y$, patietur $\int Zdx$ ab adjecta particula $nv$ applicatæ $Nn=y''$ nullam mutationem, ejusque valor differentialis erit $=0$. Quamobrem valor differentialis formulæ $\int Zdx$, quatenus ad totam abscissam $AZ$ extenditur, colligi debebit ex elementis $Zdx$, $Z'dx$, $Z''dx$, $Z'''dx$, \&c. Singulorum autem horum elementorum valores differentiales invenientur, si ea differentientur, \& loco differentialium $dy$, $dy'$, $dy''$, $dp$, $dp'$, $dp''$, \& $dq$, $dq'$, $dq''$ valores\sourcepage{115} §30 indicati substituantur. Quoniam autem insuper in hæc differentialia ingrediuntur $d\Pi$, $d\Pi'$, $d\Pi''$, \&c. ponamus eorum valores ex $nv$ oriundos tantisper, donec eos inveniamus, esse hos:
+\[
+\begin{array}{lll}
+d\Pi=nv.\alpha&d\Pi'''=nv.\delta&d\Pi^{\mathrm{vi}}=nv.\eta\\
+d\Pi'=nv.\beta&d\Pi^{\mathrm{iv}}=nv.\varepsilon&d\Pi^{\mathrm{vii}}=nv.\theta\\
+d\Pi''=nv.\gamma&d\Pi^{\mathrm{v}}=nv.\zeta&\text{\&c.}
+\end{array}
+\]
+Hinc itaque erunt valores differentiales
+\[
+\begin{aligned}
+d.Zdx&=nv.dx\left(L\alpha+\frac{Q}{dx^2}\right)\\
+d.Z'dx&=nv.dx\left(L'\beta+\frac{P'}{dx}-\frac{2Q'}{dx^2}\right)\\
+d.Z''dx&=nv.dx\left(L''\gamma+N''-\frac{P''}{dx}+\frac{Q''}{dx^2}\right)\\
+d.Z'''dx&=nv.dx.L'''\delta\\
+d.Z^{\mathrm{iv}}dx&=nv.dx.L^{\mathrm{iv}}\varepsilon\\
+d.Z^{\mathrm{v}}dx&=nv.dx.L^{\mathrm{v}}\zeta.\qquad\text{\&c.}
+\end{aligned}
+\]
+Ut nunc valores litterarum $\alpha$, $\beta$, $\gamma$, $\delta$, $\varepsilon$, \&c. definiamus, notandum est esse $d\Pi$, $d\Pi'$, $d\Pi''$, \&c. valores differentiales quantitatum $\Pi$, $\Pi'$, $\Pi''$, \&c. Est vero
+\[
+\begin{aligned}
+\Pi&=\int[Z]dx\\
+\Pi'&=\int[Z]dx+[Z]dx\\
+\Pi''&=\int[Z]dx+[Z]dx+[Z']dx\\
+\Pi'''&=\int[Z]dx+[Z]dx+[Z']dx+[Z'']dx.\quad\text{\&c.}
+\end{aligned}
+\]
+ubi $\int[Z]dx$, per hypothesin, a particula $nv$ non afficitur. Valores igitur differentiales formularum $[Z]dx$, $[Z']dx$, $[Z'']dx$ \&c. sunt investigandi, qui erunt
+\sourcepage{116}
+\[
+\begin{aligned}
+d.[Z]dx&=nv.dx\left([L]\alpha+\frac{[Q]}{dx^2}\right)\\
+d.[Z']dx&=nv.dx\left([L']\beta+\frac{[P']}{dx}-\frac{2[Q']}{dx^2}\right)\\
+d.[Z'']dx&=nv.dx\left([L'']\gamma+[N'']-\frac{[P'']}{dx}+\frac{[Q'']}{dx^2}\right)\\
+d.[Z''']dx&=nv.dx[L''']\delta\\
+d.[Z^{\mathrm{iv}}]dx&=nv.dx.[L^{\mathrm{iv}}]\varepsilon\\
+d.[Z^{\mathrm{v}}]dx&=nv.dx.[L^{\mathrm{v}}]\zeta.\qquad\text{\&c.}
+\end{aligned}
+\]
+Ex his igitur erit ut sequitur
+\[
+\begin{aligned}
+d\Pi&=\alpha\\
+d\Pi'&=nv.dx\left([L]\alpha+\frac{[Q]}{dx^2}\right)\\
+d\Pi''&=nv.dx\left([L]\alpha+[L']\beta+\frac{[P']}{dx}-\frac{[Q]+2d[Q]}{dx^2}\right)\\
+d\Pi'''&=nv.dx\left([L]\alpha+[L']\beta+[L'']\gamma+[N'']-\frac{d[P']}{dx}+\frac{dd[Q]}{dx^2}\right)\\
+d\Pi^{\mathrm{iv}}&=nv.dx\left([L]\alpha+[L']\beta+[L'']\gamma+[L''']\delta+[N'']\right.\\
+&\hspace{45mm}\left.-\frac{d[P']}{dx}+\frac{dd[Q]}{dx^2}\right)\\
+d\Pi^{\mathrm{v}}&=nv.dx\left([L]\alpha+[L']\beta+[L'']\gamma+[L''']\delta+[L^{\mathrm{iv}}]\varepsilon\right.\\
+&\hspace{35mm}\left.+[N'']-\frac{d[P']}{dx}+\frac{dd[Q]}{dx^2}\right).\quad\text{\&c.}
+\end{aligned}
+\]
+His comparatis cum valoribus assumtis, erit
+\[
+\begin{aligned}
+\alpha&=0\\
+\beta&=[L]\alpha dx+\frac{[Q]}{dx}\\
+\gamma&=dx\left([L]\alpha+[L']\beta+\frac{[P']}{dx}-\frac{[Q]+2d[Q]}{dx^2}\right).
+\end{aligned}
+\]
+\sourcepage{117}
+\[
+\begin{aligned}
+\delta&=dx\left([L]\alpha+[L']\beta+[L'']\gamma+[N'']-\frac{d[P']}{dx}+\frac{dd[Q]}{dx^2}\right)\\
+\varepsilon&=dx\left([L]\alpha+[L']\beta+[L'']\gamma+[L''']\delta+[N'']\right.\\
+&\hspace{35mm}\left.-\frac{d[P']}{dx}+\frac{dd[Q]}{dx^2}\right).\qquad\text{\&c.}
+\end{aligned}
+\]
+Ex hisque æquationibus elicitur:
+\[
+\begin{aligned}
+\alpha&=0\\
+\beta&=\frac{[Q]}{dx}\\
+\gamma&=[L'][Q]+[P']-\frac{[Q]+2d[Q]}{dx}\\
+\delta&=[L'][Q]+[L''][L'][Q]dx+[L''][P']dx\\
+&\quad-[L''][Q]-2[L'']d[Q]+[N'']dx-d[P']+\frac{dd[Q]}{dx}\\
+\text{seu }\delta&=[L''][L'][Q]dx+[L''][P']dx-[Q]d[L']\\
+&\quad-2[L'']d[Q]+[N'']dx-d[P']+\frac{dd[Q]}{dx}
+\end{aligned}
+\]
+qui valor ipsius $\delta$ notetur, eritque porro
+\[
+\begin{aligned}
+\varepsilon&=\delta(1+[L''']dx)\\
+\zeta&=\delta(1+[L''']dx)(1+[L^{\mathrm{iv}}]dx)\\
+\eta&=\delta(1+[L''']dx)(1+[L^{\mathrm{iv}}]dx)(1+[L^{\mathrm{v}}]dx).\quad\text{\&c.}
+\end{aligned}
+\]
+Cognitis his valoribus, erit valor differentialis elementis $Zdx+Z'dx+Z''dx$ respondens
+\[
+=nv.dx\left(N-\frac{dP}{dx}+\frac{ddQ}{dx^2}+L[L][Q]+L[P]-\frac{[Q]dL+2Ld[Q]}{dx}\right).
+\]
+Sequentium autem elementorum omnium usque ad $Z$ valor differentialis, si ponatur
+\sourcepage{118}
+\[
+V=[L^2][Q]+[L][P]-\frac{[Q]d[L]+2[L]d[Q]}{dx}+N-\frac{d[P]}{dx}+\frac{dd[Q]}{dx},
+\]
+seu $\delta=Vdx$, erit sequens:
+\[
+\begin{aligned}
+nv.dx\bigl(&L'''dx+L^{\mathrm{iv}}dx(1+[L''']dx)\\
+&+L^{\mathrm{v}}dx(1+[L''']dx)(1+[L^{\mathrm{iv}}]dx)\\
+&+L^{\mathrm{vi}}dx(1+[L''']dx)(1+[L^{\mathrm{iv}}]dx)(1+[L^{\mathrm{v}}]dx)+\text{\&c.}\bigr)V.
+\end{aligned}
+\]
+Quamobrem hujus seriei summa est indaganda; hunc in finem, scribamus $L$ loco $L'''$, \& $[L]$ loco $[L''']$, sitque summa, quam quærimus, $=S$: erit
+\[
+\begin{aligned}
+S={}&Ldx+L'dx(1+[L]dx)+L''dx(1+[L]dx)(1+[L']dx)\\
+&+L'''dx(1+[L]dx)(1+[L']dx)(1+[L'']dx)+\text{\&c.}
+\end{aligned}
+\]
+Jam ipsius $S$ sumatur valor sequens $S'=S+dS$ erit
+\[
+S+dS=L'dx+L''dx(1+[L']dx)+L'''dx(1+[L']dx)(1+[L'']dx)+\text{\&c.}
+\]
+Hincque
+\[
+\begin{aligned}
+-dS={}&Ldx+L'[L]dx^2+[L]dx.L''dx(1+[L'']dx)\\
+&+[L]dx.L'''dx(1+[L']dx)(1+[L'']dx)+\text{\&c.}
+\end{aligned}
+\]
+quæ series cum ad priorem reduci queat, erit $-dS=Ldx+S'[L]dx$, sive ob $S'=S$, $dS+S[L]dx=-Ldx$; quæ integrata dat $e^{\int[L]dx}S=C-\int e^{\int[L]dx}Ldx$; quæ constans $C$ ita debet accipi, ut posito $x=a$ fiat $S=0$. Hanc ob rem erit valor illius seriei $S=e^{-\int[L]dx}(C-\int e^{\int[L]dx}Ldx)$. Ex his igitur formulæ propositæ $\int Zdx$ orietur sequens valor differentialis:
+\[
+\begin{aligned}
+nv.dx\Biggl(&N-\frac{dP}{dx}+\frac{ddQ}{dx^2}+L[L][Q]+L[P]-\frac{[Q]dL+2Ld[Q]}{dx}\\
+&+S\left([L^2][Q]+[L][P]-\frac{[Q]d[L]+2[L]d[Q]}{dx}\right.\\
+&\hspace{35mm}\left.+[N]-\frac{d[P]}{dx}+\frac{dd[Q]}{dx^2}\right)\Biggr),
+\end{aligned}
+\]
+qui transmutatur in hanc formam commodiorem,
+\[
+nv.dx\left(N-\frac{dP}{dx}+\frac{ddQ}{dx^2}+[N]S-\frac{d.[P]S}{dx}+\frac{dd.[Q]S}{dx^2}\right).
+\]
+Hinc autem formari potest valor differentialis formulæ $\int Zdx$, si tam in $Z$ quam in $[Z]$ differentialia\sourcepage{119} ad gradum quemcunque assurgant. Ad hoc efficiendum, sit valor formulæ integralis $\int e^{\int[L]dx}Ldx$, quem obtinet, si $x=a$ ponatur, $=H$, ac scribatur, brevitatis ergo, $V$ loco hujus expressionis $e^{-\int[L]dx}(H-\int e^{\int[L]dx}Ldx)$, eritque valor differentialis
+\[
+=nv.dx\left(N+[N]V-\frac{d.(P+[P]V)}{dx}+\frac{dd(Q+[Q]V)}{dx^2}-\frac{d^3(R+[R]V)}{dx^3}+\text{\&c.}\right).
+\]
+Atque hinc pro curva quæsita orietur ista æquatio,
+\[
+\begin{aligned}
+0={}&N+[N]V-\frac{d(P+[P]V)}{dx}+\frac{dd(Q+[Q]V)}{dx^2}\\
+&-\frac{d^3(R+[R]V)}{dx^3}+\frac{d^4(S+[S]V)}{dx^4}-\text{\&c.}\qquad\textit{Q.E.I.}
+\end{aligned}
+\]
+\subsection*{Corollarium I.}
+\originalsection{39} Inservit igitur ista propositio ejusmodi Problematibus resolvendis, in quibus maximi minimive formula $\int Zdx$ talem in se continet quantitatem $\Pi$, quæ nequidem formula integrali ex quantitatibus ad curvam pertinentibus $x,y,p,q,r$, \&c. exhiberi potest, sed cujus determinatio pendet a resolutione æquationis differentialis cujuscunque. Habetur enim $d\Pi=[Z]dx$; atque $[Z]$ ipsam quantitatem $\Pi$ utcunque in se complecti ponitur.
+\subsection*{Corollarium II.}
+\originalsection{40} Casus hic notari meretur, quo est $L=[L]$, quippe quo fit formula $\int e^{\int[L]dx}Ldx$ integrabilis, integrali existente $=e^{\int[L]dx}$. Quod si ergo, posito $x=a$, abeat $e^{\int[L]dx}$ in $H$, fiet $V=He^{-\int[L]dx}-1$.
+\subsection*{Corollarium III.}
+\originalsection{41}\sourcepage{120} Casus hic potissimum locum habet, quando curva quæritur, in qua sit ipsa formula $\Pi=\int[Z]dx$ maximum vel minimum. Tum enim fit $Z=[Z]$, \& hinc $L=[L]$, $M=[M]$, $N=[N]$ \&c. Hinc itaque erit valor differentialis
+\[
+=nv.dx\left(H[N]e^{-\int[L]dx}-\frac{d.H[P]e^{-\int[L]dx}}{dx}+\frac{dd.H[Q]e^{-\int[L]dx}}{dx^2}-\text{\&c.}\right).
+\]
+Atque æquatio pro curva erit
+\[
+0=[N]e^{-\int[L]dx}-\frac{d.[P]e^{-\int[L]dx}}{dx}+\frac{dd.[Q]e^{-\int[L]dx}}{dx^2}-\text{\&c.}
+\]
+\subsection*{Corollarium IV.}
+\originalsection{42} Quia ex hac æquatione quantitas $H$ a data abscissa $AZ=a$ pendens per divisionem est egressa; patet his casibus curvam uni abscissæ satisfacientem, eandem pro omni alia abscissa esse satisfacturam: ita ut hæc Problemata similia sint iis, in quibus quantitas $Z$ est functio determinata.
+\subsection*{Corollarium V.}
+\originalsection{43} Si ergo quantitas $\Pi=\int[Z]dx$ debeat esse maximum vel minimum, existente $d[Z]=[L]d\Pi+[M]dx+[N]dy+[P]dp+[Q]dq+\text{\&c.}$ curva poterit exhiberi, quæ una pro quacunque abscissa ista proprietate gaudeat; ejusque natura exprimetur hac æquatione:
+\[
+0=[N]e^{-\int[L]dx}-\frac{d.[P]e^{-\int[L]dx}}{dx}+\frac{dd.[Q]e^{-\int[L]dx}}{dx^2}-\text{\&c.}
+\]
+Ex qua insuper, evolutis singulis terminis, quantitas exponentialis $e^{-\int[L]dx}$, atque adeo ipsa formula integralis $\int[L]dx$ excedent.
+\subsection*{Scholion I.}
+\originalsection{44}\sourcepage{121} Usus hujus Propositionis eximius est in quæstionibus ita comparatis, ut quantitates indefinitæ in iis contentæ per formulas integrales exhiberi nequeant, verum constructionem æquationum differentialium postulent. Atque hæc solutio perinde valet, sive una hujusmodi quantitas $\Pi$ insit in formula maximi minimive $\int Zdx$ sive plures; quod si enim plures insint ejusmodi quantitates $\Pi$, plures etiam habebuntur valores litterarum $L$, $[L]$, $[M]$, $[N]$, $[P]$, $[Q]$, \&c. atque etiam litteræ $V=e^{-\int[L]dx}(H-\int e^{\int[L]dx}Ldx)$; qui omnes æqualiter, eo modo quem invenimus, in valorem differentialem formulæ $\int Zdx$ introducti præbebunt æquationem pro curva; similisque omnino tractatio erit, ac si unica tantum adesset. Quoniam autem littera ista $\Pi$, cujus valor absolutus per quantitates ad curvam pertinentes exhiberi non potest, in omnibus fere terminis manet; æquatio pro curva, quæ invenitur, non solum ex litteris $x,y,p,q,r$, \&c. constabit, sed etiam ipsam eam quantitatem $\Pi$, aliasque formulas integrales plerumque ab ea pendentes, uti $\int[L]dx$ \& $\int Ldx$, involvet. Quare ut æquatio pro curva pura, quæ tantum litteris $x,y,p,q$, \&c. contineatur, prodeat, oportet cum æquatione inventa, postquam a formulis integralibus $\int[L]dx$ \& $\int Ldx$ est liberata, conjungi æquationem $d\Pi=[Z]dx$, ejusque ope valorem $\Pi$ eliminari. Quanquam autem hoc modo ad differentialia altiorum ordinum pervenitur, tamen non totidem inesse censendæ sunt constantes arbitrariæ. Nam tam ipsa æquatio $d\Pi=[Z]dx$, quam reliquæ anteriores æquationes, certam requirunt determinationem, unde plures constantes determinabuntur. Cæterum notandum est veritatem hujus Methodi comprobari posse per præcedentes, quando æquatio $d\Pi=[Z]dx$ ita est comparata ut integrationem admittat: tum enim eædem quæstiones per Methodos ante traditas resolvi poterunt, indeque consensum observare licebit. Ita si $[Z]$ tantum ex $x$ \& $\Pi$ constet, tum certum erit $\Pi$ esse functionem
+\sourcepage{122}quamdam ipsius $x$ determinatam, atque solutionem ad Caput præcedens pertinere. Idem vero hæc solutio patefaciet, cum enim sit hoc casu $[N]=0$, $[P]=0$, $[Q]=0$, \&c. æquatio pro curva erit $0=N-\frac{dP}{dx}+\frac{ddQ}{dx^2}-\text{\&c.}$ quæ eadem per Methodum priorem obtinetur. Usus autem hujus solutionis clarius per aliquot Exempla declarabitur.
+\subsection*{Exemplum I.}
+\originalsection{45} \textit{Invenire curvam, in qua sit maximus valor ipsius $\Pi$, existente $d\Pi=gdx-\alpha\Pi^n dx\sqrt{1+pp}$.}
+
+Quæstio hæc occurrit quando quæritur curva, super qua grave in medio resistente secundum celeritatum rationem $2n$ plicatam descendens maximam obtinet celeritatem: denotat enim $\Pi$ quadratum celeritatis, \& $g$ vim gravitatis secundum directionem axis $AZ$ exertam. Pertinet itaque hæc quæstio ad casum Coroll. 3, 4, \& 5 expositum, quo erat $Z=[Z]=g-\alpha\Pi^n\sqrt{1+pp}$; atque adeo curva uni abscissæ satisfaciens pro omni abscissa æque valebit. Cum igitur sit
+\[
+dZ=-\alpha n\Pi^{n-1}d\Pi\sqrt{1+pp}-\frac{\alpha\Pi^n p\,dp}{\sqrt{1+pp}},
+\]
+erit $[L]=-\alpha n\Pi^{n-1}\sqrt{1+pp}$, $[M]=0$, $[N]=0$, $[P]=-\frac{\alpha\Pi^n p}{\sqrt{1+pp}}$; $[Q]=0$, \&c. Unde pro curva quæsita ista invenitur æquatio: $0=-d.[P]e^{-\int[L]dx}$, seu $[P]e^{-\int[L]dx}=C$; hincque $-\int[L]dx=lC-l[P]$, \& $[L]dx=\frac{d[P]}{[P]}$. Substitutis ergo loco $[L]$ \& $[P]$ debitis valoribus, erit
+\[
+\int\alpha n\Pi^{n-1}dx\sqrt{1+pp}=+lC-l(-\alpha)-l\Pi^n-lp+l\sqrt{1+pp};
+\]
+hincque
+\[
+\alpha n\Pi^{n-1}dx\sqrt{1+pp}=-\frac{nd\Pi}{\Pi}-\frac{dp}{p}+\frac{p\,dp}{1+pp}
+\]
+\sourcepage{123}
+\[
+=-\frac{dp}{p(1+pp)}-\frac{nd\Pi}{\Pi};\quad\text{seu }0=nd\Pi+\alpha n\Pi^n dx\sqrt{1+pp}+\frac{\Pi dp}{p(1+pp)}.
+\]
+Quæ æquatio, ut eliminetur $\Pi$, conjungenda est cum hac $d\Pi+\alpha\Pi^n dx\sqrt{1+pp}=gdx$; unde statim fit $0=ngdx+\frac{\Pi dp}{p(1+pp)}$, \& $\Pi=-\frac{ngpdx(1+pp)}{dp}$. Cum igitur curva fuerit inventa, hæc æquatio statim præbet celeritatem corporis in quovis curvæ loco. Ponatur $dx=-\frac{t\,dp}{ng}$, erit $\Pi=pt(1+pp)$ \& $d\Pi=pdt(1+pp)+tdp(1+3pp)$; hincque obtinebitur ista æquatio,
+\[
+pdt(1+pp)+tdp(1+3pp)-\frac{\alpha p^n t^{n+1}(1+pp)^{n+\frac12}dp}{ng}+\frac{t\,dp}{n}=0,
+\]
+quæ transmutatur in hanc
+\[
+\frac{npdt(1+pp)+tdp(n+1+3npp)}{nt^{n+1}p^{n+1}(1+pp)^{n+\frac12}}=\frac{\alpha dp}{ngp^2};
+\]
+cujus integralis est
+\[
+\frac{1}{nt^n p^{n+1}(1+pp)^{n-\frac12}}=\frac{\alpha}{ngp}+\frac{\beta}{ng},
+\]
+seu $g=(\alpha+\beta p)t^n p^n(1+pp)^{n-\frac12}$; hincque
+\[
+t=\frac{\sqrt[n]{g}}{p(1+pp)^{1-1:2n}\sqrt[n]{\alpha+\beta p}}.
+\]
+Erit igitur
+\[
+dx=\frac{-dp}{np(1+pp)^{1-1:2n}\sqrt[n]{g^{n-1}(\alpha+\beta p)}},\qquad
+dy=\frac{-dp}{n(1+pp)^{1-1:2n}\sqrt[n]{g^{n-1}(\alpha+\beta p)}};
+\]
+hincque $\Pi=\sqrt[n]{\frac{g\sqrt{1+pp}}{\alpha+\beta p}}$. Erit ergo
+\[
+x=-\frac1{ng}\int\frac{dp}{p(1+pp)}\sqrt[n]{\frac{g\sqrt{1+pp}}{\alpha+\beta p}},\qquad
+y=-\frac1{ng}\int\frac{dp}{1+pp}\sqrt[n]{\frac{g\sqrt{1+pp}}{\alpha+\beta p}}.
+\]
+Hinc apparet quantitatem $\Pi$ super curva nusquam esse posse $=0$; hanc ob rem, in curvæ initio $\Pi$ jam habebit certum quemdam\sourcepage{124} valorem. Ut autem indoles curvæ magis percipiatur, ex æquatione $\Pi=-\frac{ngpdx(1+pp)}{dp}$ patet valorem ipsius $dp$ ubique negativum esse oportere, ex quo curva versus axem erit concava. Quia igitur valores ipsius $p$ recedendo a curvæ initio decrescunt, in ipso curvæ initio $p$ maximum habebit valorem. Hinc ponamus initium curvæ ibi, ubi est $p=\infty$. \marginnote{\footnotesize\hyperlink{fig:6}{Fig. 6.}}Sit ergo $AP$ axis curvæ verticalis, in cujus directione vis gravitatis $g$ corpus deorsum trahat, atque in initio curvæ $A$ sit tangens horizontalis $Aa$: ibique corpus motum super curva incipiat, celeritate, cujus quadratum sit $=b$. Erit igitur, posito $p=\infty$, $b=\sqrt[n]{\frac{g}{\beta}}$, atque $\beta b^n=g$, seu $\beta=\frac{g}{b^n}$. Porro ad uniformitatem conservandam sit $\alpha=\frac{1}{k^n}$. Quod si jam curva quæsita sit $AM$, \& ponatur $AP=x$, $PM=y$, \& $dy=pdx$; erit in $M$ celeritatis quadratum $\Pi=bk\sqrt[n]{\frac{g\sqrt{1+pp}}{b^n+gk^n p}}$; atque ubi tangens curvæ fiet verticalis, ibi erit celeritatis quadratum $=k\sqrt[n]{g}$. Curvæ autem constructio ita conficietur, ut sit
+\[
+x=-\frac{bk}{ng}\int\frac{dp}{p(1+pp)}\sqrt[n]{\frac{g\sqrt{1+pp}}{b^n+gk^n p}},\qquad
+y=-\frac{bk}{ng}\int\frac{dp}{1+pp}\sqrt[n]{\frac{g\sqrt{1+pp}}{b^n+gk^n p}}.
+\]
+Deinde commemorari meretur singularis proprietas, seu relatio inter corporis descendentis vim centrifugam, quæ est $\frac{2\Pi}{\text{rad. osculi}}$, \& vim normalem quæ est $\frac{gp}{\sqrt{1+pp}}$. Quod si enim vis centrifuga $\frac{2\Pi}{\text{rad. osc.}}=\frac{-2\Pi dp}{dx(1+pp)^{3:2}}$ ponatur $=F$, \& vis normalis $\frac{gp}{\sqrt{1+pp}}=G$; erit, ex æquatione $\Pi=-\frac{ngpdx(1+pp)}{dp}$, seu $\frac{-2\Pi dp}{dx(1+pp)^{3:2}}=\frac{2ngp}{\sqrt{1+pp}}$, hæc relatio\sourcepage{125} inter vim centrifugam $F$ \& vim normalem $G$, ut sit $F=2nG$: nempe vis normalis se habebit ad vim centrifugam ut $1$ ad $2n$. Corpus in $A$ data celeritate motum inchoans descendendo super curva $AM$, in quovis loco $M$ abscissæ $AP$ respondente majorem habebit celeritatem, quam si super alia quacunque curva eadem celeritate initiali descendisset. Evolvamus autem binos casus principales;
+
+Sitque $1^\circ$. resistentia quadratis celeritatum proportionalis, erit $n=1$, \& $F=2G$. Pro curva autem habebitur:
+\[
+x=-bk\int\frac{dp}{p(b+gkp)\sqrt{1+pp}},\qquad
+y=-bk\int\frac{dp}{(b+gkp)\sqrt{1+pp}};
+\]
+itemque arcus curvæ $AM=-bk\int\frac{dp}{p(b+gkp)}=C+kl\frac{b+gkp}{p}$. Ponatur arcus $AM=s$, qui cum evanescere debeat posito $p=\infty$, erit $s=kl\frac{b+gkp}{gkp}$, hincque $e^{s:k}gkp=b+gkp$, \& $p=\frac{b}{gk(e^{s:k}-1)}=\frac{dy}{dx}$. Unde oritur $bdx+gkdy=gke^{s:k}dy$. Erit autem porro ex æquatione $y=-bk\int\frac{dp}{(b+gkp)\sqrt{1+pp}}$ integrata
+\[
+y=\frac{bk}{\sqrt{bb+ggkk}}\,l\frac{(b+gkp)(b+\sqrt{bb+ggkk})}{gk(bp-gk+\sqrt{(bb+ggkk)(1+pp)})}.
+\]
+$2^\circ$. Sit resistentia ipsis celeritatibus proportionalis, fiet $n=\frac12$ \& $F=G$, hoc est vis centrifuga vi normali erit æqualis. Quæ binæ vires cum sint contrariæ, quæsito satisfaciet ea curva, quæ a corpore super ea descendente omnino non premitur. Erit autem
+\[
+x=-2gbk\int\frac{dp}{p(\sqrt b+gp\sqrt k)^2},\qquad
+y=-2gbk\int\frac{dp}{(\sqrt b+gp\sqrt k)^2}=\frac{2b\sqrt k}{\sqrt b+gp\sqrt k};
+\]
+hincque $ydx\sqrt b+gydy\sqrt k=2bdx\sqrt k$, \& $dx=\frac{gydy\sqrt k}{2b\sqrt k-y\sqrt b}$; hincque integrando
+\[
+x=-gy\sqrt{\frac{k}{b}}+2gkl\frac{2b\sqrt k}{2b\sqrt k-y\sqrt b}.
+\]
+Hæc ergo
+\sourcepage{126}curva non solum per Logarithmicam construi potest, verum est portio ipsius Logarithmicæ obliquangulæ. Erit scilicet ipsa curva projectoria, quam corpus in hac resistentiæ hypothesi projectum libere describit. Hæc convenientia ex eo patet, quod curva a corpore moto nullam sustinet pressionem, quæ est proprietas curvarum libere descriptarum.
+\subsection*{Exemplum II.}
+\originalsection{46} \textit{Invenire curvam in qua, pro data abscissa $x=a$, minimum sit ista formula $\int\frac{dx\sqrt{1+pp}}{\sqrt\Pi}$, existente $d\Pi=gdx-\alpha\Pi^n dx\sqrt{1+pp}$.}
+
+Quæstio hæc congruit cum illa, in qua requiritur curva, super qua corpus descendens, in medio resistente cujus resistentia est ut potestas exponentis $2n$ celeritatis, citissime arcum abscissæ $a$ respondentem absolvit. Denotat enim hic $g$ vim gravitatis secundum directionem axis sollicitantem, $\sqrt\Pi$ celeritatem corporis in quocunque loco, \& $\alpha\Pi^n$ resistentiam medii ipsam. Erit itaque $Z=\frac{\sqrt{1+pp}}{\sqrt\Pi}$, \& hinc
+\[
+dZ=\frac{-d\Pi\sqrt{1+pp}}{2\Pi\sqrt\Pi}+\frac{p\,dp}{\sqrt{\Pi(1+pp)}},
+\]
+unde erit $L=\frac{-\sqrt{1+pp}}{2\Pi\sqrt\Pi}$; $M=0$, $N=0$, $P=\frac{p}{\sqrt{\Pi(1+pp)}}$. Porro erit $[Z]=g-\alpha\Pi^n.\sqrt{1+pp}$, \&
+\[
+d[Z]=-\alpha n\Pi^{n-1}d\Pi\sqrt{1+pp}-\frac{\alpha\Pi^n p\,dp}{\sqrt{1+pp}};
+\]
+unde erit $[L]=-\alpha n\Pi^{n-1}\sqrt{1+pp}$; $[M]=0$, $[N]=0$, \& $[P]=\frac{-\alpha\Pi^n p}{\sqrt{1+pp}}$. Habebitur ergo
+\[
+V=e^{\alpha n\int\Pi^{n-1}dx\sqrt{1+pp}}\left(\int e^{-\alpha n\int\Pi^{n-1}dx\sqrt{1+pp}}\frac{dx\sqrt{1+pp}}{2\Pi\sqrt\Pi}-H\right);
+\]
+\sourcepage{127}denotante $H$ eum valorem formulæ
+\[
+\int e^{-\alpha n\int\Pi^{n-1}dx\sqrt{1+pp}}\frac{dx\sqrt{1+pp}}{2\Pi\sqrt\Pi}
+\]
+quem obtinet si sit $x=a$. Namque $V$ evanescere debet posito $x=a$, estque
+\[dV=\alpha nV\Pi^{n-1}dx\sqrt{1+pp}+\frac{dx\sqrt{1+pp}}{2\Pi\sqrt\Pi}.\]
+Ex his pro curva quæsita obtinebitur ista æquatio: $d.(P+[P]V)=0$, \& $P+[P]V=C$, seu $V=\frac{C-P}{[P]}$. Substitutis ergo valoribus debitis, erit
+\[
+\begin{aligned}
+&e^{\alpha n\int\Pi^{n-1}dx\sqrt{1+pp}}\left(\int e^{-\alpha n\int\Pi^{n-1}dx\sqrt{1+pp}}\frac{dx\sqrt{1+pp}}{2\Pi\sqrt\Pi}-H\right)\\
+&\hspace{35mm}=\frac{p-C\sqrt{\Pi(1+pp)}}{\alpha\Pi^n p\sqrt\Pi}.
+\end{aligned}
+\]
+Quare constantem $C$ ita determinari oportet, ut posito $x=a$, fiat $C=\frac{p}{\sqrt{\Pi(1+pp)}}$. Cum autem sit $V=\frac{1}{\alpha\Pi^n\sqrt\Pi}-\frac{C\sqrt{1+pp}}{\alpha\Pi^n p}$, erit
+\[
+\begin{aligned}
+dV&=\frac{-(n+\frac12)d\Pi}{\alpha\Pi^{n+1}\sqrt\Pi}+\frac{nCd\Pi\sqrt{1+pp}}{\alpha\Pi^{n+1}p}+\frac{Cdp}{\alpha\Pi^n p^2\sqrt{1+pp}}\\
+&=\frac{dx\sqrt{1+pp}}{2\Pi\sqrt\Pi}+\frac{ndx\sqrt{1+pp}}{\Pi\sqrt\Pi}-\frac{nC(1+pp)dx}{p\Pi},
+\end{aligned}
+\]
+in subsidium vocata æquatione $dV=\alpha nV\Pi^{n-1}dx\sqrt{1+pp}+\frac{dx\sqrt{1+pp}}{2\Pi\sqrt\Pi}$. Cum autem sit $d\Pi=gdx-\alpha\Pi^n dx.\sqrt{1+pp}$ erit
+\[
+-\frac{(n+\frac12)gdx}{\alpha\Pi^{n+1}\sqrt\Pi}+\frac{nCgdx(1+pp)}{\alpha\Pi^{n+1}p}+\frac{Cdp}{\alpha\Pi^n p^2\sqrt{1+pp}}=0,
+\]
+seu
+\[
+\frac{Cdp}{p^2\sqrt{1+pp}}=\frac{(n+\frac12)gdx}{\Pi\sqrt\Pi}-\frac{nCgdx\sqrt{1+pp}}{\Pi p}.
+\]
+Quod si jam hæc æquatio cum illa $d\Pi=gdx-\alpha\Pi^n dx\sqrt{1+pp}$ conjungatur, poterit eliminari\sourcepage{128} quantitas $\Pi$, hocque pacto inveniri æquatio pro curva quæsita. Hoc autem modo calculus fieret maxime tædiosus, ac minime tractabilis. Adminiculum vero summum afferet ultima æquatio in hanc formam transmutata:
+\[
+\frac{Cdp}{gp^2}=\frac{(n+\frac12)dx\sqrt{1+pp}}{\Pi\sqrt\Pi}-\frac{nCdx(1+pp)}{\Pi p},
+\]
+cui expressioni ante æqualis esse inventus est valor ipsius $dV$; erit ergo $dV=\frac{Cdp}{gpp}$ \& $V=D-\frac{C}{gp}=\frac{1}{\alpha\Pi^n\sqrt\Pi}-\frac{C\sqrt{1+pp}}{\alpha\Pi^n p}$. Jam igitur habemus duas æquationes has
+\[
+\frac{Cdp}{gp^2}=\frac{(n+\frac12)dx\sqrt{1+pp}}{\Pi\sqrt\Pi}-\frac{nCdx(1+pp)}{\Pi p},
+\qquad\alpha D-\frac{\alpha C}{gp}=\frac1{\Pi^n\sqrt\Pi}-\frac{C\sqrt{1+pp}}{\Pi^n p}.
+\]
+Ex quibus si eliminetur $\Pi$, habebitur æquatio inter $p$ \& $x$ ejusmodi, ut nusquam $x$ sed ubique tantum $dx$ occurrat, ex quo illa æquatio poterit construi atque adeo ipsa curva. Vel facilius ex posteriori æquatione determinetur $p$ per $\Pi$, hicque valor in æquatione fundamentali $dx=\frac{d\Pi}{g-\alpha\Pi^n\sqrt{1+pp}}$ substitutus, dabit valorem ipsius $x$ per $\Pi$, erit scilicet
+\[
+x=\int\frac{d\Pi}{g-\alpha\Pi^n\sqrt{1+pp}}\quad\text{atque}\quad y=\int\frac{p\,d\Pi}{g-\alpha\Pi^n\sqrt{1+pp}}.
+\]
+Constans autem $D$ ita debet accipi, ut posito $x=a$, quo casu fit $C=\frac{p}{\sqrt{\Pi(1+pp)}}$, fiat $D=\frac{1}{g\sqrt{\Pi(1+pp)}}$, seu tum esse debet $\frac{C}{D}=gp$.
+\subsection*{Scholion II.}
+\originalsection{47} In his igitur duobus Capitibus, Methodum exposuimus inveniendi lineam curvam, in qua, pro datæ magnitudinis abscissa $=a$, maximum minimumve sit formula $\int Zdx$, existente $Z$ functione\sourcepage{129} ipsarum $x,y,p,q,r$, \&c. sive determinata sive indeterminata. Functio autem determinata nobis est, quæ, si alicubi dentur valores litterarum $x,y,p,q,r$ \&c. ipsa assignari potest, sive algebraice sive transcendenter. Functio autem indeterminata est, quæ per datos istarum litterarum valores, quos uno in loco obtinent, assignari nequit, sed omnes valores præcedentes simul involvit, quemadmodum hoc evenit, si signa integralia occurrant. In Capite igitur secundo Methodum tradidimus omnia Problemata resolvendi, in quibus $Z$ est functio determinata; in tertio vero hoc Capite persecuti sumus eas formulas, in quibus $Z$, vel ipsa est functio indefinita, vel talium unam pluresve involvit; simulque Methodum exhibuimus pro iis casibus, quibus functio illa indefinita nequidem per formulas integrales repræsentari potest, verum resolutionem æquationis differentialis requirit. Nunc igitur eos casus evolvamus, in quibus expressio, quæ maximum minimumve esse debet, non simplex est formula integralis, uti hactenus posuimus, sed ex pluribus ejusmodi formulis utcunque composita: atque simul Methodum aperiemus plura alia Problemata, quæ non ad coordinatas orthogonales spectant, expedite resolvendi.

@@ -1,0 +1,476 @@
+% Modern editorial, markup and figure/layout contributions: CC-BY-SA-4.0.
+% Historical text and illustrations: Leonhard Euler (1744), public domain.
+% Component scope and upstream attribution: see RIGHTS.md.
+% Chapter II, original printed pp. 57--82, PDF pp. 60--85.
+% AI-assisted transcription restored against every scan, PDF 60--85; independent collation pending.
+\subsection*{Propositio IV. Problema.}
+\originalsection{40}\sourcepage{57}Si $Z$ fuerit functio ipsarum $x$, $y$, $p$ \& $q$, ita ut sit
+\[
+dZ=Mdx+Ndy+Pdp+Qdq,
+\]
+invenire, inter omnes curvas eidem abscissæ respondentes, eam in qua sit $\int Zdx$ maximum vel minimum.
+
+\subsection*{Solutio.}
+Valor formulæ integralis $\int Zdx$ evolvitur in binas has series:
+\[
+Zdx+Z'dx+Z''dx+Z'''dx+\&c.\qquad\&\qquad Zdx+Z_{\prime}dx+Z_{\prime\prime}dx+\&c.
+\]
+quarum aggregatum maximum erit vel minimum, si singulorum terminorum valores differentiales, qui oriuntur augendo applicatam $y'$ particula $nv$, colligantur, \& nihilo æquentur. Tali autem applicatæ $y'$ incremento mutationem patiuntur litteræ $y'$; $p$, $p'$; $q_{\prime}$, $q$, $q'$, adeoque ii tantum termini in quibus istæ litteræ insunt, hoc est termini $Z_{\prime}dx$, $Zdx$ \& $Z'dx$. Ad horum terminorum augmenta ex translatione puncti $n$ in $v$ orta invenienda, differentientur ii, eritque
+\[
+\begin{aligned}
+d.Z'dx&=dx(M'dx+N'dy'+P'dp'+Q'dq'),\\
+d.Zdx&=dx(Mdx+Ndy+Pdp+Qdq),\\
+d.Z_{\prime}dx&=dx(M_{\prime}dx+N_{\prime}dy_{\prime}+P_{\prime}dp_{\prime}+Q_{\prime}dq_{\prime}).
+\end{aligned}
+\]
+Jam vero, quia abscissa $x$ ab illa translatione non afficitur, ponendum est ubique $dx=0$; deinde vero reliquorum differentialium valores ex translatione puncti $n$ in $v$ orti, per primam hujus Capitis Propositionem, ita se habebunt:
+\[
+\renewcommand{\arraystretch}{1.4}
+\begin{array}{c|c|c}
+dy'=+nv&dp'=-\frac{nv}{dx}&dq'=+\frac{nv}{dx^2}\\
+dy=0&dp=+\frac{nv}{dx}&dq=-\frac{2nv}{dx^2}\\
+dy_{\prime}=0&dp_{\prime}=0&dq_{\prime}=+\frac{nv}{dx^2}
+\end{array}
+\]
+
+\sourcepage{58}
+His differentialium per $nv$ expressorum valoribus substitutis, prodibit sequens valor differentialis,
+\[
+\begin{aligned}
+&nv.dx\left(N-\frac{P'}{dx}+\frac{P}{dx}+\frac{Q'}{dx^2}-\frac{2Q}{dx^2}+\frac{Q_{\prime}}{dx^2}\right)\\
+&\quad=nv.dx\left(N-\frac{dP}{dx}+\frac{ddQ_{\prime}}{dx^2}\right)
+=nv.dx\left(N-\frac{dP}{dx}+\frac{ddQ}{dx^2}\right)
+\end{aligned}
+\]
+ob $ddQ_{\prime}=ddQ$. Quamobrem pro curva quæsita ista habebitur æquatio
+\[N-\frac{dP}{dx}+\frac{ddQ}{dx^2}=0.\]
+Q. E. I.
+
+\subsection*{Corollarium I.}
+\originalsection{41}Quod si ergo in maximi minimive formula $\int Zdx$ insint etiam differentialia secundi gradus, seu, quod idem est, si $Z$ fuerit functio ipsarum $x$, $y$, $p$ \& $q$, ita ut sit $dZ=Mdx+Ndy+Pdp+Qdq$, æquatio pro curva quæsita erit
+\[
+N-\frac{dP}{dx}+\frac{ddQ}{dx^2}=0,
+\]
+quæ facile ex differentiali ipsius $Z$ formabitur.
+
+\subsection*{Corollarium II.}
+\originalsection{42}Si quantitas $Q$ ipsa involvit $q$ vel differentio-differentiale ipsius $y$, tum $ddQ$ continebit differentialia quarti ordinis, in hocque genere erit æquatio pro curva inventa. Ex quo curva satisfaciens per quatuor data puncta traduci poterit.
+
+\subsection*{Corollarium III.}
+\originalsection{43}Si igitur in $Q$ contineatur $q$, tum Problema ita determinate proponendum erit, ut inter omnes curvas per quatuor data puncta ductas ea definiatur, in qua $\int Zdx$ sit maximum vel minimum.
+
+\subsection*{Scholion I.}
+\originalsection{44}Ponamus in $Q$ non contineri $q$, ut investigemus cujusnam\sourcepage{59} gradus futura sit æquatio differentialis resultans. Accidit autem hoc, si maximi minimive formula proposita fuerit hujusmodi $\int Zqdx$, existente $Z$ functione tantum ipsarum $x$, $y$ \& $p$, ita ut sit $dZ=Mdx+Ndy+Pdp$. Hinc igitur erit
+\[
+d.Zq=Mqdx+Nqdy+Pqdp+Zdq,
+\]
+unde pro curva quæsita orietur æquatio hæc
+\[
+0=Nq-\frac{Pdq+qdP}{dx}
+ +\frac{dMdx+dNdy+Nddy+Pddp+dPdp}{dx^2},
+\]
+seu
+\[
+0=2Nq+\frac{dM+p\,dN}{dx},
+\]
+vel $0=2Ndp+dM+pdN$: quæ æquipollet tantum æquationi differentialis secundi gradus, propter $dp=ddy/dx$ quod inest. Si igitur curva desideretur, in qua sit $\int Zqdx$ maximum vel minimum, existente $Z$ functione ipsarum $x$, $y$ \& $p$, atque $dZ=Mdx+Ndy+Pdp$, pro curva quæsita habebitur æquatio
+\[
+0=dM+2Ndp+p\,dN.
+\]
+
+\subsection*{Corollarium IV.}
+\originalsection{45}Ut revertamur ad æquationem inventam $N-\frac{dP}{dx}+\frac{ddQ}{dx^2}=0$; patet eam fore generaliter integrabilem si sit $N=0$, hoc est si in $Z$ non contineatur $y$; prodibit enim integrando
+\[
+C-P+\frac{dQ}{dx}=0.
+\]
+Si insuper sit $P=0$, altera integratio succedit, qua prodit $Cx+D-Q=0$.
+
+\subsection*{Corollarium V.}
+\originalsection{46}Si sit $M=0$, pariter una integratio in genere succedit: cum enim sit $dZ=Ndy+Pdp+Qdq$, multiplicetur æquatio $N-\frac{dP}{dx}+\frac{ddQ}{dx^2}=0$ per $dy$, seu $pdx$; habebitur
+\[
+Ndy-pdP+\frac{pddQ}{dx}=0.
+\]
+Addatur $dZ-Ndy-Pdp-\sourcepage{60}Qdq=0$, orietur $dZ-pdP-Pdp+\frac{pddQ}{dx}-Qdq=0$; cujus integrale est
+\[
+Z-Pp+\frac{p\,dQ}{dx}-Qq=C.
+\]
+
+\subsection*{Corollarium VI.}
+\originalsection{47}Si fuerit \& $M=0$ \& $N=0$; erit primo, ob $N=0$, ut supra, $C-P+\frac{dQ}{dx}=0$. Deinde cum sit $dZ=Pdp+Qdq$, multiplicetur illa æquatio per $dp$, seu $qdx$, erit $Cdp-Pdp+q\,dQ=0$; addatur $Pdp+Qdq-dZ=0$; prodibit $Cdp+Qdq+q\,dQ-dZ=0$, cujus integralis est
+\[
+Cp+D+Qq-Z=0.
+\]
+
+\subsection*{Scholion II.}
+\originalsection{48}Si nexum æquationis inventæ pro curva quæsita, quæ habeat $\int Zdx$ maximum minimumve, cum differentiali ipsius $Z$ inspiciamus; determinare licebit relationem inter differentialia $dy$, $dp$ \& $dq$, ut differentiale ipsius $Z$ nihilo æquale positum, præbeat æquationem pro curva quæsita. Cum enim sit $dZ=Mdx+Ndy+Pdp+Qdq$, comparetur cum hac forma æquatio pro curva, $N-\frac{dP}{dx}+\frac{ddQ}{dx^2}=0$, seu hac per $dy=pdx$ multiplicata, quæ erit
+\[
+Ndy-pdP+\frac{pddQ}{dx}=0.
+\]
+Unde patet, in differentiali ipsius $Z$, loco $Mdx$ scribi debere $0$, at terminum $Ndy$ invariatum relinqui, porro loco $Pdp$ scribendum esse $-p\,dP$, ac loco $Qdq$ poni debere $\frac{pddQ}{dx}$. Verum quoad hæc a priori pateant, præstabit formam æquationis inventæ retinere, quippe quæ facile memoria teneri potest. Cæterum notandum est Problemata huc pertinentia omnino esse nova, neque adhuc ab iis qui alias de hoc argumento scripserunt pertractata. Alias enim Scriptores maximi minimive formulas contemplari non consueverunt, nisi in quibus ad summum differentialia\sourcepage{61} coordinatarum primi gradus inessent. Quamobrem eo magis erit operæ pretium naturam hujusmodi Problematum accuratius indagare, atque inprimis ostendere, quomodo curvæ satisfacientes quatuor puncta, per quæ transeant, ad sui determinationem admittant. Hunc in finem sequentia Exempla adjicere visum est; atque in singulis indicare, quæ ad majorem illustrationem facere poterunt.
+
+\subsection*{Exemplum I.}
+\originalsection{49}Invenire curvam, in qua sit
+\[
+\int \frac{y^n\,ddy}{x^m\,dy}
+\]
+maximum vel minimum. Ista maximi minimive formula, ope substitutionum $dy=pdx$, \& $ddy=qdx^2$, abit in hanc $\int\frac{y^nq}{x^mp}dx$; quæ cum sit similis formulæ §44 tractatæ $\int Zqdx$, ubi in $Z$ tantum $x$, $y$ \& $p$ contineri posuimus, fiet, comparatione instituta,
+\[
+Z=\frac{y^n}{x^mp},\qquad\&\qquad dZ=-\frac{my^n}{x^{m+1}p}dx+\frac{ny^{n-1}}{x^mp}dy-\frac{y^n}{x^mp^2}dp.
+\]
+Unde erit
+\[
+M=-\frac{my^n}{x^{m+1}p},\quad\&\quad N=\frac{ny^{n-1}}{x^mp};\quad\text{hincque}\quad Np=\frac{ny^{n-1}}{x^m}.
+\]
+Cum igitur pro curva quæsita inventa sit hæc æquatio $0=dM+2Ndp+pdN=dM+Ndp+d.Np$, habebimus pro nostro casu hanc æquationem
+\[
+0=\frac{m(m+1)y^n}{x^{m+2}p}dx-\frac{mn y^{n-1}}{x^{m+1}p}dy
+ +\frac{my^n}{x^{m+1}p^2}dp+\frac{n y^{n-1}}{x^mp}dp
+ +\frac{n(n-1)y^{n-2}}{x^m}dy\sourcepage{62}-\frac{mny^{n-1}dx}{x^{m+1}}:
+\]
+quæ multiplicata per $\frac{x^{m+2}p^2}{y^{n-1}}$ mutatur in hanc
+\[
+0=m(m+1)y\,dy-mnxp\,dy+mxy\,dp+nx^2p\,dp+\frac{n(n-1)x^2p^2dy}{y}-mnxp\,dy,
+\]
+seu
+\[0=m(m+1)y^2dy-2mnxyp\,dy+n(n-1)x^2p^2dy+mxy^2dp+nx^2yp\,dp:\]
+quæ est æquatio differentialis secundi gradus, quæ, posito $y=e^{\int vdx}$ reducetur ad istam primi gradus
+\[
+m(m+1)v\,dx+mx\,dv-m(2n-1)xv^2dx+nx^2v\,dv+n^2x^2v^3dx=0.
+\]
+Quod si autem ponamus $m=0$, ita ut maximum minimumve esse debeat $\int\frac{y^n ddy}{dy}$; habebitur hæc æquatio
+\[
+(n-1)p\,dy+y\,dp=0,
+\]
+quæ integrata dabit $y^{n-1}p=C$, seu $y^{n-1}dy=Cdx$; hæcque denuo integrata præbet $y^n=Cx+D$. Sin autem ponamus $n=0$, ita ut maximum minimumve esse debeat hæc formula $\int\frac{ddy}{x^m dy}$, erit
+\[
+(m+1)dy+xdp=0,\quad\text{seu}\quad(m+1)pdx+xdp=0,
+\]
+cujus integrale est $x^{m+1}p=C$, seu $dy=Cx^{-m-1}dx$; quæ denuo integrata dat $y=C/x^m+D$. Patet autem in his curvis inventis formulam propositam fieri maximum, non vero minimum; nam si sumatur linea recta, ob $ddy=0$, manifestum est valorem formulæ propositæ minorem fore pro recta linea quam pro curvis inventis.
+
+\subsection*{Scholion III.}
+\originalsection{50}Ratio hic assignari potest, cur hujusmodi quæstiones, in quibus $\int Zqdx$ maximum minimumve esse debet, deducant tantum ad æquationem differentialem secundi gradus, ideoque quæstionibus præcedentis Problematis potius sint adnumerandæ, siquidem $Z$ fuerit functio ipsarum $x$ \& $y$ \& $p$. Nam per reductionem\sourcepage{63} integralium formula $\int Zqdx$, seu $\int\frac{Zddy}{dx}$, reduci potest ad talem formam $T+\int Vdx$, in qua $T$ \& $V$ sint functiones ipsarum $x$, $y$ \& $p$ tantum, non amplius involventes $q$. Cum igitur $T$ sit quantitas absoluta, atque idcirco in maximi minimive inquisitionem non cadat, formula $\int Zqdx$ fiet maxima vel minima, si $\int Vdx$ talis reddatur; adeo ut hujusmodi formulæ $\int Zqdx$ reduci queant ad præcedentis Problematis statum; unde mirum non est, quod pro curvis satisfacientibus æquatio differentialis secundi gradus duntaxat reperiatur. Quo autem memorata reductio formulæ $\int Zqdx$ seu $\int Zdp$ ad $T+\int Vdx$ melius percipiatur; ponamus, cum $T$ sit functio ipsarum $x$, $y$ \& $p$, esse
+\[
+dT=\rho dx+\sigma dy+\tau dp=(\rho+\sigma p)dx+\tau dp.
+\]
+\& ex æqualitate $\int Zdp=T+\int Vdx$ erit $Zdp=(\rho+\sigma p)dx+\tau dp+Vdx$; unde concluditur $\tau=Z$ \& $V=-\rho-\sigma p$. Quamobrem ipsa hæc reductio sequenti modo instituetur: integretur formula $Zdp$ positis $x$ \& $y$ constantibus, \& integrale erit functio ipsarum $x$, $y$ \& $p$, quæ vocetur $T$. Deinde differentietur hæc functio $T$, ponendo $p$ constans, \& differentiale negative sumtum dabit $Vdx$, eritque $V$ functio ipsarum $x$, $y$ \& $p$ non continens $q$. Quoties igitur reddi debet hujusmodi formula $\int Zqdx$ maximum minimumve, ac $Z$ est functio ipsarum $x$ \& $y$ \& $p$; tum quæstio, etiamsi videatur ad præsens Problema pertinere, tamen statim ad Problema præcedens reducetur. Ita si sumamus formulam $\int\frac{y^n ddy}{dy}$, seu $\int\frac{y^n dp}{p}$; hæc facile transformatur in $y^n lp-n\int y^{n-1}dy\,lp$: unde maximum vel minimum esse debebit hæc formula $\int y^{n-1}dy\,lp$, seu $\int y^{n-1}pdx\,lp$, quæ per præcedens Problema tractata, dabit $Z=y^{n-1}p\,lp$, \& $dZ=(n-1)y^{n-2}dy\,p\,lp+y^{n-1}dp(1+lp)$; eritque $M=0$, $N=(n-1)y^{n-2}p\,lp$ \& $P=y^{n-1}(1+lp)$. At ob $M=0$, supra §.~30. pro curva quæsita inventa est hæc æquatio $Z+C=Pp$, quæ ad nostrum casum accommodata præbet\sourcepage{64} $y^{n-1}p\,lp+C=y^{n-1}p+y^{n-1}p\,lp$, sive $y^{n-1}p=C$; quæ est ea ipsa æquatio, quam ante pro eodem casu in solutione Exempli invenimus. Hanc ob rem ad Exempla huic Problemati propria progrediamur.
+
+\subsection*{Exemplum II.}
+\originalsection{51}Invenire curvam $Am$, quæ cum sua evoluta $AR$ \& radio osculi $mR$ in quovis loco applicato, minimum spatium $ARm$ includat. \hyperlink{fig:5}{(Fig.~5.)}
+
+Positis abscissa $AM=x$, applicata $Mm=y$; erit radius osculi $mR=-\frac{(1+pp)^{3:2}}q$; area autem $ARm$ est $=\int\frac12mR.dx\sqrt{1+pp}$; ex qua minimum esse oportet hanc formulam $\int\frac{(1+pp)^2dx}{q}$. Erit itaque $Z=\frac{(1+pp)^2}{q}$, \&
+\[dZ=\frac{4(1+pp)pdp}{q}-\frac{(1+pp)^2dq}{qq};\]
+unde fit $M=0$, $N=0$, $P=\frac{4(1+pp)p}{q}$, \& $Q=-\frac{(1+pp)^2}{qq}$. Cum nunc sit $M=0$ \& $Z=0$; erit, per Coroll.~6, æquatio pro curva quæsita $Z=D+Cp+Qq$, seu
+\[\frac{(1+pp)^2}{q}=D+Cp-\frac{(1+pp)^2}{q},\]
+hoc est $2(1+pp)^2=Dq+Cpq$. Quoniam porro est $dp=qdx$, seu $q=\frac{dp}{dx}$, erit $2dx=\frac{(D+Cp)dp}{(1+pp)^2}$, cujus integrale est
+\[x=\frac{a}{1+pp}+2b\int\frac{dp}{(1+pp)^2}=\frac{a+bp}{1+pp}+b\int\frac{dp}{1+pp}+c:\]
+mutatis pro lubitu constantibus, habebitur $x=\frac{a+bp+cpp}{1+pp}+b\mathop{\rm A\,tang.}p$. Deinde quia est $dy=pdx$, erit $y=\int pdx=px-\int xdp$; ideoque
+\[y=\frac{ap+bp^2+cp^3}{1+pp}+bp\mathop{\rm A\,tang.}p-\int\frac{(a+bp+cpp)dp}{1+pp}-b\int dp\mathop{\rm A\,tang.}p\]
+\sourcepage{65}
+\[=\frac{ap+bp^2+cp^3}{1+pp}-\int\frac{(a+cpp)dp}{1+pp},\]
+ob $b\int dp\mathop{\rm A\,tang.}p=bp\mathop{\rm A\,tang.}p-b\int\frac{pdp}{1+pp}$. Hinc erit
+\[\begin{aligned}
+y&=f+\frac{ap+bp^2+cp^3}{1+pp}+(c-a)\mathop{\rm A\,tang.}p-cp\\
+&=\frac{f+(a-c)p+(b+f)pp}{1+pp}+(c-a)\mathop{\rm A\,tang.}p.
+\end{aligned}\]
+Atque ex his quidem ipsarum $x$ \& $y$ valoribus per $p$ inventis, curva quæsita per data quatuor puncta duci atque construi potest. Verum ut ipsa curva qualis sit cognoscatur eliminetur $\mathop{\rm A\,tang.}p$; eritque
+\[\mathop{\rm A\,tang.}p=\frac{x}{b}-\frac{\frac ab-p-\frac cbpp}{1+pp}=\frac{y}{c-a}-\frac{\frac f{c-a}+p-\frac{b+f}{c-a}pp}{1+pp};\]
+atque hinc
+\[(c-a)x-by=\frac{(ac-aa-bf)+2b(c-a)p+(cc-ac-bb-bf)pp}{1+pp}.\]
+Quoniam autem ipsa curva non mutatur, etiamsi coordinatæ constante quantitate vel augeantur vel diminuantur, erit
+\[(c-a)x-by=\frac{bb-(c-a)^2+2b(c-a)p}{1+pp};\]
+positoque $a$ loco $c-a$, habebitur $ax-by=\frac{bb-aa+2abp}{1+pp}$; \& subtracta constante $bb$, erit $ax-by=\frac{-aa+2abp-bbpp}{1+pp}$, hincque $\sqrt{by-ax}=\frac{bp-a}{\sqrt{1+pp}}$. Ponatur arcus curvæ $=w$; erit $dw=dx\sqrt{1+pp}$; unde emerget ista æquatio $dw=\frac{bdy-adx}{\sqrt{by-ax}}$; atque porro $w=2\sqrt{by-ax}$. Exprimit autem $by-ax$ multiplum abscissæ super alio quodam axe fixo assumtæ, cui adeo quadratum arcus respondentis est proportionale. Ex quo intelligitur curvam quæsito respondentem esse Cycloidem, quæ per quatuor data puncta determinatur, atque sic descripta inter omnes alias curvas per eadem quatuor puncta ductas, minimum cum sua evoluta concludit spatium.
+\sourcepage{66}
+Conclusio hæc ideo aliquantum difficilior facta est, quod Cyclois pro recta quacunque instar axis assumpta quæsito satisfaciat, atque æquatio pro axe quocunque admodum fiat intricata. Si autem vel $a$ vel $b$ posuissemus $=0$, quo quidem extensio solutionis non fuisset restricta; æquatio pro Cycloide statim prodiisset.
+
+\subsection*{Exemplum III.}
+\originalsection{52}Invenire curvam, in qua sit $\int\rho^n dw$, denotante $\rho$ radium osculi, \& $dw$ elementum curvæ, maximum vel minimum.
+
+Per positiones ante factas est $dw=dx\sqrt{1+pp}$ \& $\rho=\frac{(1+pp)^{3:2}}q$; unde maximi minimive formula erit $\int\frac{(1+pp)^{(3n+1):2}dx}{q^n}$; hincque fit $Z=\frac{(1+pp)^{(3n+1):2}}{q^n}$ \&
+\[dZ=\frac{(3n+1)(1+pp)^{(3n-1):2}pdp}{q^n}-\frac{n(1+pp)^{(3n+1):2}dq}{q^{n+1}}.\]
+Quamobrem erit $M=0$, $N=0$, $P=\frac{(3n+1)(1+pp)^{(3n-1):2}p}{q^n}$, \& $Q=\frac{-n(1+pp)^{(3n+1):2}}{q^{n+1}}$. Cum autem sit $M=0$ \& $N=0$, erit, per §.~47, $Z=Cp+D+Qq$; ideoque
+\[\frac{(1+pp)^{(3n+1):2}}{q^n}=Cp+D-\frac{n(1+pp)^{(3n+1):2}}{q^n},\]
+seu $(n+1)(1+pp)^{(3n+1):2}=(Cp+D)q^n$; atque hinc $q=\frac{(1+pp)^{(3n+1):2n}}{\sqrt[n]{C+Dp}}=\frac{dp}{dx}$; ergo
+\sourcepage{67}
+\[dx=dp\sqrt[n]{\frac{C+Dp}{(1+pp)^{(3n+1):2}}},\qquad\text{atque}\qquad dy=pdp\sqrt[n]{\frac{C+Dp}{(1+pp)^{(3n+1):2}}}.\]
+Hic autem merito suspicari licet, æquationem futuram esse simpliciorem, si alius axis accipiatur. Hanc ob rem concipiamus alium axem in quo abscissa sit $=t$, applicata $=v$; sitque $dv=sdt$; ac ponatur $x=\frac{\alpha t+\beta v}{\gamma}$ \& $y=\frac{\beta t-\alpha v}{\gamma}$, posito $\gamma=\sqrt{\alpha^2+\beta^2}$. Erit ergo $dx=\frac{\alpha dt+\beta sdt}{\gamma}$ \& $dy=\frac{\beta dt-\alpha sdt}{\gamma}$ atque $\frac{dy}{dx}=p=\frac{\beta-\alpha s}{\alpha+\beta s}$. \& $(1+pp)=\frac{\gamma^2(1+ss)}{(\alpha+\beta s)^2}$, \& $dp=-\frac{\gamma\gamma ds}{(\alpha+\beta s)^2}$. Porro autem erit
+\[C+Dp=\frac{\alpha C+\beta D+s(\beta C-\alpha D)}{\alpha+[b]s},\quad\&\quad (1+pp)^{(3n+1):3n}=\frac{\gamma^{(3n+1):n}(1+ss)^{(3n+1):2n}}{(\alpha+\beta s)^{(3n+1):n}}.\]
+His substitutis, erit $dx=\frac{\alpha dt+\beta dv}{\gamma}=\frac{a(\alpha+\beta s)ds}{(1+ss)^{(3n+1):2n}}$, posito $\beta C=\alpha D$, \& mutata constante. Porro autem fit $dy=\frac{\beta dt-\alpha dv}{\gamma}=\frac{a(\beta-\alpha s)ds}{(1+ss)^{(3n+1):2n}}$, \& conjunctim prodit $dt=\frac{ads}{(1+ss)^{(3n+1):2n}}$, \& $dv=\frac{asds}{(1+ss)^{(3n+1):2n}}$. Cum nunc has coordinatas æque $x$ \& $y$ appellare possimus ac præcedentes, fiet $s=p$, atque $dx=\frac{adp}{(1+pp)^{(3n+1):2n}}$, \& $dy=\frac{apdp}{(1+pp)^{(3n+1):2n}}$, quæ ex præcedentibus oriuntur, si ibi ponatur $D=0$: ex quo perspicuum est, latitudini solutionis superioris, in qua inerat $C+Dp$, nihil omnino decedere, etsi ponatur $D=0$. Eadem scilicet prodit linea curva, quicunque
+
+\sourcepage{68}
+valor litteræ $D$ tribuatur, etiamsi alia æquatio inter $x$ \& $y$ proveniat; verumtamen ad alium axem relata. Notare interim convenit pluribus casibus curvam algebraicam satisfacere; quorum quasi primus est si $n=\frac12$, quo erit $x=\int\frac{adp}{(1+pp)^{5:2}}=\frac{ap(1+\frac23pp)}{(1+pp)^{3:2}}$, \& $y=\int\frac{apdp}{(1+pp)^{5:2}}=-\frac{\frac13a}{(1+pp)^{3:2}}$; unde fiet $(1+pp)^{3:2}=-\frac a{3y}$ \& $pp=\sqrt[3]{\frac{aa}{9yy}}-1$, quibus substitutis resultat $x=(2\sqrt[3]{\frac{aay}{9}}+y)\sqrt{\sqrt[3]{\frac{aa}{9yy}}-1}$, æquatio algebraica pro curva, casu quo est $n=\frac12$.
+
+\subsection*{Exemplum IV.}
+\originalsection{53}Invenire curvam, in qua sit valor hujus formulæ $\int\frac{y\,dy\,dx^2}{ddy}$ omnium minimus.
+
+Patet primo maximum locum habere non posse, quia in linea recta fit $ddy=0$; ideoque valor formulæ propositæ infinite magnus. Quamobrem videndum est in quanam linea curva fiat valor formulæ $\int\frac{y\,dy\,dx^2}{ddy}$ minimus. Hæc autem formula per substitutiones nostras abit in hanc $\int\frac{ypdx}{q}$; eritque $Z=\frac{yp}{q}$, \& $dZ=\frac{pdy}{q}+\frac{ydp}{q}-\frac{ypdq}{qq}$; erit ergo $M=0$, $N=\frac pq$, \& $P=\frac yq$, \& $Q=-\frac{yp}{qq}$. Quoniam autem est $M=0$; curva quæsita sequenti exprimetur æquatione $Z-Pp-Qq+\frac{pdQ}{dx}=C$, ut Coroll.~5 est ostensum. Quamobrem ista proveniet æquatio $\frac{yp}{q}-\frac p{dx}d.\frac{yp}{qq}=C$, seu $\frac{ydy}{pq}+\frac{adx}{p}=\frac{pdy}{qq}+\frac{ydp}{qq}-\frac{2ypdq}{q^3}$, ob $dy=pdx$. Quia vero est $dp=qdx$, erit\sourcepage{69} $\frac{ydp}{qq}=\frac{ydx}{q}=\frac{ydy}{pq}$; ideoque $\frac{adx}{p}=\frac{pdy}{qq}-\frac{2ypdq}{q^3}$, vel $\frac{adp}{pp}=\frac{dy}{q}-\frac{2ydq}{qq}$. Si ponatur constans $a=0$, hæc æquatio fiet integrabilis, eritque $y=bqq$ \& $q=\sqrt{\frac yb}=\frac{dp}{dx}=\frac{pdp}{dy}$, unde fit $pdp=dy\sqrt{\frac yb}$; atque integrando $\frac{pp}{2}=\frac23y\sqrt{\frac yb}+c$, seu, mutatis constantibus, $pp=\frac{y\sqrt y+a\sqrt a}{b\sqrt b}$, \& $p=\sqrt{\frac{y^{3:2}+a^{3:2}}{b^{3:2}}}=\frac{dy}{dx}$; hincque $dx=dy\sqrt{\frac{b^{3:2}}{y^{3:2}+a^{3:2}}}$. Ponatur denuo $a=0$, erit $x=\frac{b\sqrt c}{\sqrt y}$ \& $xxy=b^2c$; quæ est æquatio maxime specialis pro curva quæstioni satisfaciente.
+
+\subsection*{Exemplum V.}
+\originalsection{54}Invenire curvam, in qua sit valor hujus formulæ $\int q^n dx$, seu $\int\frac{ddy^n}{dx^{2n-1}}$, maximus vel minimus.
+
+Habetur ergo $Z=q^n$; \& $dZ=nq^{n-1}dq$; unde erit $M=0$, $N=0$, $P=0$, \& $Q=nq^{n-1}$. Cum igitur æquatio pro curva satisfaciente sit hæc $\frac{ddQ}{dx^2}=0$, erit $dQ=\alpha dx$ \& $Q=q^{n-1}=\alpha x+\beta$; hincque $q=(\alpha x+\beta)^{1:(n-1)}=\frac{dp}{dx}$; ex quo fiet $p=(\alpha x+\beta)^{n:(n-1)}+\gamma=\frac{dy}{dx}$; \& tandem $y=(\alpha x+\beta)^{(2n-1):(n-1)}+\gamma x+\delta$; ubi coefficientes per integrationes ingressos in constantibus sumus complexi. Curvæ igitur satisfacientes perpetuo sunt algebraicæ; excepto casu, quo est $n=\frac12$, tum enim postrema integratio\sourcepage{70} præbebit $y=\frac1\alpha l(\alpha x+\beta)+\gamma x+\delta$. Quod ad casum $n=1$ attinet, ille in investigationem maximorum \& minimorum nequidem incurrit; cum formula $\int qdx$ non sit indeterminata, sed determinatum valorem, puta $p$, ob $qdx=dp$, referat. Cæterum patet, evanescente termino $(\alpha x+\beta)^{(2n-1):(n-1)}$, lineam rectam quæsito satisfacere, ob $y=\gamma x+\delta$. Scilicet si quatuor puncta data, per quæ curva quæsita transire debeat, sint in directum posita; tum ipsa linea recta, præ omnibus reliquis lineis per eadem quatuor puncta transeuntibus, quæsito satisfaciet.
+
+\subsection*{Exemplum VI.}
+\originalsection{55}Invenire curvam, in qua sit $\int\frac{xpdx}{yq}$ maximum vel minimum.
+
+Quia est $Z=\frac{xp}{yq}$, erit $dZ=\frac{pdx}{yq}-\frac{xpdy}{y^2q}+\frac{xdp}{yq}-\frac{xpdq}{yqq}$; ideoque $M=\frac p{yq}$; $N=-\frac{xp}{y^2q}$; $P=\frac x{yq}$, \& $Q=\frac{-xp}{yq^2}$. Quorum terminorum cum nullus evanescat, æquatio pro curva quæsita erit
+\[\frac{-xp}{y^2q}-\frac1{dx}d.\frac{x}{yq}-\frac1{dx^2}d^2.\frac{xp}{yq^2}=0,\]
+seu
+\[\begin{aligned}
+0={}&\frac{xpdx^2}{y^2q}+\frac{dx^2}{yq}-\frac{xdxdy}{y^2q}-\frac{xdxdq}{yq^2}\\
+&+d.\left(\frac{pdx}{yq^2}-\frac{xpdy}{y^2q^2}+\frac{xdp}{yq^2}-\frac{2xpdq}{yq^3}\right);
+\end{aligned}\]
+vel
+\[\begin{aligned}
+0={}&q^2dx^2(3yq-2p^2)(y-xp)-4yqdx\,dq(xyq-xp^2+yp)\\
+&+6xy^2p\,dq^2-2xy^2pq\,ddq.
+\end{aligned}\]
+Quæ est æquatio differentialis quarti ordinis, quæ utrum integrari possit, an non, haud facile patet; neque etiam operæ pretium est in modum eam integrandi diligentius inquirere; quoniam hic casus non ex solutione Problematis alicujus utilis est natus,\sourcepage{71} sed fortuito excogitatus. Hoc autem Exemplum ideo adjicere visum est, ut casus habeatur, quo solutio non solum ad æquationem differentialem quarti ordinis ascendit, sed etiam neque per subsidia generalia supra allata ad gradum inferiorem perduci queat. Præcedentia enim Exempla cuncta ita sunt comparata, ut per regulas generales in Corollariis expositas statim æquatio pro curva quæsita inferioris gradus differentialis erui potuerit.
+
+\subsection*{Propositio V. Problema.}
+\originalsection{56}Invenire curvam, in qua sit valor formulæ $\int Zdx$ maximus vel minimus, existente $Z$ ejusmodi functione, quæ differentialia cujusvis gradus involvat, ita ut sit
+\[dZ=Mdx+Ndy+Pdp+Qdq+Rdr+Sds+Tdt+\&c.\]
+
+\subsection*{Solutio.}
+Quoniam translatio puncti $n$ in $v$ præcedentia elementa magis afficit, quam sequentia; unicum enim sequens elementum afficit, at in præcedentia eo ulterius extenditur, quo altiorum ordinum differentialia adsint; hanc ob rem expedit aliquam anteriorem applicatam, uti $Hh$, pro prima accipere, ita ut mutatio ex particula $nv$ applicatæ $Nn$ adjecta non citra $Hh$ porrigatur; id quod eveniet si in $Z$ differentialia non ultra sextum ordinem ascendant. \hyperlink{fig:4}{(Fig.~4.)} Sufficiet autem valorem ipsius $dZ$ ad terminum $Tdt$ usque extendere, quia ex ipsa solutione modus facile colligetur eam ad quotcunque ulteriores terminos accommodandi. Præterea, quia in hoc Problemate præcedentia omnia continentur, constabit simul solutionem perpetuo eandem prodire, quæcunque applicata particula quadam infinite parva, uti $nv$, augeatur. Sit igitur $AH=x$, \& $Hh=y$, respondebunt singulis punctis abscissæ $H$, $I$, $K$, $L$, $M$, $N$, $O$ \&c. valores litterarum $p$, $q$, $r$, $s$, $t$ \&c. ut sequitur:
+\sourcepage{72}
+\[
+\begin{array}{c|cccccc}
+H&y&p&q&r&s&t\\
+I&y'&p'&q'&r'&s'&t'\\
+K&y''&p''&q''&r''&s''&t''\\
+L&y'''&p'''&q'''&r'''&s'''&t'''\\
+M&y^{\mathrm{iv}}&p^{\mathrm{iv}}&q^{\mathrm{iv}}&r^{\mathrm{iv}}&s^{\mathrm{iv}}&t^{\mathrm{iv}}\\
+N&y^{\mathrm{v}}&p^{\mathrm{v}}&q^{\mathrm{v}}&r^{\mathrm{v}}&s^{\mathrm{v}}&t^{\mathrm{v}}
+\end{array}
+\]
+Hi autem singuli valores a translatione $n$ in $v$ sequentia augmenta accipient, quæ ex Propositione prima, debita mutatione signorum adhibita, ita se habebunt.\footnote{The indistinct right-edge symbols in the entries for $ds'$ and $dt'$ have been supplied as $nv/dx^4$ and $-5nv/dx^5$, by inference from the corresponding increment formula on the following original page. These are explicitly conjectural restorations of unreadable glyphs.}
+\[
+\renewcommand{\arraystretch}{1.5}
+\begin{array}{c|c|c}
+dy=0&dy'=0&dy''=0\\
+dp=0&dp'=0&dp''=0\\
+dq=0&dq'=0&dq''=0\\
+dr=0&dr'=0&dr''=+\frac{nv}{dx^3}\\
+% ds-prime and dt-prime right-edge glyphs restored from p.73; see notes.
+ds=0&ds'=+\frac{nv}{dx^4}&ds''=-\frac{4nv}{dx^4}\\
+dt=+\frac{nv}{dx^5}&dt'=-\frac{5nv}{dx^5}&dt''=+\frac{10nv}{dx^5}
+\end{array}
+\]
+\[
+\renewcommand{\arraystretch}{1.5}
+\begin{array}{c|c|c}
+dy'''=0&dy^{\mathrm{iv}}=0&dy^{\mathrm{v}}=+nv\\
+dp'''=0&dp^{\mathrm{iv}}=+\frac{nv}{dx}&dp^{\mathrm{v}}=-\frac{nv}{dx}\\
+dq'''=+\frac{nv}{dx^2}&dq^{\mathrm{iv}}=-\frac{2nv}{dx^2}&dq^{\mathrm{v}}=+\frac{nv}{dx^2}\\
+dr'''=-\frac{3nv}{dx^3}&dr^{\mathrm{iv}}=+\frac{3nv}{dx^3}&dr^{\mathrm{v}}=-\frac{nv}{dx^3}\\
+ds'''=+\frac{6nv}{dx^4}&ds^{\mathrm{iv}}=-\frac{4nv}{dx^4}&ds^{\mathrm{v}}=+\frac{nv}{dx^4}\\
+dt'''=-\frac{10nv}{dx^5}&dt^{\mathrm{iv}}=+\frac{5nv}{dx^5}&dt^{\mathrm{v}}=-\frac{nv}{dx^5}
+\end{array}
+\]
+
+Quoniam porro valor formulæ $\int Zdx$ abscissæ $AH$ respondet, isque a translatione puncti $n$ in $v$ non mutatur; sequentibus abscissæ elementis valores formulæ $\int Zdx$ respondent, qui in hac Tabula exhibentur.
+\[\begin{array}{c|c}
+\text{Elemento}&\text{respondet}\\
+HI&Zdx\\IK&Z'dx\\KL&Z''dx\\LM&Z'''dx\\MN&Z^{\mathrm{iv}}dx\\NO&Z^{\mathrm{v}}dx
+\end{array}\]
+\sourcepage{73}
+Ad horum valorum incrementa, ex translatione puncti $n$ in $v$ oriunda, invenienda, singulos hos valores differentiari, locoque differentialium $dy$, $dp$, $dq$, $dr$, $ds$, $dt$ cum ipsorum derivativis valores supra assignatos \& per $nv$ expressos substitui oportet: eritque ut sequitur:
+\[\begin{aligned}
+d.Zdx&=nv.dx\left(\frac T{dx^5}\right)\\
+d.Z'dx&=nv.dx\left(\frac{S'}{dx^4}-\frac{5T'}{dx^5}\right)\\
+d.Z''dx&=nv.dx\left(\frac{R''}{dx^3}-\frac{4S''}{dx^4}+\frac{10T''}{dx^5}\right)\\
+d.Z'''dx&=nv.dx\left(\frac{Q'''}{dx^2}-\frac{3R'''}{dx^3}+\frac{6S'''}{dx^4}-\frac{10T'''}{dx^5}\right)\\
+d.Z^{\mathrm{iv}}dx&=nv.dx\left(\frac{P^{\mathrm{iv}}}{dx}-\frac{2Q^{\mathrm{iv}}}{dx^2}+\frac{3R^{\mathrm{iv}}}{dx^3}-\frac{4S^{\mathrm{iv}}}{dx^4}+\frac{5T^{\mathrm{iv}}}{dx^5}\right)\\
+d.Z^{\mathrm{v}}dx&=nv.dx\left(N^{\mathrm{v}}-\frac{P^{\mathrm{v}}}{dx}+\frac{Q^{\mathrm{v}}}{dx^2}-\frac{R^{\mathrm{v}}}{dx^3}+\frac{S^{\mathrm{v}}}{dx^4}-\frac{T^{\mathrm{v}}}{dx^5}\right)
+\end{aligned}\]
+Quia jam hæc sola elementa a transpositione puncti $n$ in $v$ alterantur \& incrementa capiunt, summa horum incrementorum dabit integrum valorem differentialem, quem formula $\int Zdx$ ad totam abscissam $AZ$ extensa accipit; qui igitur erit
+\[nv.dx\left\{\begin{aligned}
+&+N^{\mathrm{v}}\\
+&-\frac{P^{\mathrm{v}}+P^{\mathrm{iv}}}{dx}\\
+&+\frac{Q^{\mathrm{v}}-2Q^{\mathrm{iv}}+Q'''}{dx^2}\\
+&-\frac{R^{\mathrm{v}}+3R^{\mathrm{iv}}-3R'''+R''}{dx^3}\\
+&+\frac{S^{\mathrm{v}}-4S^{\mathrm{iv}}+6S'''-4S''+S'}{dx^4}\\
+&-\frac{T^{\mathrm{v}}+5T^{\mathrm{iv}}-10T'''+10T''-5T'+T}{dx^5}
+\end{aligned}\right.\]
+Singula autem hæc membra per differentialia commode \& succincte exprimi poterunt: erit enim,
+\sourcepage{74}
+\[\begin{aligned}
+-P^{\mathrm{v}}+P^{\mathrm{iv}}&=-dP^{\mathrm{iv}}\\
++Q^{\mathrm{v}}-2Q^{\mathrm{iv}}+Q'''&=+ddQ'''\\
+-R^{\mathrm{v}}+3R^{\mathrm{iv}}-3R'''+R''&=-d^3R''\\
++S^{\mathrm{v}}-4S^{\mathrm{iv}}+6S'''-4S''+S'&=+d^4S'\\
+-T^{\mathrm{v}}+5T^{\mathrm{iv}}-10T'''+10T''-5T'+T&=-d^5T
+\end{aligned}\]
+Quamobrem formulæ $\int Zdx$ integer valor differentialis ex particula $nv$ ortus, erit
+\[=nv.dx\left(N^{\mathrm{v}}-\frac{dP^{\mathrm{iv}}}{dx}+\frac{ddQ'''}{dx^2}-\frac{d^3R''}{dx^3}+\frac{d^4S'}{dx^4}-\frac{d^5T}{dx^5}\right).\]
+Hic autem, quia omnes termini sunt homogenei, signaturæ tuto omitti possunt, evanescit enim discrimen inter $N^{\mathrm{v}}$ \& $N$, itemque inter $dP^{\mathrm{iv}}$ \& $dP$, reliquaque. Quocirca habebitur formulæ $\int Zdx$ iste valor differentialis
+\[nv.dx\left(N-\frac{dP}{dx}+\frac{ddQ}{dx^2}-\frac{d^3R}{dx^3}+\frac{d^4S}{dx^4}-\frac{d^5T}{dx^5}\right):\]
+ex quo simul valor differentialis formulæ $\int Zdx$ colligi potest; si in $Z$ altiora etiam differentialia inessent. Quare si curva quæratur, quæ habeat $\int Zdx$ maximum vel minimum pro data abscissa, fueritque $dZ=Mdx+Ndy+Pdp+Qdq+Rdr+Sds+Tdt+\&c.$ erit primum formulæ $\int Zdx$ valor differentialis hic:
+\[nv.dx\left(N-\frac{dP}{dx}+\frac{ddQ}{dx^2}-\frac{d^3R}{dx^3}+\frac{d^4S}{dx^4}-\frac{d^5T}{dx^5}+\&c.\right)\]
+Hincque pro curva quæsita orietur ista æquatio
+\[0=N-\frac{dP}{dx}+\frac{ddQ}{dx^2}-\frac{d^3R}{dx^3}+\frac{d^4S}{dx^4}-\frac{d^5T}{dx^5}+\&c.\]
+Q. E. I.
+
+\subsection*{Corollarium I.}
+\originalsection{57}In formula $\int Zdx$, uti eam tractavimus, quantitas $Z$ continet differentialia quinti gradus; si quidem in differentiali\sourcepage{75} ipsius $dZ=Mdx+Ndy+Pdp+Qdq+Rdr+Sds+Tdt$ terminus $Tdt$ est ultimus. Cum igitur in $T$ adhuc insint differentialia quinti gradus seu $t$, perspicuum est æquationem pro curva quæsita fore differentialem decimi gradus.
+
+\subsection*{Corollarium II.}
+\originalsection{58}Hinc intelligitur perpetuo æquationem differentialem pro curva ad gradum duplo altiorem ascendere debere, quam fuerit ipsa formula maximi minimive. Ponimus enim in ultimo termino $Tdt$ quantitatem $T$ adhuc $t$ in se complecti; nisi enim hoc esset, duobus gradibus æquatio deprimeretur, uti ex §.~50 colligere licet.
+
+\subsection*{Corollarium III.}
+\originalsection{59}Si igitur in $Z$ differentialia gradus $n$ contineantur, tum æquatio pro curva differentialis erit gradus $2n$; \& hanc ob rem totidem novas constantes arbitrarias potestate in se continet.
+
+\subsection*{Corollarium IV.}
+\originalsection{60}Ob tot igitur constantes arbitrarias totidem puncta ad Problema determinandum proposita esse oportet; ita scilicet Problema, ut sit determinatum, enuntiari debebit: Inter omnes curvas per data $2n$ puncta transeuntes, determinare eam in qua sit $\int Zdx$ maximum vel minimum, siquidem quantitas $Z$ complectatur differentialia $n$ gradus.
+
+\subsection*{Corollarium V.}
+\originalsection{61}Ob $n$ igitur numerum integrum, numerus punctorum, quo Problema determinabitur, semper erit par. Sic vel nullum punctum, vel duo, vel quatuor, vel sex, vel octo puncta, \& ita porro, ad Problematis determinationem requiruntur.
+
+\subsection*{Scholion I.}
+\originalsection{62}\sourcepage{76}Ex gradu \textit{differentialitatis} igitur, ad quem æquatio pro curva inventa assurgit, vel ex numero punctorum per quæ curvam satisfacientem transire oportet, hujusmodi Problemata commode in Classes distribui poterunt. Ad primam igitur Classem ea referuntur Problemata, in quibus absolute quæritur linea curva, quæ pro data abscissa habeat valorem $\int Zdx$ maximum vel minimum; talia Problemata cum in Propositione secunda continentur, tum etiam in tertia, iis casibus quos §§.~26 \& 27 exposuimus; his scilicet casibus solutio præbet curvam determinatam quæsito satisfacientem. Classis secunda ea complectitur Problemata, quorum solutio ad æquationem differentialem secundi gradus perducit: hæcque duo puncta ad sui determinationem poscunt; \& ita proponi debent, ut inter omnes curvas per data duo puncta transeuntes ea definiatur, in qua sit $\int Zdx$ maximum vel minimum: cujusmodi Problemata in Propositione tertia soluta dedimus. Porro ad tertiam Classem pertinent Problemata in Propositione quarta tractata, quæ ita se habent, ut inter omnes curvas per quatuor data puncta transeuntes determinetur ea quæ habeat $\int Zdx$ maximum vel minimum. Simili modo quarta Classis postulat ad determinationem sex puncta, quinta octo, \& ita porro, quas Classes omnes in præsente Problemate sumus complexi. Cæterum etsi æquatio inventa ad tantum differentialium gradum ascendit, tamen sæpius generaliter integrationem unam vel plures admittit, cujusmodi casus in præcedentibus Problematibus nonnullos exhibuimus. Hanc ob rem videamus etiam quibus casibus æquatio nostra generalis integrationem, vel unam vel plures, admittat; ut in allatis Exemplis statim videre liceat, utrum ea in his casibus contineantur an secus. Hujusmodi autem casus potissimum sunt duo, in quorum altero est $N=0$, in altero $M=0$, a quibus deinceps alii casus pendent, quos hic evolvemus.
+
+\subsection*{Casus I.}
+\originalsection{63}\sourcepage{77}Sit in maximi minimive formula $\int Zdx$ terminus $N=0$; ita ut sit $dZ=Mdx+Pdp+Qdq+Rdr+Sds+\&c.$
+
+Hoc ergo casu æquatio pro curva erit hæc,
+\[0=-\frac{dP}{dx}+\frac{ddQ}{dx^2}-\frac{d^3R}{dx^3}+\frac{d^4S}{dx^4}-\frac{d^5T}{dx^5}+\&c.\]
+quæ, per $dx$ multiplicata, fit integrabilis, prodibitque
+\[0=A-P+\frac{dQ}{dx}-\frac{ddR}{dx^2}+\frac{d^3S}{dx^3}-\frac{d^4T}{dx^4}+\&c.\]
+
+\subsection*{Casus II.}
+\originalsection{64}Sit \& $N=0$ \& $P=0$, ita ut sit $dZ=Mdx+Qdq+Rdr+Sds+Tdt+\&c.$
+
+Quoniam est $N=0$, una integratio jam successit, habeturque pro curva quæsita ista æquatio modo inventa, posito etiam $P=0$:
+\[0=A+\frac{dQ}{dx}-\frac{ddR}{dx^2}+\frac{d^3S}{dx^3}-\frac{d^4T}{dx^4}+\&c.\]
+quæ per $dx$ multiplicata denuo integrari poterit, eritque
+\[0=Ax-B+Q-\frac{dR}{dx}+\frac{ddS}{dx^2}-\frac{d^3T}{dx^3}+\&c.\]
+
+\subsection*{Casus III.}
+\originalsection{65}Si fuerit \& $N=0$ \& $P=0$ \& $Q=0$, ita ut sit $dZ=Mdx+Rdr+Sds+Tdt+\&c.$
+
+Bini valores $N$ \& $P$ evanescentes jam præbuerunt hanc æquationem bis integratam
+\[0=Ax-B+Q-\frac{dR}{dx}+\frac{ddS}{dx^2}-\frac{d^3T}{dx^3}+\&c.\]
+in qua si ponatur $Q=0$, \& multiplicetur per $dx$, obtinebitur sequens æquatio ter integrata:
+\[0=Ax^2-Bx+C-R+\frac{dS}{dx}-\frac{ddT}{dx^2}+\&c.\]
+\sourcepage{78}
+Ex quo jam apparet, si insuper fuerit $R=0$, tum etiam quartam integrationem locum habere, \& ita porro.
+
+\subsection*{Casus IV.}
+\originalsection{66}Si fuerit $M=0$, ita ut sit $dZ=Ndy+Pdp+Qdq+Rdr+Sds+\&c.$
+
+Æquatio pro curva quæsita ante prodiit
+\[0=N-\frac{dP}{dx}+\frac{ddQ}{dx^2}-\frac{d^3R}{dx^3}+\frac{d^4S}{dx^4}-\&c.\]
+quæ multiplicetur per $dy=pdx$, \& tum addatur $dZ-Ndy-Pdp-Qdq-Rdr-Sds-\&c.$ prodibit.
+\[\begin{aligned}
+0={}&dZ-pdP+\frac{pddQ}{dx}-\frac{pd^3R}{dx^2}+\frac{pd^4S}{dx^3}-\&c.\\
+&-Pdp-Qdq-Rdr-Sds-\&c.
+\end{aligned}\]
+cujus integrale assignari potest; erit enim
+\[\begin{aligned}
+0={}&A+Z-Pp+\frac{pdQ}{dx}-\frac{pddR}{dx^2}+\frac{pd^3S}{dx^3}\ \&c.\\
+&-Qq+\frac{qdR}{dx}-\frac{qddS}{dx^2}\\
+&-Rr+\frac{rdS}{dx}\\
+&-Ss
+\end{aligned}\]
+vel
+\[\begin{aligned}
+0={}&A+Z-Pp+\frac{pdQ-Qdp}{dx}-\frac{pddR-dp\,dR+Rddp}{dx^2}\\
+&+\frac{pd^3S-dp\,ddS+dS\,ddp-Sd^3p}{dx^3}-\&c.
+\end{aligned}\]
+cujus termini, quomodo ulterius progrediantur, si in $dZ$ insint sequentia differentialia $Tdt$, $Udu$ \&c. sponte patet.
+
+\subsection*{Casus V.}
+\originalsection{67}Si sit \& $M=0$, \& $N=0$; ita ut sit $dZ=Pdp+Qdq+Rdr+Sds+\&c.$
+
+Quia est $N=0$, una integratio per casum primum instituatur,\sourcepage{79} habebiturque
+\[0=A-P+\frac{dQ}{dx}-\frac{ddR}{dx^2}+\frac{d^3S}{dx^3}-\&c.\]
+quæ multiplicetur per $dp=qdx$, ad eamque addatur $0=-dZ+Pdp+Qdq+Rdr+Sds+\&c.$ quo facto prodibit ista æquatio integrabilis
+\[\begin{aligned}
+0={}&Adp-dZ+qdQ-\frac{qddR}{dx}+\frac{qd^3S}{dx^2}-\&c.\\
+&+Qdq+Rdr+Sds+\&c.
+\end{aligned}\]
+cujus integrale erit
+\[\begin{aligned}
+0={}&Ap-B-Z+Qq-\frac{qdR}{dx}+\frac{qddS}{dx^2}\ \&c.\\
+&+Rr-\frac{rdS}{dx}\\
+&+Ss
+\end{aligned}\]
+seu
+\[\begin{aligned}
+0={}&Ap-B-Z+Qq-\frac{qdR-Rdq}{dx}+\frac{qddS-dq\,dS+Sddq}{dx^2}\\
+&-\frac{qd^3T-dq\,ddT+dT\,ddq-Td^3q}{dx^3}\ \&c.
+\end{aligned}\]
+
+\subsection*{Casus VI.}
+\originalsection{68}Sit \& $M=0$ \& $N=0$ \& $P=0$, ita ut sit $dZ=Qdq+Rdr+Sds+Tdt+\&c.$
+
+Ob $N=0$ \& $P=0$, per Casum secundum, duæ integrationes locum habent, eritque æquatio, pro curva quæsita, hæc,
+\[0=Ax-B+Q-\frac{dR}{dx}+\frac{ddS}{dx^2}-\frac{d^3T}{dx^3}+\&c.\]
+ad quam per $dq=rdx$ multiplicatam si addatur $0=dZ-Qdq-Rdr-Sds-Tdt-\&c.$ habebitur ista æquatio denuo integrabilis:
+\[\begin{aligned}
+0={}&Axdq-Bdq+dZ-rdR+\frac{rddS}{dx}-\frac{rd^3T}{dx^2}+\&c.\\
+&-Rdr-Sds-Tdt-\&c.
+\end{aligned}\]
+cujus integrale est
+\sourcepage{80}
+\[\begin{aligned}
+0={}&Axq-Bq+C+Z-Rr+\frac{rdS}{dx}-\frac{rddT}{dx^2}\\
+&-Ap-Ss+\frac{sdT}{dx}\qquad\&c.\\
+&-Tt
+\end{aligned}\]
+seu
+\[0=A(xq-p)-Bq+C+Z-Rr+\frac{rdS-Sdr}{dx}-\frac{rddT-dr\,dT+Tddr}{dx^2}+\&c.\]
+
+\subsection*{Casus VII.}
+\originalsection{69}Si fuerit $M=0$, $N=0$, $P=0$, \& $Q=0$, ita ut sit $dZ=Rdr+Sds+Tdt+\&c.$
+
+Ob $N=0$, \& $Q=0$, Casus tertius istam suppeditat æquationem pro curva jam ter integratam,
+\[0=Ax^2-Bx+C-R+\frac{dS}{dx}-\frac{ddT}{dx^2}+\&c.\]
+ad quam per $dr=sdx$ multiplicatam addatur $0=-dZ+Rdr+Sds+Tdt+\&c.$ quo facto prodibit ista æquatio,
+\[\begin{aligned}
+0={}&Ax^2dr-Bxdr+Cdr-dZ+sdS-\frac{sddT}{dx}+\&c.\\
+&+Sds+Tdt+\&c.
+\end{aligned}\]
+quæ integrata dabit hanc,
+\[\begin{aligned}
+0={}&Ax^2r-Bxr+Cr-D-Z+Ss-\frac{sdT}{dx}+\&c.\\
+&-2Axq+Bq+Tt\\
+&+2Ap
+\end{aligned}\]
+seu
+\[0=A(x^2r-2xq+2p)-B(xr-q)+Cr-D-Z+Ss-\frac{sdT-Tds}{dx}+\&c.\]
+
+\subsection*{Scholion II.}
+\originalsection{70}\sourcepage{81}Horum casuum ope, quorum numerum ulterius augere liceret, si commodum videretur, sæpe-numero Problemata admodum expedite resolvi poterunt. Quod si enim Problema quodpiam contineatur in aliquo istorum Casuum, qui unam pluresve integrationes per se admittat, statim formari poterit æquatio pro curva, semel vel aliquoties jam integrata, quæ propterea ulterius facilius tractari poterit. Quod ut distinctius pateat, simulque usus hujus postremi Problematis, quo in maximi minimive formula $\int Zdx$ differentialia secundum gradum superantia insunt, declaretur, unicum Exemplum afferre juvabit.
+
+\subsection*{Exemplum.}
+\originalsection{71}Inter omnes curvas eidem abscissæ respondentes, definire eam, cujus evoluta, cum sua ipsius evoluta, intra radios evolutæ maximum minimumve spatium complectatur.
+
+Positis, pro curva quæsita, abscissa $=x$ \& applicata $=y$; sit elementum curvæ $=dw$, \& ejus radius osculi $=\rho$; erit elementum ipsius evolutæ $=d\rho$, \& hujus radius osculi $=\frac{\rho d\rho}{dw}$: unde area comprehensa inter evolutam curvæ quæsitæ, ipsiusque evolutam, erit $=\frac12\int\frac{\rho d\rho^2}{dw}$; quæ ergo expressio maxima minimave est reddenda. Cum autem sit $dw=dx\sqrt{1+pp}$; \& $\rho=\frac{(1+pp)^{3:2}}q$; erit $d\rho=3(1+pp)^{1:2}pdx-\frac{(1+pp)^{3:2}rdx}{qq}$,~\&
+\[d\rho^2=(1+pp)dx^2\left(9pp-\frac{6(1+pp)r}{qq}+\frac{(1+pp)^2rr}{q^4}\right)\]
+atque $\frac\rho{dw}=\frac{1+pp}{qdx}$. Maximi minimive formula itaque est
+\[\int\frac{(1+pp)^2}{q}dx\left(9pp-\frac{6(1+pp)r}{qq}+\frac{(1+pp)^2r^2}{q^4}\right)\]
+\sourcepage{82}
+\[=\int dx\left(\frac{9pp(1+pp)^2}{q}-\frac{6(1+pp)^3r}{q^3}+\frac{(1+pp)^4r^2}{q^5}\right),\]
+ex quo $Z$ erit functio ipsarum $p$, $q$ \& $r$; unde differentiando prodibit:
+\[\begin{aligned}
+dZ={}&\frac{18pdp(1+pp)(1+3pp)}q-\frac{9ppdq(1+pp)^2}{qq}-\frac{6dr(1+pp)^3}{q^3}\\
+&-\frac{36prdp(1+pp)^2}{q^3}+\frac{18rdq(1+pp)^3}{q^4}+\frac{2rdr(1+pp)^4}{q^5}\\
+&+\frac{8rrpdp(1+pp)^3}{q^5}-\frac{5r^2dq(1+pp)^4}{q^6}
+\end{aligned}\]
+Comparatione ergo cum forma generali instituta, erit $M=0$, $N=0$;
+\[\begin{aligned}
+Z&=\frac{9pp(1+pp)^2}{q}-\frac{6(1+pp)^3r}{q^3}+\frac{(1+pp)^4r^2}{q^5}\\
+P&=\frac{18p(1+pp)(1+3pp)}q-\frac{36pr(1+pp)^2}{q^3}+\frac{8rrp(1+pp)^3}{q^5}\\
+Q&=-\frac{9pp(1+pp)^2}{qq}+\frac{18r(1+pp)^3}{q^4}-\frac{5rr(1+pp)^4}{q^6}\\
+R&=-\frac{6(1+pp)^3}{q^3}+\frac{2r(1+pp)^4}{q^5}
+\end{aligned}\]
+Cum nunc sit $M=0$ \& $N=0$, solutio cadit in Casum quintum, eritque æquatio pro curva quæsita hæc,
+\[0=Ap-B-Z+Qq+Rr-\frac{qdR}{dx}\]
+quæ, factis substitutionibus, transit in hanc
+\[\begin{aligned}
+0={}&Ap-B-\frac{18pp(1+pp)^2}{q}-\frac{16pr(1+pp)^3}{q^3}+\frac{6rr(1+pp)^4}{q^5}\\
+&-\frac{2dr(1+pp)^4}{q^4dx}+\frac{36p(1+pp)^2}{q};
+\end{aligned}\]
+quæ æquatio nimis est complicata, quam ut ejus ulteriores integrationes suscipi queant. Cæterum apparet hanc æquationem esse differentialem quarti ordinis, ita ut per quatuor residuas integrationes quatuor constantes adhuc ingrediantur: ex quo sex data oportebit esse puncta, per quæ curva transeat, ut Problema determinetur.
+% Finis Capitis II.

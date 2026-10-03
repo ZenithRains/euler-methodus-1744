@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "Please cite Euler's 1744 work and identify this AI-assisted working edition, its maintainer, and the commit or release used."
+title: "Euler Methodus (1744): Latin source collation, LaTeX retypesetting and vector figures"
+type: dataset
+repository-code: "https://github.com/ZenithRains/euler-methodus-1744"
+url: "https://github.com/ZenithRains/euler-methodus-1744"
+version: "0.1.0-latin-draft"
+date-released: "2026-10-03"
+authors:
+  - family-names: Zhang
+    given-names: Ruiyi
+abstract: "A working transcription and retypesetting of Leonhard Euler's Methodus inveniendi (1744, E65). Independent scholarly proofreading is pending. The original work is public domain; component licensing is documented in RIGHTS.md."
+keywords:
+  - Leonhard Euler
+  - E65
+  - Latin
+  - calculus of variations
+  - transcription
+  - LaTeX
+references:
+  - type: book
+    title: "Methodus inveniendi lineas curvas maximi minimive proprietate gaudentes sive solutio problematis isoperimetrici latissimo sensu accepti"
+    authors:
+      - family-names: Euler
+        given-names: Leonhard
+    year: 1744
+    publisher:
+      name: "Marcum-Michaelem Bousquet & Socios"
+    url: "https://scholarlycommons.pacific.edu/euler-works/65/"
